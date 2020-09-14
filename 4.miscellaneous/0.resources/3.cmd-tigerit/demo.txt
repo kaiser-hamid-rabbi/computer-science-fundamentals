@@ -128,10 +128,10 @@ python3 main.py --config ./config/kinetics-skeleton/train_joint.yaml --work-dir 
 
 
 
-python3 main_v1.py --config ./config/kinetics-skeleton/aaa/demo_joint.yaml --work-dir pretrain_eval/kinetics/joint_demo --weights pretrained_models/weights-100-278178.pt --device 1 --phase demo --video ./resource/media/clean_and_jerk.mp4
+python3 main_v1.py --config ./config/kinetics-skeleton/aaa/demo_joint.yaml --work-dir pretrain_eval/kinetics/joint_demo --weights pretrained_models/weights-168-286864.pt --device 1 --phase demo --video ./resource/media/clean_and_jerk.mp4
 
 
-python3 main.py --config ./config/kinetics-skeleton/train_joint.yaml --work-dir ./custom_trained --half --batch-size 16 --forward-batch-size 16 --device 1 --start-epoch 105 --checkpoint ./custom_trained/checkpoints/checkpoint-105-fwbz32-61035.pt --weights ./custom_trained/weights/weights-105-61035.pt
+python3 main.py --config ./config/kinetics-skeleton/train_joint.yaml --work-dir ./custom_trained --half --batch-size 32 --forward-batch-size 32 --device 0 1 --start-epoch 179 --checkpoint ./custom_trained/checkpoints/checkpoint-179-fwbz32-85683.pt --weights ./custom_trained/weights/weights-179-85683.pt
 
 
 
@@ -170,7 +170,7 @@ proton_vpn: OIcnNPeUarQi6SYe9m6obBWk
 
 
 
-
+LdfdasdfWQWWWWQQQWWQQWWQQWWW!!!FWQQ!!!!!@!!!!!!!!!!!!!!!!!!!!@@@@@@!!!!!!!!~~!!1!f!!!!!!!!!!!!@@@@!!!!!!!!!@#@@!!@@####$$$%%^^$$%%^^$$%%@@@!!!@@!!@@##$$%%!!@@##$$%%!!@@##$$%%!!#@@@##$$%!!@@#$$%%!!@@##$$$%%^^^^^^^^^^^%%%%%%%$$$$$$$$$$$$$$%%%5%%%%%^^^^^^^^^77&&&&&&j****&&Ja**J**&&**&&**jj&&**(((()))))))(())(())-________:_________---__--K__-))__+---___---____+__K__K__++__++)__++__++__=--==--==----__--__--__--____---__====+++==++=++==++==++====++==++==+++++++==++++++++========----J---=========++=+++++--_-----___===--===+======-___0000))(())00077**&&*$$%%^$$%%^$$%%^^!!!@@!!@@##$$!@@##$$!!@@##$$!!@@##$$!!@@##$$!@!@@##$$!!@@##$$!!@@#!!@@##$$!!@@#@!!@@##$$!!@@##$$!!@@##$$!!!!@@##$$!!@@##$$!!@@##$$!!@@##$$!!@@!!@#@##$!!@@##$$!!@@##$$!!#######f##f######$$$$##$$##f$$##$$#$@@@@@!!@@@!!!!@!!@#@!!@@@@!!@@!!!!@@AASSAASSAASSAASSSSAASSAASSAASSQQWEWQQWWQQWQQWWZZXXZZXXZZXXCCZZXXCCZZZXCXZZXXCCZZXCCZXCCZZXXC
 
 
 
