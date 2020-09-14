@@ -1,0 +1,18 @@
+   62  ping 103.195.0.49 -t
+   63  ping 103.195.0.49 -t
+   64  cmd
+   65  cmd
+   66  ping 103.195.2.49 -t
+   67  ping 103.195.2.7 -t
+
+
+
+/home/kaiserhamid/anaconda3/compiler_compat
+
+conda update -n base -c defaults conda
+
+python image_demo.py '/home/kaiserhamid/Documents/projects/3.mmskeleton-master/sigle_image.png' '/home/kaiserhamid/Documents/projects/3.mmskeleton-master/configs/mmdet/cascade_rcnn_r50_fpn_1x.py' '/home/kaiserhamid/Documents/projects/3.mmskeleton-master/work_dir'
+
+
+
+

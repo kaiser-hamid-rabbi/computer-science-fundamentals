@@ -1,0 +1,123 @@
+$ nvcc --version
+$ gcc --version
+$ nvidia-smi
+$ nvtop
+$ htop
+$ lspci | grep -i nvidia
+$ lsb_release -a
+$ systemd-analyze
+$ uname -a
+$ sudo apt show wireguard
+
+$ neofetch
+$ screenfetch
+$ archey
+$ linuxlogo
+
+
+Disk free space : df -h
+Free memory : cat /proc/meminfo
+cpu and processing units : lscpu
+different hardware units list : lshw
+scsi/sata devices : lsscsi
+USB controllers list : lsusb
+block devices list : lsblk
+Check RAM : free -m
+cpu information :  cat /proc/cpuinfo
+linux version : cat /proc/version
+SCSI/Sata devices : cat /proc/scsi/scsi
+locate libcuda | grep 10.1
+
+$ hostname
+$ hostname -I
+$ hostname -i
+$ whoami
+$ free -h
+$ lsof
+$ watch df -h
+$ id
+$ who
+$ ps
+
+count number of files: ls folder_name | wc -l
+htop > process kill sgkill 9
+kill -9 process_name
+
+
+$ which sudo
+$ echo $PATH
+
+
+Gateway: 103.7.249.66
+username: kaiser.hamid
+password: HVmh*&8gTQ
+psk: j30pP2r#78e3
+Phase 1 Algorithms: 3des-sha1-modp1024
+Phase 2 Algorithms: 3des-sha1
+DNS: 192.168.0.1
+sudo route add -host 103.7.249.66 gw 192.168.0.1
+
+
+
+#-----------------------------------------------------
+$ sudo nano /etc/profile.d/cuda.sh
+
+export PATH=$PATH:/usr/local/cuda/bin
+export CUDADIR=/usr/local/cuda
+
+$ sudo chmod +x /etc/profile.d/cuda.sh
+
+
+
+$ sudo nano /etc/ld.so.conf.d/cuda.conf
+
+/usr/local/cuda/lib64
+
+
+$ sudo ldconfig
+$ reboot
+
+
+$ nvcc --version
+$ nvidia-smi
+
+
+#-----------------------------------------------------
+
+
+
+# sudo apt clean; sudo apt update; sudo apt purge cuda; sudo apt purge nvidia-*; sudo apt autoremove; sudo apt install cuda
+
+# sudo apt clean; sudo apt update; sudo apt purge cuda; sudo apt purge nvidia-*; sudo apt autoremove
+
+# sudo apt autoremove
+
+
+
+$ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 50
+$ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 20
+
+$ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 50
+$ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 20
+
+
+
+# ------------------------Anaconda-----------------
+==> For changes to take effect, close and re-open your current shell. <==
+
+If you'd prefer that conda's base environment not be activated on startup,
+   set the auto_activate_base parameter to false:
+
+conda config --set auto_activate_base false
+
+Thank you for installing Anaconda3!
+
+===========================================================================
+
+Anaconda and JetBrains are working together to bring you Anaconda-powered
+environments tightly integrated in the PyCharm IDE.
+
+PyCharm for Anaconda is available at:
+https://www.anaconda.com/pycharm
+
+

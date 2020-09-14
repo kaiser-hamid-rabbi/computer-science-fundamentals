@@ -1,0 +1,5 @@
+2020-08-11 18:08:06,091:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/home/kaiserhamid/Documents/1.projects/python_corey/53.logging_advanced/log-sample.py", line 38, in divide
+    result = x / y
+ZeroDivisionError: division by zero

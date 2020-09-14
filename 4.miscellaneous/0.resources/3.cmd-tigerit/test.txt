@@ -1,0 +1,46 @@
+CUDA_VISIBLE_DEVICES='0,1' python -u train.py --network m1 --loss arcface --dataset webfaces
+
+scp -r merged/ tigerit@192.168.1.199:/home/tigerit/projects/insightface-master
+
+cp -R <source_folder> <destination_folder>
+
+virtualenv -p /home/kaiserhamid/opt/python-2.7.15/bin/python renv
+
+-----------------------------------------------------------------------------------------------------
+1. python align_lfw.py --input-dir '/home/tigerit/projects/insightface-master/merged' --output-dir '/home/tigerit/projects/insightface-master/merged_output'
+
+2. python3 face2rec2.py /home/tigerit/projects/insightface-master/merged_output
+
+
+CUDA_VISIBLE_DEVICES='1' python -u train.py --network m1 --loss arcface --dataset webfaces --ckpt 2
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+python align_lfw.py --input-dir '/home/tigerit/projects/insightface-master/dataset_testing' --output-dir '/home/tigerit/projects/insightface-master/dataset_testing_output'
+
+
+python test.py --model '/home/tigerit/projects/insightface-master/models/' --gpu 0 --det 1
+
+
+/home/tigerit/projects/insightface-master/deploy/testing_data/18.jpg
+
+
+python test.py --model '/home/tigerit/projects/insightface-master/models/model-0000' --gpu 1 --det 1
+
+
+sudo kill -9 pid
+
+
+CUDA_VISIBLE_DEVICES='1' python -u train.py --network m1 --loss triplet --lr 0.005 --pretrained ./models/m1-triplet-webfaces,261
+
+
+CUDA_VISIBLE_DEVICES='1' python -u train.py --network m1 --loss triplet --lr 0.005 --pretrained ./models/m1-triplet-webfaces/model
+
+
+CUDA_VISIBLE_DEVICES='1' python -u train.py --network m1 --loss triplet --lr 0.005 --pretrained ./models/m1-triplet-webfaces/model --ckpt 2
+
+
+python test.py --model '/home/tigerit/projects/insightface-master/models/model,0261' --gpu 1

@@ -1,0 +1,15 @@
+# --------------------- OS module ---------------------------------------
+
+import os # built-in python module(no need to install anything!)
+
+# print(dir(os)) # to see all the attributes and methods in os module
+# print(os.getcwd()) # print current working directory
+
+# os.chdir('/home/kaiserhamid/Documents/projects/0.corey_schafer_python/') # change working directory
+# print(os.getcwd())
+
+
+print(os.listdir()) # show files and folders in the current working directory
+
+
+
