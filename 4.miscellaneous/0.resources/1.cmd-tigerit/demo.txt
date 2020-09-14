@@ -1,5 +1,3 @@
-
-
 Pangrams:
 1. the quick brown fox jumps over the lazy dog [35]
 2. pack my box with five dozen liquor jugs [32]
@@ -83,72 +81,17 @@ python3 main.py --config ./config/kinetics-skeleton/train_joint.yaml --work-dir 
 
 
 
-=================---------------------------------------
-
-
-
-=======================
-python3 main.py --config ./config/kinetics-skeleton/train_joint.yaml --work-dir train_kinetics_joint_resume_paper --half --device 0 1 2 3
-
-python3 main.py --config ./config/kinetics-skeleton/train_joint.yaml --work-dir ./custom_trained --half --batch-size 32 --forward-batch-size 32 --device 0 1
-
-python3 main.py
-  --config <config file>
-  --work-dir <place to keep things (weights, checkpoints, logs)>
-  --device <GPU IDs to use>
-  --half   # Mixed precision training with NVIDIA Apex (default O1) for GPUs ~11GB memory
-  [--base-lr <base learning rate>]
-  [--batch-size <batch size>]
-  [--weight-decay <weight decay>]
-  [--forward-batch-size <batch size during forward pass, useful if using only 1 GPU>]
-  [--eval-start <which epoch to start evaluating the model>]
-
-
-=====================
 
 
 python3 main.py --config ./config/kinetics-skeleton/train_joint.yaml --work-dir ./custom_trained --half --batch-size 32 --forward-batch-size 32 --device 0 1 --start-epoch 26 --checkpoint ./custom_trained/checkpoints/checkpoint-26-fwbz32-195312.pt --weights ./custom_trained/weights/weights-26-195312.pt
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 python3 main.py --config ./config/kinetics-skeleton/train_joint.yaml --work-dir ./custom_trained --half --batch-size 32 --forward-batch-size 32 --device 0 1 --start-epoch 100 --checkpoint ./custom_trained/checkpoints/checkpoint-100-fwbz32-278178.pt --weights ./custom_trained/weights/weights-100-278178.pt
-
 
 
 python3 main_v1.py --config ./config/kinetics-skeleton/aaa/demo_joint.yaml --work-dir pretrain_eval/kinetics/joint_demo --weights pretrained_models/weights-168-286864.pt --device 1 --phase demo --video ./resource/media/clean_and_jerk.mp4
 
-
 python3 main.py --config ./config/kinetics-skeleton/train_joint.yaml --work-dir ./custom_trained --half --batch-size 32 --forward-batch-size 32 --device 0 1 --start-epoch 179 --checkpoint ./custom_trained/checkpoints/checkpoint-179-fwbz32-85683.pt --weights ./custom_trained/weights/weights-179-85683.pt
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 1. Name: Kaiser Hamid Rabbi
@@ -158,10 +101,6 @@ python3 main.py --config ./config/kinetics-skeleton/train_joint.yaml --work-dir 
 5. Product Colour: Black(1 Piece), Ash(1 Piece)
 6. Size: L
 #RajBro
+
 proton_vpn: OIcnNPeUarQi6SYe9m6obBWk
-
-
-
-./openpose/build/examples/openpose/openpose.bin --video ./openpose/examples/media/tree_pose_1.mp4 --write_video ./output/tree_pose_1_skeleton.mp4 --write_json ./output
-
 
