@@ -44,3 +44,4 @@ CUDA_VISIBLE_DEVICES='1' python -u train.py --network m1 --loss triplet --lr 0.0
 
 
 python test.py --model '/home/tigerit/projects/insightface-master/models/model,0261' --gpu 1
+python test.py --model '/home/tigerit/projects/insightface-master/models/model,0261' --gpu 1
