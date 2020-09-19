@@ -43,6 +43,7 @@ python3 main.py --config ./config/kinetics-skeleton/test_joint.yaml --work-dir p
 
 python3 main_v1.py --config ./config/kinetics-skeleton/test_joint.yaml --work-dir pretrain_eval/kinetics/joint_v1 --weights pretrained_models/kinetics-joint.pt
 
+python3 main_v1.py --config ./config/kinetics-skeleton/test_joint.yaml --work-dir pretrain_eval/kinetics/joint_v1 --weights pretrained_models/kinetics-joint.pt
 
 
 
