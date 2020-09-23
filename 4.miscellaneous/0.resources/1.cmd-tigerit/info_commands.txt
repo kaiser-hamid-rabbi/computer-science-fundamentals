@@ -47,13 +47,17 @@ $ echo $PATH
 
 #-----------------------------------------------------
 
+sudo apt-get update
+sudo apt-get install network-manager-l2tp network-manager-l2tp-gnome
+
 Gateway: 103.7.249.66
 username: kaiser.hamid
 password: HVmh*&8gTQ
 psk: j30pP2r#78e3
 Phase 1 Algorithms: 3des-sha1-modp1024
 Phase 2 Algorithms: 3des-sha1
-DNS: 192.168.0.1
+
+// DNS: 192.168.0.1 (Not needed anymore!)
 sudo route add -host 103.7.249.66 gw 192.168.0.1
 
 #-----------------------------------------------------
