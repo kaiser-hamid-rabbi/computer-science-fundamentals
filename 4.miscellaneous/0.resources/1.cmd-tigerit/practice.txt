@@ -16,3 +16,10 @@ python image_demo.py '/home/kaiserhamid/Documents/projects/3.mmskeleton-master/s
 
 
 
+
+
+
+
+
+
+
