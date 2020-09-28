@@ -1,7 +1,32 @@
-class Customer:
+class User:
+    def log(self):
+        print("I'm a user!")
+
+class Teacher(User):
+    def log(self):
+        print("I'm a teacher!")
+
+class Customer(User):
+    def log(self):
+        print("I'm a Customer!")
+
     def __init__(self, name, membership_type): # name and membership_type are parameters
         self.name = name
         self.membership_type = membership_type
+
+    @property # it's a example of a decorator
+    def name(self):
+        # print("getting name!")
+        return self._name
+
+    @name.setter
+    def name(self, name):
+        # print("setting name!")
+        self._name = name
+
+    @name.deleter
+    def name(self):
+        del self._name
 
     def upgrade_membership(self, new_membership):
         print("Calculating costs!")
@@ -33,9 +58,12 @@ class Customer:
 # c2 = Customer("Caleb Curry", "Bronze") # name and membership_type are arguments
 # print(f"Second Customer name: {c2.name}, Customer Membership type: {c2.membership_type}")
 
-customers = [Customer("Kaiser Hamid", "Gold"),
-             Customer("Caleb Curry", "Bronze"),
-             Customer("Kaiser Hamid", "Gold")]
+# customers = [Customer("Kaiser Hamid", "Gold"),
+#              Customer("Caleb Curry", "Bronze"),
+#              Customer("Kaiser Hamid", "Gold"),
+#              Teacher()]
+
+
 # print(customers[0].name)
 # print(customers[0].membership_type)
 # print(customers[1].name)
@@ -58,4 +86,20 @@ customers = [Customer("Kaiser Hamid", "Gold"),
 # print(customers[0] == customers[2])
 # print(id(customers[0]), id(customers[2]))
 
-print(customers)
+# print(customers)
+
+
+# Encapsulation, Inheritance and Polymorphism
+# del customers[0].name
+# print(customers[0].name)
+# del customers[0].name
+
+# customers[3].log()
+
+users = [Customer("Kaiser Hamid", "Gold"),
+             Customer("Caleb Curry", "Bronze"),
+             Customer("Kaiser Hamid", "Gold"),
+             Teacher()]
+
+for user in users:
+    user.log()
