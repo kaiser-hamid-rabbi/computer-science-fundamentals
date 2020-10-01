@@ -15,6 +15,7 @@
 # d = datetime.today()
 # print(d)
 
-import webbrowser as wb
-url = "https://github.com/kaiser-hamid-rabbi"
-wb.open(url)
+# import webbrowser as wb
+# url = "https://github.com/kaiser-hamid-rabbi"
+# wb.open(url)
+
