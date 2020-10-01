@@ -28,6 +28,8 @@ Timestamps:
 22:31 - More C++ Concepts
 30:48 - Using Directive and Declaration
 
+
+
 37:33 - Variable Declaration and Initialization
 40:40 - Using Variables with cout
 44:46 - User Input with cin
