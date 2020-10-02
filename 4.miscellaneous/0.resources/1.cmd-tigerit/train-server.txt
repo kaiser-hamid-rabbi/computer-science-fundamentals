@@ -1,11 +1,9 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Train Models in the Server ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ============================================================================================================
 
-
 # Server LogIn Credentials
 # --------------------------------
 $ ssh tigerit@192.168.1.199 (pass:tigerit)
-
 
 # How to copy images to server
 # -------------------------------
@@ -13,8 +11,7 @@ Go to "Other Location"
 Enter "sftp://192.168.1.199/" in to the text box
 Click Connect
 Enter username and password (tigerit, tigerit)
-Go to home > tigerit > projects > np-text-recognition > input_for_augmentation > 
-
+Go to home > tigerit > projects > np-text-recognition > input_for_augmentation >
 
 # Generate Augmented Data
 # ------------------------
@@ -28,15 +25,6 @@ $ cd ~/projects/np-text-recognition/dataset/lpr_city
 $ rm -rf *
 $ cd ~/projects/np-text-recognition/
 $ python aug.py
-
-
-# How to run training
-# ------------------------
-$ ssh tigerit@192.168.1.199 (pass:tigerit)
-$ screen -r nptrain
-$ cd ~/projects/np-text-recognition/
-$ python bengali_city_net.py
-
 
 # How to create screen in GPU
 # --------------------------------
@@ -59,26 +47,6 @@ $ screen -XS screen-name quit (delete screen)
 $ screen -ls
 $ nvtop
 
-
-a=123
-for i in *.JPG; do
-  new=$(printf "%05d.jpg" "$a")
-  mv -i -- "$i" "$new"
-  let a=a+1
-done
-
-
-
-
-a=46
-for i in *.jpg; do
-  new=$(printf "%02d.jpg" "$a")
-  mv -i -- "$i" "$new"
-  let a=a+1
-done
-
-
-
 ################### Create Virtual Environment ######################################################
 1. create a folder or go to the new project folder through terminal
 2. create virtual environment for that specific projects
@@ -100,16 +68,6 @@ $ pip list
 $ deactivate
 $ rm -rf myenv/
 
-
-
-
-
-
-
-
-
-
-
 #-----------------------------------------------------
 $ sudo nano /etc/profile.d/cuda.sh
 
@@ -118,20 +76,14 @@ export CUDADIR=/usr/local/cuda
 
 $ sudo chmod +x /etc/profile.d/cuda.sh
 
-
-
 $ sudo nano /etc/ld.so.conf.d/cuda.conf
 
 /usr/local/cuda/lib64
 
-
 $ sudo ldconfig
 $ reboot
-
 
 $ nvcc --version
 $ nvidia-smi
 
-
 #-----------------------------------------------------
-

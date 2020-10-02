@@ -1,34 +1,11 @@
-   62  ping 103.195.0.49 -t
-   63  ping 103.195.0.49 -t
-   64  cmd
-   65  cmd
-   66  ping 103.195.2.49 -t
-   67  ping 103.195.2.7 -t
+1. C++ 10 hours by Caleb Curry:
 
-
-
-/home/kaiserhamid/anaconda3/compiler_compat
-
-conda update -n base -c defaults conda
-
-python image_demo.py '/home/kaiserhamid/Documents/projects/3.mmskeleton-master/sigle_image.png' '/home/kaiserhamid/Documents/projects/3.mmskeleton-master/configs/mmdet/cascade_rcnn_r50_fpn_1x.py' '/home/kaiserhamid/Documents/projects/3.mmskeleton-master/work_dir'
-
-
-
-
-
-
-
-
-C++ 10 hours by Caleb Curry:
 Timestamps:
 1:09 - Intro
 9:31 - Installing g++
 15:37 - C++ Concepts
 22:31 - More C++ Concepts
 30:48 - Using Directive and Declaration
-
-
 
 37:33 - Variable Declaration and Initialization
 40:40 - Using Variables with cout
@@ -128,7 +105,8 @@ Timestamps:
 
 
 
-Python 6 hours by Caleb Curry:
+2. Python 6 hours by Caleb Curry:
+
 Timestamps
 00:00:00 - Introduction
 00:05:59 - Interactive Mode
@@ -231,4 +209,3 @@ Timestamps
 06:02:29 - Functions Calling Functions
 06:06:38 - Review of Functions
 06:14:08 - Conclusion and Up Next
-
