@@ -17,6 +17,7 @@ $ pip install tensorflow==1.14.0
 $ pip install torch
 $ pip install torchvision
 
+
 # to run npdetect service on the server
 $ gunicorn -b 0.0.0.0:5008 -w 1 -t 86400 app:app
 
