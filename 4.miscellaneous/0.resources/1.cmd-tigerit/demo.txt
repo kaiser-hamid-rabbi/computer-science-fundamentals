@@ -113,6 +113,47 @@ proton_vpn: OIcnNPeUarQi6SYe9m6obBWk
 
 
 
+1. download some video
+2. make a homemade track(easy, difficult)
+3. make a video of those track
+4. setup the project in local machine
+5. test the videos
+6. find pre-trained model/implementation for Udacity style data
+7. read the nvidia paper
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
