@@ -30,6 +30,7 @@ Pangrams:
 
 
 
+
 # joint
 python3 main.py --config ./config/kinetics-skeleton/test_joint.yaml --work-dir pretrain_eval/kinetics/joint --weights pretrained_models/kinetics-joint.pt
 
