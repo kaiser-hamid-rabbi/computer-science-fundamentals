@@ -1,9 +1,9 @@
-1. Learn Python the Hard Way (If you think you need to start from the very beginning, read this book) 
+1. Learn Python the Hard Way (If you think you need to start from the very beginning, read this book)
 2. Official documentation(Recommended):
 https://docs.python.org/3.7/tutorial/index.html (Step by step official tutorial. Undoubtedly the best source)
 https://docs.python.org/3/library/index.html (Official standard library reference. Get familiar with the most common modules first. No need to learn every module)
 https://docs.python.org/3/reference/index.html (after you are somewhat comfortable with the language)
-3. https://www.hackerrank.com/domains/python3 (Practice here) 
+3. https://www.hackerrank.com/domains/python3 (Practice here)
 
 
 Project name:
@@ -32,7 +32,26 @@ Project name: Masked Face Recognition
 Goal: Identify faces with mask
 Day: 2
 Last day: Worked on testing phase of insightface model. Fixed some issues and faced some difficulties.
-Today: Continue working on testing phase. 
+Today: Continue working on testing phase.
 Learned: List Comprehension
-Exercise: 
+Exercise:
 
+
+
+Books:
+1. Head First Python
+2. Official documentation(Recommended):
+    - https://docs.python.org/3.7/tutorial/index.html (Step by step official tutorial. Undoubtedly the best source)
+    - https://docs.python.org/3/library/index.html (Official standard library reference. Get familiar with the most common modules first. No need to learn every module)
+    - https://docs.python.org/3/reference/index.html (after you are somewhat comfortable with the language)
+3. https://www.hackerrank.com/domains/python3 (Practice here)
+
+Youtube resources:
+1. https://www.youtube.com/watch?v=s3IvdkCq2_c
+2. https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU
+
+carla==0.9.7
+pygame==1.9.6
+tensorflow-gpu==1.14.0
+gast==0.2.2
+Keras-Preprocessing==1.1.0
