@@ -56,6 +56,7 @@ python3 main.py --config ./config/kinetics-skeleton/test_bone.yaml --work-dir pr
 
 
 
+
 python3 main_v1.py --config ./config/kinetics-skeleton/test_joint.yaml --work-dir pretrain_eval/kinetics/joint_v5 --weights pretrained_models/kinetics-joint.pt --device 0 1 --video ./resource/media/ta_chi.mp4
 
 
@@ -227,7 +228,7 @@ bright vixens jump dozy fowl quack
 
 
 
-eeewwweeewweeewweeewweewwweeewwweeewwweewwweewweeeewweewweewweewweewweeeewwewweeeewwwweeeewwwweewwweewweeeewwewweeeewwwweeeewwwweeeewwwweeeewwwwewweeeewwwweewweewwewweewweewweeeewweewweeewweeeewwwweeeewwwweewweeeewwwweeeewwwweeeewwwweeeeeeeeeewwwweewweeeewwwweeeewwwweeeewwwweeewwweeeewwwweeeewwwweeeewwwweeeewwwweeeewwwweeeeeeeeeewwwwwwwwwweeeewwwweeeewwwweeeewwwweeeewwwweeeewwwweeeewwwweeeewwwweeeewwwweeeewwweeeewwwweewwwweeeewwwweeeewwwweeeewwwweeeewwwweeeewweewwweeeewwwwwweeeewwwweeeewwwweeeewwwweeeewwwweeeewwwweeeewwwweeeewwwweeeewwwweeeewwwweeeewwweeeewwwweeeewwwweeeewwwweeeewwwweeeewwwweeeewwweeeewwwweeeewwwweeeewwweeeewwwweeeewweeeewwwweeeewwwweeeewwwwwwwwwwweeeewwwweeeewwweeeewwwwe
+
 
 
 
