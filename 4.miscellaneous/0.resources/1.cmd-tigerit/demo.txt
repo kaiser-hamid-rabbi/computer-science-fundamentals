@@ -30,7 +30,31 @@ Pangrams:
 
 
 
+------------------------
+Video Name: clean_and_jerk.mp4
+Label Index: 357 | Label Name: throwing ball | Prediction Score: 11.326592445373535
+Label Index: 159 | Label Name: hula hooping | Prediction Score: 11.012492179870605
+Label Index: 59 | Label Name: clean and jerk | Prediction Score: 10.611571311950684
+Label Index: 311 | Label Name: skipping rope | Prediction Score: 10.331416130065918
+Label Index: 99 | Label Name: dribbling basketball | Prediction Score: 10.114239692687988
+Label Index: 317 | Label Name: tree pose | Prediction Score: 0.5605100393295288
 
+Video Name: skateboarding.mp4
+Label Index: 313 | Label Name: slacklining | Prediction Score: 14.909153938293457
+Label Index: 306 | Label Name: skateboarding | Prediction Score: 13.42568302154541
+Label Index: 30 | Label Name: bouncing on trampoline | Prediction Score: 13.275312423706055
+Label Index: 311 | Label Name: skipping rope | Prediction Score: 11.1612548828125
+Label Index: 308 | Label Name: skiing (not slalom or crosscountry) | Prediction Score: 9.258524894714355
+Label Index: 317 | Label Name: tree pose | Prediction Score: -3.8428783416748047
+
+Video Name: ta_chi.mp4
+Label Index: 334 | Label Name: stretching leg | Prediction Score: 13.032386779785156
+Label Index: 49 | Label Name: catching or throwing frisbee | Prediction Score: 10.497404098510742
+Label Index: 333 | Label Name: stretching arm | Prediction Score: 9.464794158935547
+Label Index: 346 | Label Name: tai chi | Prediction Score: 9.039342880249023
+Label Index: 183 | Label Name: lunge | Prediction Score: 8.569918632507324
+Label Index: 317 | Label Name: tree pose | Prediction Score: 1.067795753479004
+------------------------
 
 
 # joint
