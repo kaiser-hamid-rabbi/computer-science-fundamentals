@@ -241,11 +241,53 @@ bright vixens jump dozy fowl quack
 
 
 
+street fight survellience camera footage: 1.mp4
+Label Index: 84 | Label Name: dancing ballet | Prediction Score: 12.550596237182617
+Label Index: 94 | Label Name: dodgeball | Prediction Score: 11.442869186401367
+Label Index: 34 | Label Name: breakdancing | Prediction Score: 11.277557373046875
+Label Index: 395 | Label Name: wrestling | Prediction Score: 10.290260314941406
+Label Index: 30 | Label Name: bouncing on trampoline | Prediction Score: 10.08625316619873
+Label Index: 317 | Label Name: tree pose | Prediction Score: -4.888398170471191
 
+street fight survellience camera footage: 2.mp4
+Label Index: 94 | Label Name: dodgeball | Prediction Score: 8.29086971282959
+Label Index: 118 | Label Name: egg hunting | Prediction Score: 7.820108413696289
+Label Index: 384 | Label Name: water sliding | Prediction Score: 7.593986988067627
+Label Index: 30 | Label Name: bouncing on trampoline | Prediction Score: 7.451070785522461
+Label Index: 49 | Label Name: catching or throwing frisbee | Prediction Score: 7.188194751739502
+Label Index: 317 | Label Name: tree pose | Prediction Score: -6.831851482391357
 
+street fight survellience camera footage: 3.mp4
+Label Index: 340 | Label Name: swimming breast stroke | Prediction Score: 13.729321479797363
+Label Index: 339 | Label Name: swimming backstroke | Prediction Score: 13.384211540222168
+Label Index: 337 | Label Name: surfing water | Prediction Score: 11.831487655639648
+Label Index: 336 | Label Name: surfing crowd | Prediction Score: 10.910117149353027
+Label Index: 384 | Label Name: water sliding | Prediction Score: 10.898815155029297
+Label Index: 317 | Label Name: tree pose | Prediction Score: -4.518427848815918
 
+street fight survellience camera footage: 4.mp4
+Label Index: 200 | Label Name: moving furniture | Prediction Score: 10.278875350952148
+Label Index: 62 | Label Name: cleaning pool | Prediction Score: 8.360994338989258
+Label Index: 284 | Label Name: sanding floor | Prediction Score: 8.142342567443848
+Label Index: 201 | Label Name: mowing lawn | Prediction Score: 7.7893900871276855
+Label Index: 39 | Label Name: building shed | Prediction Score: 7.242913246154785
+Label Index: 317 | Label Name: tree pose | Prediction Score: -5.188333511352539
 
+street fight survellience camera footage: 5.mp4
+Label Index: 49 | Label Name: catching or throwing frisbee | Prediction Score: 11.281807899475098
+Label Index: 311 | Label Name: skipping rope | Prediction Score: 9.914254188537598
+Label Index: 43 | Label Name: capoeira | Prediction Score: 9.383301734924316
+Label Index: 342 | Label Name: swing dancing | Prediction Score: 8.819148063659668
+Label Index: 94 | Label Name: dodgeball | Prediction Score: 8.778216361999512
+Label Index: 317 | Label Name: tree pose | Prediction Score: -5.165268421173096
 
+video name: punching_person.mp4
+Label Index: 192 | Label Name: marching | Prediction Score: 14.19693374633789
+Label Index: 313 | Label Name: slacklining | Prediction Score: 11.423310279846191
+Label Index: 229 | Label Name: playing didgeridoo | Prediction Score: 10.892827033996582
+Label Index: 399 | Label Name: zumba | Prediction Score: 10.746761322021484
+Label Index: 336 | Label Name: surfing crowd | Prediction Score: 9.157448768615723
+Label Index: 317 | Label Name: tree pose | Prediction Score: -1.880471110343933
 
 
 
@@ -738,17 +780,43 @@ bright vixens jump dozy fowl quack
 
 
 
+punching person (boxing):
+1. https://www.youtube.com/watch?v=60og6bwnWe4
+2. https://www.youtube.com/watch?v=9vztN73gi38
+3. https://www.youtube.com/watch?v=9xVw3b8Z45c
+4. https://www.youtube.com/watch?v=ADo5CbrPJIo
+5. https://www.youtube.com/watch?v=9mClKtfzr-o
 
+slapping:
+1. https://www.youtube.com/watch?v=5VJ4B2hDZe4
+2. https://www.youtube.com/watch?v=0r89PP_loN8
+3. https://www.youtube.com/watch?v=2KS5PXz_be8
+4. https://www.youtube.com/watch?v=3aQ0WM-FmX4
+5. https://www.youtube.com/watch?v=4XI_s9vnwFk
 
 
+Abnormal Event detection in Surveillance footage:
+1. https://www.youtube.com/watch?v=7c7CNlV1OlA
+2. https://www.youtube.com/watch?v=etXHeeS2D40
+3. https://www.youtube.com/watch?v=7R1m3V8C30g
 
 
+videos for preprocessing:
+https://www.youtube.com/watch?v=qTLEHzUDBSQ
+https://www.youtube.com/watch?v=UcwXmjFQWjU
+https://www.youtube.com/watch?v=BaOsR59pa8Y
 
 
 
 
 
+selected:
+https://www.youtube.com/watch?v=Kla8W8IIAtk
+https://www.youtube.com/watch?v=z1PydAiX8dA
 
+https://www.youtube.com/watch?v=ghD8G7vn8-s
+https://www.youtube.com/watch?v=mwyOtZdNxWw
+https://www.youtube.com/watch?v=jQeOqXpcKqg
 
 
 
@@ -1352,4 +1420,170 @@ bright vixens jump dozy fowl quack
 
 
 
-jjjjjjjhhjjhhjjkkllkkllkklssddssddssddeerrereerddffcxcvvccvvcvxxxccwweessddwweessddxxccwwweessddxxcwweessddxxccxxccccxxccxxccvvxxxccxxccvvccxxccvvvccxxccvvccxxccvvvccxxccvvvccxxccvvvccxxccvvccxxccvvccxxccvcddssddffddssddffddssddffddssddffddssddffddssddffddssddfdddsddffddseddffddssddffddssddfdfddssddfdeeeeeewweeerreewweerrewweerreewweerrddssdfdcccccxxccvcvcxxccvvccxxccvvccxxccvcccxxccvvccxccvccxxccvvccvcdfdeerrerrrrffvvrrffvttgtytttyytttyytttyyttyyiiookkllkkllllkkllkkiiooiiooiiooppiiooppiiooppiiooppiiooppiiooppiiooppiiooppppooiiiioopppooiiiioopppooiiiioopppooiiiioopppooiiiiooppooiioiioooppppooiiiiooppoiiooiiiooppiiooppiiooppiioiiooppiiooppiiooppiiooppppooiippooiippooiippooiippooiippooiippooiippooiippooii
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+iiooiiooiiooeerreerreerreerreerreerreerreerreerreerreerreerreerreerreeerreerreerreerreerrddffddffeerrddffeerrddffeerrddffccvvccvveerrddffccvveerrddffccvwweessddxxccwweessddxxceerrddffccvveerrddffccvvrrttrrttffggffgrrttffggvvbbvv brrttffggvvbbvvbbrrttffggvvbbtttyyttyyttytttytttytttytttyttyyttyyttyrrrttffggvvbbttyygghhbbnnttyygghhhbbnnrtttyygghhbbnnttyygghhhbbnnttyygghhbbnnttyygghhbbnnttyygghbbnnrtttyygghhbbnnttyygghhbbnnttyygghhbbnnttyygghhbbnnttyygghhbbnnttyygghhbbnnttyygghhbbnnbbnnbbnnbbnnnbnnnbbnnbbnbbntytttyygghhbbnttygghbbnttybgghhbbntttyygghhbbbnnttyygghhbbnnttygghhbbnttyttyytttyyttyyttyyttyttytttyyttyyttyyttyyttyyttyyttyyttyyttyttyttyyttygghgghgghgghgggghgghttygghttygghttygghttygghttyttytytttyttyttygghgghttygghbbnbbnbbnbbnbbntytyghghbnbnb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
