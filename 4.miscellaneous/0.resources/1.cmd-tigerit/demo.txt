@@ -28,7 +28,10 @@ Pangrams:
 
 
 
+SSID: TigerIT
+Pass: 12345678900
 
+https://tracker.onudaan.com:5000/common/drive
 
 ------------------------
 Video Name: clean_and_jerk.mp4
@@ -1622,3 +1625,4 @@ https://www.youtube.com/watch?v=jQeOqXpcKqg
 
 
 
+uuiiuiiuuiuuiuuiiuuiiuuiiuuiiuuiiuuiiuuiiuuiiuuiiuuiiuuiuuiiuuiiuuiiuuiuiiuuiiuuuuiijjkkmm,,mm,,mmmm,mm,mm,mm,mm,,,m,,,,,,,,,,,,,,nmm,,mm,,mm,,mm,m,,adfsssssdddd

@@ -78,6 +78,12 @@ $ reboot
 $ nvcc --version
 $ nvidia-smi
 
+
+
+
+ls -ls
+sudo chown tigerit:tigerit modeld-master/
+
 #-----------------------------------------------------
 
 # sudo apt clean; sudo apt update; sudo apt purge cuda; sudo apt purge nvidia-*; sudo apt autoremove; sudo apt install cuda
