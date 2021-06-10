@@ -1,5 +1,5 @@
 # --------------------- Lists ---------------------------------------
-# you can modify tuples(mutable)
+# you can modify Lists(mutable)
 
 # courses = ['History', 'Math', 'Physics', 'CompSci']
 
