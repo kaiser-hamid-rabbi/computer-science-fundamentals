@@ -64,9 +64,59 @@
 # 'Bucky Bucky Bucky Bucky Bucky '
 
 
-# # ------------------------ Numbers ------------------------------------
+# # ------------------------ Slicing up Strings ------------------------------------
+# >>> user = "Tuna McFish"
+# >>> user[0]
+# 'T'
+# >>> user[5]
+# 'M'
+# >>> user[-1]
+# 'h'
+# >>> user[-3]
+# 'i'
+# >>> user[2:7]
+# 'na Mc'
+# >>> user[:7]
+# 'Tuna Mc'
+# >>> user[2:]
+# 'na McFish'
+# >>> user[:]
+# 'Tuna McFish'
+# >>> print("dsasdfasdfsad")
+# dsasdfasdfsad
+# >>> len("asdfsdfljsdlfjsldfjljsasdfasdfsdf")
+# 33
+# >>> len(user)
+# 11
 
-# # ------------------------ Numbers ------------------------------------
+
+# # ------------------------ Lists ------------------------------------
+# >>> players = [29, 58, 66, 71, 87]
+# >>> players[2]
+# 66
+# >>> players[2] = 68
+# >>> players
+# [29, 58, 68, 71, 87]
+# >>> players + [90, 91, 98]
+# [29, 58, 68, 71, 87, 90, 91, 98]
+# >>> players
+# [29, 58, 68, 71, 87]
+# >>> players.append(120)
+# >>> players
+# [29, 58, 68, 71, 87, 120]
+# >>> players[:2]
+# [29, 58]
+# >>> players[:2] = [0, 0]
+# >>> players
+# [0, 0, 68, 71, 87, 120]
+# >>> players[:2] = []
+# >>> players
+# [68, 71, 87, 120]
+# >>> players[:] = []
+# >>> players
+# []
+
+
 
 # # ------------------------ Numbers ------------------------------------
 
