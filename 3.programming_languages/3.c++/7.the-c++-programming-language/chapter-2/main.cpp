@@ -58,6 +58,25 @@
 
 
 
+//#include <iostream>
+//
+//using namespace std;
+//
+//int main()
+//{
+//    const int dmv = 17;
+//    int var = 17;
+//    constexpr double max1 = 1.4;
+//    constexpr double max2 = 1.4 * square(var);
+//    const double max3 = 1.4 * square(var);
+//    double sum(const vector<double>&);
+//    vector<double> v {1.2, 3.4, 4.5};
+//    const double s1 = sum(v);
+//    constexpr double s2 = sum(v)
+//}
+
+
+
 #include <iostream>
 
 using namespace std;
@@ -69,17 +88,6 @@ int main()
 
 
 
-//#include <iostream>
-//
-//using namespace std;
-//
-//int main()
-//{
-//    cout << "Hello, World!" << "\n";
-//}
-//
-//
-//
 //#include <iostream>
 //
 //using namespace std;
