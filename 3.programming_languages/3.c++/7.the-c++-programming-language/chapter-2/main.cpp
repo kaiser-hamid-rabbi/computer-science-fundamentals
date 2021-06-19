@@ -77,6 +77,43 @@
 
 
 
+//#include <iostream>
+//
+//using namespace std;
+//
+//bool accept3()
+//{
+//    int tries = 1;
+//    while(tries < 4)
+//    {
+//        cout << "do you want to proceed (y or n)?" << "\n";
+//        char answer = 0;
+//        cin >> answer;
+//
+//        switch(answer)
+//        {
+//            case 'y':
+//                cout << "yes" << "\n";
+//                return true;
+//            case 'n':
+//                cout << "no" << "\n";
+//                return false;
+//            default:
+//                cout << "sorry, i don't understand that." << "\n";
+//                ++tries;
+//        }
+//    }
+//    cout << "i will take that for a no." << "\n";
+//    return false;
+//}
+//
+//int main()
+//{
+//    accept3();
+//}
+
+
+
 #include <iostream>
 
 using namespace std;
@@ -88,17 +125,6 @@ int main()
 
 
 
-//#include <iostream>
-//
-//using namespace std;
-//
-//int main()
-//{
-//    cout << "Hello, World!" << "\n";
-//}
-//
-//
-//
 //#include <iostream>
 //
 //using namespace std;
