@@ -1,0 +1,9 @@
+-I/usr/include/c++/8
+-I/usr/include/x86_64-linux-gnu/c++/8
+-I/usr/include/c++/8/backward
+-I/usr/lib/gcc/x86_64-linux-gnu/8/include
+-I/usr/local/include
+-I/usr/include/x86_64-linux-gnu
+-I/usr/include
+-I/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/3.programming_languages/3.c++/3.caleb_curry/CalebCurryCPlusPlus/basic
+-std=c++17
