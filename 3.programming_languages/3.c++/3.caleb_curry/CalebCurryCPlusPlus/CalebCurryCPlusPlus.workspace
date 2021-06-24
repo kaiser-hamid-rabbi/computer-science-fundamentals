@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="CalebCurryCPlusPlus" Database="" Version="10000">
-  <Project Name="basic" Path="basic/basic.project" Active="Yes"/>
-  <Project Name="intermediate" Path="intermediate/intermediate.project" Active="No"/>
-  <Project Name="advance" Path="advance/advance.project" Active="No"/>
+  <Project Name="basics" Path="basics/basics.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
-      <Project Name="basic" ConfigName="Debug"/>
-      <Project Name="intermediate" ConfigName="Debug"/>
-      <Project Name="advance" ConfigName="Debug"/>
+      <Project Name="basics" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
-      <Project Name="basic" ConfigName="Release"/>
-      <Project Name="intermediate" ConfigName="Release"/>
-      <Project Name="advance" ConfigName="Release"/>
+      <Project Name="basics" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

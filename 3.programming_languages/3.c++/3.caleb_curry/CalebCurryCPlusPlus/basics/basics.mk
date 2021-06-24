@@ -3,17 +3,17 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=intermediate
+ProjectName            :=basics
 ConfigurationName      :=Debug
 WorkspacePath          :=/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/3.programming_languages/3.c++/3.caleb_curry/CalebCurryCPlusPlus
-ProjectPath            :=/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/3.programming_languages/3.c++/3.caleb_curry/CalebCurryCPlusPlus/intermediate
+ProjectPath            :=/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/3.programming_languages/3.c++/3.caleb_curry/CalebCurryCPlusPlus/basics
 IntermediateDirectory  :=$(ConfigurationName)
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Kaiser Hamid Rabbi
-Date                   :=23/06/21
+Date                   :=24/06/21
 CodeLitePath           :=/home/kaiserhamid/.codelite
 LinkerName             :=/usr/bin/g++-8
 SharedObjectLinkerName :=/usr/bin/g++-8 -shared -fPIC
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="intermediate.txt"
+ObjectsFileList        :="basics.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=mkdir -p
 LinkOptions            :=  
@@ -50,7 +50,7 @@ LibPath                := $(LibraryPathSwitch).
 AR       := /usr/bin/ar rcu
 CXX      := /usr/bin/g++-8
 CC       := /usr/bin/gcc-8
-CXXFLAGS :=  -g -O0 -std=c++17 -Wall $(Preprocessors)
+CXXFLAGS :=  -g -O0 -Wall $(Preprocessors)
 CFLAGS   :=  -g -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
 AS       := /usr/bin/as
@@ -93,7 +93,7 @@ PreBuild:
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/3.programming_languages/3.c++/3.caleb_curry/CalebCurryCPlusPlus/intermediate/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/3.programming_languages/3.c++/3.caleb_curry/CalebCurryCPlusPlus/basics/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 

@@ -5,5 +5,4 @@
 -I/usr/local/include
 -I/usr/include/x86_64-linux-gnu
 -I/usr/include
--I/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/3.programming_languages/3.c++/3.caleb_curry/CalebCurryCPlusPlus/intermediate
--std=c++17
+-I/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/3.programming_languages/3.c++/3.caleb_curry/CalebCurryCPlusPlus/basics
