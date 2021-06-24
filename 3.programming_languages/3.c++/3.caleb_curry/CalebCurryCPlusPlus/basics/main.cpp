@@ -1,8 +1,10 @@
 /* 
-=====================================================
-Learn C++ Programming for Competitive Programming
-Instructor: Caleb Curry, Date: 24-06-2021
-=====================================================
+==================================================================
+                    Learn C++ Programming    
+                   Instructor: Caleb Curry 
+           Created by Kaiser Hamid Rabbi on 24-06-2021
+    Copyright (c) 2021 Kaiser Hamid Rabbi. All rights reserved.
+==================================================================
 */
 
 
@@ -28,16 +30,17 @@ variable declaration and initialization
 =====================================================
 */
 
-//#include <iostream>
-//
-//int main() //main function
-//{
-//    int slices = 5; //declaration + initialization
-//    int a; // declaration
-//    a = 10 + 2; //initializaion
-//    
-//    std::cout << "slices: " << slices << ", a: " << a << "\n";
-//}
+#include <iostream>
+
+int main() //main function
+{
+    int slices = 5; //declaration + initialization
+    int a; // declaration
+    a = 10 + 2; //initializaion
+    int b = slices; // assign one variable to another variable
+    
+    std::cout << "slices: " << slices << ", a: " << a << ", b: " << b << "\n";
+}
 
 
 
