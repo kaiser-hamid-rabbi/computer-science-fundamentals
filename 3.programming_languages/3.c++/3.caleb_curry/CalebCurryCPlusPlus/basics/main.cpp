@@ -79,7 +79,7 @@ Pow Function from cmath
 //    std::cin >> base;
 //    std::cout << "Please enter the exponent: ";
 //    std::cin >> exponent;
-//    std::cout << base << " to the power " << exponent << "= " << pow(base, exponent) << "\n";
+//    std::cout << base << " raised to the " << exponent << " power is " << pow(base, exponent) << "\n";
 //}
 
 
@@ -104,7 +104,7 @@ Creating Custom Functions for Pow - 1
 //    std::cout << "Please enter the exponent: ";
 //    std::cin >> exponent;
 //    double result = power(base, exponent);
-//    std::cout << base << " to the power " << exponent << "= " << result << "\n";
+//    std::cout << base << " raised to the " << exponent << " power is " << result << "\n";
 //}
 //
 //double power(double base, int exponent) // definition
@@ -148,7 +148,7 @@ Creating Custom Functions for Pow - 2
 //    std::cout << "Please enter the exponent: ";
 //    std::cin >> exponent;
 //    double result = power(base, exponent); // base and exponent are arguments here
-//    std::cout << base << " to the power " << exponent << "= " << result << "\n";
+//    std::cout << base << " raised to the " << exponent << " power is " << result << "\n";
 //}
 
 
@@ -156,6 +156,43 @@ Creating Custom Functions for Pow - 2
 /* 
 =====================================================
 Creating Void Functions
+=====================================================
+*/
+
+//#include <iostream>
+//
+//double power(double base, int exponent)
+//{
+//    double result = 1;
+//    for(int i = 0; i < exponent; i++)
+//    {
+//        result = result * base;
+//    }
+//    return result;
+//}
+//
+//void print_power(double base, int exponent)
+//{
+//    double result = power(base, exponent);
+//    std::cout << base << " raised to the " << exponent << " power is " << result << "\n";
+//}
+//int main()
+//{
+//    double base;
+//    int exponent;
+//    std::cout << "Please enter the base: ";
+//    std::cin >> base;
+//    std::cout << "Please enter the exponent: ";
+//    std::cin >> exponent;
+//    print_power(base, exponent);
+//    print_power(10, 2);
+//}
+
+
+
+/* 
+=====================================================
+Data Types in C++
 =====================================================
 */
 
@@ -180,7 +217,10 @@ int main()
 //{
 //    
 //}
-/* 
+
+
+
+/*
 =====================================================
 Caleb Curry:
 1:09 - Intro
