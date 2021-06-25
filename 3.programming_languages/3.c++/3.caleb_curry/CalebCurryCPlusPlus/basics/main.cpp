@@ -30,44 +30,57 @@ First "Hello World" program with cout(printf in C)
 //    printf("%i\n", i_slices);
 //    printf("%f\n", d_slices_1);
 //    printf("%f\n", d_slices_1);
-//
 //}
 
 
 
 /* 
 =====================================================
-Variable Declaration and Initialization
-=====================================================
-*/
-
-#include <iostream>
-
-int main() //main function
-{
-    int slices = 5; //declaration + initialization
-    int a; // declaration
-    a = 10 + 2; //initializaion
-    int b = slices; // assign one variable to another variable
-    
-    std::cout << "slices: " << slices << ", a: " << a << ", b: " << b << "\n";
-    std::cout << "You have " << slices << " slices of pizza." <<  " a: " << a << ", b: " << b << "\n";
-}
-
-
-
-/* 
-=====================================================
-
+Variable Declaration, Initialization and cin for
+taking input from the user
 =====================================================
 */
 
 //#include <iostream>
 //
-//int main()
+//int main() //main function
 //{
+//    int slices = 5; //declaration + initialization
+//    int a; // declaration
+//    a = 10 + 2; //initializaion
+//    int b = slices; // assign one variable to another variable
 //    
+//    std::cout << "slices: " << slices << ", a: " << a << ", b: " << b << "\n";
+//    std::cout << "You have " << slices << " slices of pizza." <<  " a: " << a << ", b: " << b << "\n";
+//
+//    int first_number, second_number;
+//    std::cout << "Please enter the first number: ";
+//    std::cin >> first_number;
+//    std::cout << "Please enter the second number: ";
+//    std::cin >> second_number;
+//    std::cout << "Your numbers are " << first_number << " and " << second_number << "\n";
 //}
+
+
+
+/* 
+=====================================================
+Functions
+=====================================================
+*/
+
+#include <iostream>
+#include <cmath>
+
+int main()
+{
+    int base, exponent;
+    std::cout << "Please enter the base: ";
+    std::cin >> base;
+    std::cout << "Please enter the exponent: ";
+    std::cin >> exponent;
+    std::cout << base << " to the power " << exponent << "= " << pow(base, exponent) << "\n";
+}
 
 
 
