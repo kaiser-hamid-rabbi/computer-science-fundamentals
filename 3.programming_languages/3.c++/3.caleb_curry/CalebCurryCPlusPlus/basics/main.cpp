@@ -19,7 +19,7 @@ First "Hello World" program
 //
 //int main() //main function
 //{
-//    std::cout << "Hello, World Rabbi!\n";
+//    std::cout << "Hello, World Rabbi!\n\n";
 //}
 
 
@@ -39,7 +39,7 @@ int main() //main function
     a = 10 + 2; //initializaion
     int b = slices; // assign one variable to another variable
     
-    std::cout << "slices: " << slices << ", a: " << a << ", b: " << b << "\n";
+    std::cout << "slices: " << slices << ", a: " << a << ", b: " << b << "\n\n";
 }
 
 
