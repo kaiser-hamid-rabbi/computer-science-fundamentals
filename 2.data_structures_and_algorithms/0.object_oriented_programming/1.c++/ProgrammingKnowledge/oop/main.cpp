@@ -246,10 +246,10 @@ C++ Inheritance
 //class Polygon // [Base/Parent] Class
 //{
 //public:
-//    void setValues(int a, int b)
+//    void setValues(int a, int b = 0)
 //    {
-//        width = a;
-//        height = b;
+//        height = a;
+//        width = b;
 //    }
 //protected:
 //    int height;
@@ -279,7 +279,7 @@ C++ Inheritance
 //public:
 //    int area()
 //    {
-//        return (height * width);
+//        return (height * height);
 //    }
 //};
 //
@@ -290,7 +290,7 @@ C++ Inheritance
 //    Square sqr;
 //    rec.setValues(15, 10);
 //    tri.setValues(15, 10);
-//    sqr.setValues(10, 10);
+//    sqr.setValues(10);
 //    
 //    std::cout << "Area of Rectangle is: " << rec.area() << "\n";
 //    std::cout << "Area of Triangle is: " << tri.area() << "\n";
@@ -314,10 +314,10 @@ C++ Multiple Inheritance
 //class Polygon // [Base/Parent] Class
 //{
 //public:
-//    void setValues(int a, int b)
+//    void setValues(int a, int b = 0)
 //    {
-//        width = a;
-//        height = b;
+//        height = a;
+//        width = b;
 //    }
 //protected:
 //    int height;
@@ -356,7 +356,7 @@ C++ Multiple Inheritance
 //public:
 //    int area()
 //    {
-//        return (height * width);
+//        return (height * height);
 //    }
 //};
 //
@@ -367,7 +367,7 @@ C++ Multiple Inheritance
 //    Square sqr;
 //    rec.setValues(15, 10);
 //    tri.setValues(15, 10);
-//    sqr.setValues(10, 10);
+//    sqr.setValues(10);
 //    
 //    // Base: Polygon
 //    std::cout << "Area of Rectangle is: " << rec.area() << "\n";
@@ -388,29 +388,110 @@ Friend Class in C++
 =====================================================
 */
 
+//#include <iostream>
+//#include <string>
+//
+//class MyClass
+//{
+//    friend class MyAnotherClass;
+//private:
+//    int secret = 10;
+//};
+//
+//class MyAnotherClass
+//{
+//public:
+//    void showSecret(MyClass mc)
+//    {
+//        mc.secret++;
+//        std::cout << mc.secret << "\n";
+//    }
+//};
+//
+//int main()
+//{
+//    MyClass mc;
+//    MyAnotherClass mac;
+//    mac.showSecret(mc);
+//}
+
+
+
+/* 
+=====================================================
+Introduction to Polymorphism in C++
+=====================================================
+*/
+
 #include <iostream>
 #include <string>
 
-class MyClass
-{
-    friend class MyAnotherClass;
-private:
-    int secret = 10;
-};
-
-class MyAnotherClass
+// [rectangle/ triange/ square] [is a] polygon
+// [dog/ cat/ cow] [is an] animal
+// [bugatti/ mclaren/ porsche] [is a] car
+// Polymorphism means - having many forms
+class Polygon // [Base/Parent] Class
 {
 public:
-    void showSecret(MyClass mc)
+    void setValues(int a, int b = 0)
     {
-        mc.secret++;
-        std::cout << mc.secret << "\n";
+        height = a;
+        width = b;
+    }
+protected:
+    int height;
+    int width;
+};
+
+class Rectangle : public Polygon // [Derived/Child] Class
+{
+public:
+    int area()
+    {
+        return (height * width);
+    }
+};
+
+class Triangle : public Polygon // [Derived/Child] Class
+{
+public:
+    int area()
+    {
+        return (height * width / 2);
+    }
+};
+
+class Square : public Polygon // [Derived/Child] Class
+{
+public:
+    int area()
+    {
+        return (height * height);
     }
 };
 
 int main()
 {
-    MyClass mc;
-    MyAnotherClass mac;
-    mac.showSecret(mc);
+    Rectangle rec;
+    Triangle tri;
+    Square sqr;
+    rec.setValues(15, 10);
+    tri.setValues(15, 10);
+    sqr.setValues(10);
+
+
+    std::cout << "Area of Rectangle is: " << rec.area() << "\n";
+    std::cout << "Area of Triangle is: " << tri.area() << "\n";
+    std::cout << "Area of Square is: " << sqr.area() << "\n";
+    
+    Polygon *poly1 = &rec;
+    Polygon *poly2 = &tri;
+    Polygon *poly3 = &sqr;
+    poly1 -> setValues(8, 5);
+    poly2 -> setValues(8, 5);
+    poly3 -> setValues(8);
+    
+    std::cout << "Area of Rectangle with Polymorphism: " << rec.area() << "\n";
+    std::cout << "Area of Triangle with Polymorphism: " << tri.area() << "\n";
+    std::cout << "Area of Square with Polymorphism: " << sqr.area() << "\n";
 }
