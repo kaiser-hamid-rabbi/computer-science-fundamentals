@@ -423,6 +423,87 @@ Introduction to Polymorphism in C++
 =====================================================
 */
 
+//#include <iostream>
+//#include <string>
+//
+//// [rectangle/ triange/ square] [is a] polygon
+//// [dog/ cat/ cow] [is an] animal
+//// [bugatti/ mclaren/ porsche] [is a] car
+//// Polymorphism means - having many forms
+//class Polygon // [Base/Parent] Class
+//{
+//public:
+//    void setValues(int a, int b = 0)
+//    {
+//        height = a;
+//        width = b;
+//    }
+//protected:
+//    int height;
+//    int width;
+//};
+//
+//class Rectangle : public Polygon // [Derived/Child] Class
+//{
+//public:
+//    int area()
+//    {
+//        return (height * width);
+//    }
+//};
+//
+//class Triangle : public Polygon // [Derived/Child] Class
+//{
+//public:
+//    int area()
+//    {
+//        return (height * width / 2);
+//    }
+//};
+//
+//class Square : public Polygon // [Derived/Child] Class
+//{
+//public:
+//    int area()
+//    {
+//        return (height * height);
+//    }
+//};
+//
+//int main()
+//{
+//    Rectangle rec;
+//    Triangle tri;
+//    Square sqr;
+//    rec.setValues(15, 10);
+//    tri.setValues(15, 10);
+//    sqr.setValues(10);
+//
+//
+//    std::cout << "Area of Rectangle is: " << rec.area() << "\n";
+//    std::cout << "Area of Triangle is: " << tri.area() << "\n";
+//    std::cout << "Area of Square is: " << sqr.area() << "\n";
+//    
+//    Polygon *poly1 = &rec;
+//    Polygon *poly2 = &tri;
+//    Polygon *poly3 = &sqr;
+//    poly1 -> setValues(8, 5);
+//    poly2 -> setValues(8, 5);
+//    poly3 -> setValues(8);
+//    
+//    std::cout << "Area of Rectangle with Polymorphism: " << rec.area() << "\n";
+//    std::cout << "Area of Triangle with Polymorphism: " << tri.area() << "\n";
+//    std::cout << "Area of Square with Polymorphism: " << sqr.area() << "\n";
+//}
+
+
+
+/* 
+=====================================================
+Virtual Member function & Pure Virtual Functions
+=====================================================
+*/
+
 #include <iostream>
 #include <string>
 
