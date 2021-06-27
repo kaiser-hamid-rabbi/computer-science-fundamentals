@@ -1,0 +1,7 @@
+__WORDSIZE	/usr/include/x86_64-linux-gnu/bits/wordsize.h	/^# define __WORDSIZE	64$/;"	macro	line:4
+__WORDSIZE	/usr/include/x86_64-linux-gnu/bits/wordsize.h	/^# define __WORDSIZE	32$/;"	macro	line:6
+__WORDSIZE32_SIZE_ULONG	/usr/include/x86_64-linux-gnu/bits/wordsize.h	/^#define __WORDSIZE32_SIZE_ULONG		0$/;"	macro	line:7
+__WORDSIZE32_PTRDIFF_LONG	/usr/include/x86_64-linux-gnu/bits/wordsize.h	/^#define __WORDSIZE32_PTRDIFF_LONG	0$/;"	macro	line:8
+__WORDSIZE_TIME64_COMPAT32	/usr/include/x86_64-linux-gnu/bits/wordsize.h	/^# define __WORDSIZE_TIME64_COMPAT32	1$/;"	macro	line:12
+__SYSCALL_WORDSIZE	/usr/include/x86_64-linux-gnu/bits/wordsize.h	/^# define __SYSCALL_WORDSIZE		64$/;"	macro	line:14
+__WORDSIZE_TIME64_COMPAT32	/usr/include/x86_64-linux-gnu/bits/wordsize.h	/^# define __WORDSIZE_TIME64_COMPAT32	0$/;"	macro	line:16

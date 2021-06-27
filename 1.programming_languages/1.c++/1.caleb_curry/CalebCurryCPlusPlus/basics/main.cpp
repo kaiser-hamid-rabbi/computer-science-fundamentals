@@ -32,7 +32,13 @@ First "Hello World" program with cout(printf in C)
 //    printf("%f\n", d_slices_1);
 //}
 
+// #include <stdio.h>
 
+// int main(int argc, char **argv)
+// {
+//     printf("hello world\n");
+//     return 0;
+// }
 
 /* 
 =====================================================
@@ -200,7 +206,7 @@ Data Types in C++
 
 int main()
 {
-    
+    std::cout << "Hello, World!" << "\n";
 }
 
 
