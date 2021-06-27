@@ -433,6 +433,7 @@ Introduction to Polymorphism in C++
 //class Polygon // [Base/Parent] Class
 //{
 //public:
+//    int test_variable = 10;
 //    void setValues(int a, int b = 0)
 //    {
 //        height = a;
@@ -472,25 +473,30 @@ Introduction to Polymorphism in C++
 //
 //int main()
 //{
+//    Polygon poly;
 //    Rectangle rec;
 //    Triangle tri;
 //    Square sqr;
+//    poly.setValues(15, 10);
 //    rec.setValues(15, 10);
 //    tri.setValues(15, 10);
 //    sqr.setValues(10);
 //
-//
+//    std::cout << "Test variable: " << poly.test_variable << "\n";
 //    std::cout << "Area of Rectangle is: " << rec.area() << "\n";
 //    std::cout << "Area of Triangle is: " << tri.area() << "\n";
 //    std::cout << "Area of Square is: " << sqr.area() << "\n";
 //    
+//    Polygon *polypoly = &poly;
 //    Polygon *polyrec = &rec;
 //    Polygon *polytri = &tri;
 //    Polygon *polysqr = &sqr;
+//    polypoly -> test_variable++;
 //    polyrec -> setValues(8, 5);
 //    polytri -> setValues(8, 5);
 //    polysqr -> setValues(8);
 //    
+//    std::cout << "Test variable: " << poly.test_variable << "\n";
 //    std::cout << "Area of Rectangle with Polymorphism: " << rec.area() << "\n";
 //    std::cout << "Area of Triangle with Polymorphism: " << tri.area() << "\n";
 //    std::cout << "Area of Square with Polymorphism: " << sqr.area() << "\n";
