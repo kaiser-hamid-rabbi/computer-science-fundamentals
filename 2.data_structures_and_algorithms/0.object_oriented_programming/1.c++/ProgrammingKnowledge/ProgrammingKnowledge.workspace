@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="ProgrammingKnowledge" Database="" Version="10000">
-  <Project Name="oop" Path="oop/oop.project" Active="No"/>
-  <Project Name="ClassInFile" Path="ClassInFile/ClassInFile.project" Active="Yes"/>
+  <Project Name="oop" Path="oop/oop.project" Active="Yes"/>
+  <Project Name="ClassInFile" Path="ClassInFile/ClassInFile.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
