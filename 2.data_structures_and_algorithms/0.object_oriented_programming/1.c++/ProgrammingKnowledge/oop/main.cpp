@@ -520,7 +520,11 @@ Virtual Member Function
 //        height = a;
 //        width = b;
 //    }
-//    virtual int area() // Virtual Member Function
+//    /* For Virtual Member Function: 
+//       1. define area() function in every derived class is optional, but compulsary for base class
+//       2. you can make instance of Base class
+//    */
+//    virtual int area() // Virtual Member Function defination
 //    {
 //        return 0;
 //    }
@@ -611,7 +615,11 @@ public:
         height = a;
         width = b;
     }
-    virtual int area() = 0; // Pure Virtual Function. you must have to define area() function in every derived class for that, otherwise you'll get an error
+    /* For Pure Virtual Function: 
+       1. you must have to define area() function in every derived class for that, otherwise you'll get an error
+       2. you can't make instance of Base class 
+    */
+    virtual int area() = 0; // Pure Virtual Function
 protected:
     int height;
     int width;
