@@ -5,4 +5,4 @@
 -I/usr/local/include
 -I/usr/include/x86_64-linux-gnu
 -I/usr/include
--I/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/2.data_structures_and_algorithms/0.object_oriented_programming/1.c++/ProgrammingKnowledge/Placing_Classes_in_different_file
+-I/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/2.data_structures_and_algorithms/0.object_oriented_programming/1.c++/ProgrammingKnowledge/ClassInFile

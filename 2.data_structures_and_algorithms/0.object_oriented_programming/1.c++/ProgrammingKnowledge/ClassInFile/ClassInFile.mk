@@ -3,10 +3,10 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Class_In_File
+ProjectName            :=ClassInFile
 ConfigurationName      :=Debug
 WorkspacePath          :=/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/2.data_structures_and_algorithms/0.object_oriented_programming/1.c++/ProgrammingKnowledge
-ProjectPath            :=/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/2.data_structures_and_algorithms/0.object_oriented_programming/1.c++/ProgrammingKnowledge/Placing_Classes_in_different_file
+ProjectPath            :=/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/2.data_structures_and_algorithms/0.object_oriented_programming/1.c++/ProgrammingKnowledge/ClassInFile
 IntermediateDirectory  :=$(ConfigurationName)
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="Class_In_File.txt"
+ObjectsFileList        :="ClassInFile.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=mkdir -p
 LinkOptions            :=  
@@ -60,7 +60,7 @@ AS       := /usr/bin/as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/Books.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/Books.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
 
 
 
@@ -91,17 +91,17 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/2.data_structures_and_algorithms/0.object_oriented_programming/1.c++/ProgrammingKnowledge/Placing_Classes_in_different_file/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
-
 $(IntermediateDirectory)/Books.cpp$(ObjectSuffix): Books.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Books.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/Books.cpp$(DependSuffix) -MM Books.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/2.data_structures_and_algorithms/0.object_oriented_programming/1.c++/ProgrammingKnowledge/Placing_Classes_in_different_file/Books.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Books.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/2.data_structures_and_algorithms/0.object_oriented_programming/1.c++/ProgrammingKnowledge/ClassInFile/Books.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Books.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/Books.cpp$(PreprocessSuffix): Books.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Books.cpp$(PreprocessSuffix) Books.cpp
+
+$(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/2.data_structures_and_algorithms/0.object_oriented_programming/1.c++/ProgrammingKnowledge/ClassInFile/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)
