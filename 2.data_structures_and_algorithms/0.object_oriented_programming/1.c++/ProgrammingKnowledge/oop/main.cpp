@@ -484,12 +484,12 @@ Introduction to Polymorphism in C++
 //    std::cout << "Area of Triangle is: " << tri.area() << "\n";
 //    std::cout << "Area of Square is: " << sqr.area() << "\n";
 //    
-//    Polygon *poly1 = &rec;
-//    Polygon *poly2 = &tri;
-//    Polygon *poly3 = &sqr;
-//    poly1 -> setValues(8, 5);
-//    poly2 -> setValues(8, 5);
-//    poly3 -> setValues(8);
+//    Polygon *polyrec = &rec;
+//    Polygon *polytri = &tri;
+//    Polygon *polysqr = &sqr;
+//    polyrec -> setValues(8, 5);
+//    polytri -> setValues(8, 5);
+//    polysqr -> setValues(8);
 //    
 //    std::cout << "Area of Rectangle with Polymorphism: " << rec.area() << "\n";
 //    std::cout << "Area of Triangle with Polymorphism: " << tri.area() << "\n";
@@ -500,7 +500,98 @@ Introduction to Polymorphism in C++
 
 /* 
 =====================================================
-Virtual Member function & Pure Virtual Functions
+Virtual Member Function
+=====================================================
+*/
+
+//#include <iostream>
+//#include <string>
+//
+//// [rectangle/ triange/ square] [is a] polygon
+//// [dog/ cat/ cow] [is an] animal
+//// [bugatti/ mclaren/ porsche] [is a] car
+//// Virtual Member function can be redefined in the derived class
+//// define Virtual Member function in your Base class only
+//class Polygon // [Base/Parent] Class
+//{
+//public:
+//    void setValues(int a, int b = 0)
+//    {
+//        height = a;
+//        width = b;
+//    }
+//    virtual int area() // Virtual Member Function
+//    {
+//        return 0;
+//    }
+//protected:
+//    int height;
+//    int width;
+//};
+//
+//class Rectangle : public Polygon // [Derived/Child] Class
+//{
+//public:
+//    int area()
+//    {
+//        return (height * width);
+//    }
+//};
+//
+//class Triangle : public Polygon // [Derived/Child] Class
+//{
+//public:
+//    int area()
+//    {
+//        return (height * width / 2);
+//    }
+//};
+//
+//class Square : public Polygon // [Derived/Child] Class
+//{
+//public:
+//    int area()
+//    {
+//        return (height * height);
+//    }
+//};
+//
+//int main()
+//{
+//    Polygon poly;
+//    Rectangle rec;
+//    Triangle tri;
+//    Square sqr;
+//    poly.setValues(15, 10);
+//    rec.setValues(15, 10);
+//    tri.setValues(15, 10);
+//    sqr.setValues(10);
+//
+//    std::cout << "Area of Polygon is: " << poly.area() << "\n";
+//    std::cout << "Area of Rectangle is: " << rec.area() << "\n";
+//    std::cout << "Area of Triangle is: " << tri.area() << "\n";
+//    std::cout << "Area of Square is: " << sqr.area() << "\n";
+//    
+//    Polygon *polypoly = &poly;
+//    Polygon *polyrec = &rec;
+//    Polygon *polytri = &tri;
+//    Polygon *polysqr = &sqr;
+//    polypoly -> setValues(8, 5);
+//    polyrec -> setValues(8, 5);
+//    polytri -> setValues(8, 5);
+//    polysqr -> setValues(8);
+//    
+//    std::cout << "Area of Polygon with Polymorphism: " << poly.area() << "\n";
+//    std::cout << "Area of Rectangle with Polymorphism: " << rec.area() << "\n";
+//    std::cout << "Area of Triangle with Polymorphism: " << tri.area() << "\n";
+//    std::cout << "Area of Square with Polymorphism: " << sqr.area() << "\n";
+//}
+
+
+
+/* 
+=====================================================
+Pure Virtual Function
 =====================================================
 */
 
@@ -510,7 +601,8 @@ Virtual Member function & Pure Virtual Functions
 // [rectangle/ triange/ square] [is a] polygon
 // [dog/ cat/ cow] [is an] animal
 // [bugatti/ mclaren/ porsche] [is a] car
-// Polymorphism means - having many forms
+// Virtual Member function can be redefined in the derived class
+// define Virtual Member function in your Base class only
 class Polygon // [Base/Parent] Class
 {
 public:
@@ -519,6 +611,7 @@ public:
         height = a;
         width = b;
     }
+    virtual int area() = 0; // Pure Virtual Function. you must have to define area() function in every derived class for that, otherwise you'll get an error
 protected:
     int height;
     int width;
@@ -553,25 +646,30 @@ public:
 
 int main()
 {
+//    Polygon poly;
     Rectangle rec;
     Triangle tri;
     Square sqr;
+//    poly.setValues(15, 10);
     rec.setValues(15, 10);
     tri.setValues(15, 10);
     sqr.setValues(10);
 
-
+//    std::cout << "Area of Polygon is: " << poly.area() << "\n";
     std::cout << "Area of Rectangle is: " << rec.area() << "\n";
     std::cout << "Area of Triangle is: " << tri.area() << "\n";
     std::cout << "Area of Square is: " << sqr.area() << "\n";
     
-    Polygon *poly1 = &rec;
-    Polygon *poly2 = &tri;
-    Polygon *poly3 = &sqr;
-    poly1 -> setValues(8, 5);
-    poly2 -> setValues(8, 5);
-    poly3 -> setValues(8);
+//    Polygon *polypoly = &poly;
+    Polygon *polyrec = &rec;
+    Polygon *polytri = &tri;
+    Polygon *polysqr = &sqr;
+//    polypoly -> setValues(8, 5);
+    polyrec -> setValues(8, 5);
+    polytri -> setValues(8, 5);
+    polysqr -> setValues(8);
     
+//    std::cout << "Area of Polygon with Polymorphism: " << poly.area() << "\n";
     std::cout << "Area of Rectangle with Polymorphism: " << rec.area() << "\n";
     std::cout << "Area of Triangle with Polymorphism: " << tri.area() << "\n";
     std::cout << "Area of Square with Polymorphism: " << sqr.area() << "\n";
