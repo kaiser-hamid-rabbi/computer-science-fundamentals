@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session Name="/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/2.data_structures_and_algorithms/0.object_oriented_programming/1.c++/ProgrammingKnowledge/ProgrammingKnowledge.workspace">
+  <int Value="0" Name="m_selectedTab"/>
+  <wxString Value="/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/2.data_structures_and_algorithms/0.object_oriented_programming/1.c++/ProgrammingKnowledge/ProgrammingKnowledge.workspace" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/2.data_structures_and_algorithms/0.object_oriented_programming/1.c++/ProgrammingKnowledge/oop/main.cpp" Name="FileName"/>
+      <int Value="644" Name="FirstVisibleLine"/>
+      <int Value="683" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
+  <SerializedObject Name="m_breakpoints">
+    <long Value="0" Name="Count"/>
+  </SerializedObject>
+  <wxString Value="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.inc;*.mm;*.m;*.xrc;*.plist;*.txt" Name="m_findInFilesMask"/>
+</Session>
