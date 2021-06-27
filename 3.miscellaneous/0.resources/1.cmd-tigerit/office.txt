@@ -1,0 +1,119 @@
+API for en/bn pairs (mbart - 0.8 million - old)
+Method: POST
+Url: http://192.168.1.199:9342/nmt/multitranslation/v2/
+(v2 dynamically detect input text language, so set default "source_lang": "en" for v2 )
+Example JSON Request Body:
+Example-1:
+{
+    "input_text": "who are you?",
+    "source_lang": "en",
+    "target_lang": "bn"
+}
+using code (paste in terminal):
+curl --location --request POST '192.168.1.233:9341/fairseq/multitranslation/mbart/v2' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "input_text": "who are you?",
+    "source_lang": "en",
+    "target_lang": "bn"
+}'
+
+
+
+API for en/bn pairs (mbart - 7 million - new)
+Method: POST
+Url: http://192.168.1.233:9350/fairseq/multitranslation/mbart/v2/
+(v2 dynamically detect input text language, so set default "source_lang": "en" for v2 )
+Example JSON Request Body:
+Example-1:
+{
+    "input_text": "who are you?",
+    "source_lang": "en",
+    "target_lang": "bn"
+}
+using code (paste in terminal):
+curl --location --request POST '192.168.1.233:9341/fairseq/multitranslation/mbart/v2' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "input_text": "who are you?",
+    "source_lang": "en",
+    "target_lang": "bn"
+}'
+
+
+
+API for en/bn pairs (m2m)
+Method: POST
+Url: http://192.168.1.199:9341/fairseq/multitranslation/v2/
+(v2 dynamically detect input text language, so set default "source_lang": "en" for v2 )
+Example JSON Request Body:
+Example-1:
+{
+    "input_text": "who are you?",
+    "source_lang": "en",
+    "target_lang": "bn"
+}
+using code (paste in terminal):
+curl --location --request POST '192.168.1.200:9341/fairseq/multitranslation/v2' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "input_text": "who are you?",
+    "source_lang": "en",
+    "target_lang": "bn"
+}'
+
+
+
+MT Issues: https://docs.google.com/document/d/1rpLwscfDz4htajd7FE_cc6qI13uWveikwDWB3z8yUns/edit?usp=sharing
+(curently in docs, shakur bhaia, will later upload to dropbox) [1-12 is important]
+ASANA: https://app.asana.com/0/1189258754890513/1200094874706959/f
+(access using tigerit email)
+
+
+
+
+
+
+
+
+
+
+
+
+
+=========================================
+LAST TEST
+=========================================
+01:50 Sarker will start call in New Load Test group (VIDEO)
+01:51 Everyone will inform call status (Received | No Call Notification| Failed) in slack
+01:55 Everyone will end call (if received)
+01:56 Everyone will enter into thread again and check whether "Join Now" button is visible or not
+01:56 Everyone will inform "Join Now" status (Visible | Not Visible) in slack
+=========================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+======================== Rizvee vai =================================
+
+## Requesting with postman
+- POST 192.168.1.231:4235/enhance_audio
+- key name: ``audio_file``
+- select file during sending
+- save the file as wav format from postman
+
+## curl Request
+- curl -F 'audio_file=@audio/file/path' http://192.168.1.231:4235/enhance_audio > output_file_name.wav
+
+- curl -F 'audio_file=@/home/kaiserhamid/Documents/2.tigerit/09062021/000020a912.flac' http://192.168.1.231:4235/enhance_audio > output_file_name.wav

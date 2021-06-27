@@ -1,0 +1,89 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Train Models in the Server ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+============================================================================================================
+
+# Server LogIn Credentials
+# --------------------------------
+$ ssh tigerit@192.168.1.199 (pass:tigerit)
+
+# How to copy images to server
+# -------------------------------
+Go to "Other Location"
+Enter "sftp://192.168.1.199/" in to the text box
+Click Connect
+Enter username and password (tigerit, tigerit)
+Go to home > tigerit > projects > np-text-recognition > input_for_augmentation >
+
+# Generate Augmented Data
+# ------------------------
+$ ssh tigerit@192.168.1.199 (pass:tigerit)
+$ screen -r nptrain (-dr = if more than one user in the same screen)
+
+
+# CLEAR ALL PREVIOUS DATA
+# -------------------------
+$ cd ~/projects/np-text-recognition/dataset/lpr_city
+$ rm -rf *
+$ cd ~/projects/np-text-recognition/
+$ python aug.py
+
+# How to create screen in GPU
+# --------------------------------
+# First you have to activate the virtual environment from [192.168.1.199 -> venv/nptextrecognition]
+$ ls
+$ screen -ls
+$ cd projects/np-text-recognition
+$ ls
+$ cd ../np-text-recognition_rabbi/
+$ screen -SRL np.train.rabbi
+$ screen -ls
+$ screen -r np.train.rabbi
+>> Ctrl+a+d(to close screen)
+$ nvidia-smi
+$ htop (Ctrl+c -> for exit)
+>> Create, delete screen in Linux
+$ screen -S screen_name (create screen)
+$ screen -r screen_name (open/start screen)
+$ screen -XS screen-name quit (delete screen)
+$ screen -ls
+$ nvtop
+
+################### Create Virtual Environment ######################################################
+1. create a folder or go to the new project folder through terminal
+2. create virtual environment for that specific projects
+$ python3 -m venv myenv
+$ pip3 list
+$ pip3 install --upgrade pip
+$ source myenv/bin/activate
+$ which python
+$ pip3 install --upgrade setuptools
+$ pip3 install numpy
+$ pip3 install opencv-python
+$ pip list
+$ pip freeze
+$ pip freeze > requirements.txt
+$ cat requirements.txt
+$ pip install -r requirements.txt
+$ pip install --user -r requirements.txt
+$ pip list
+$ deactivate
+$ rm -rf myenv/
+
+#-----------------------------------------------------
+$ sudo nano /etc/profile.d/cuda.sh
+
+export PATH=$PATH:/usr/local/cuda/bin
+export CUDADIR=/usr/local/cuda
+
+$ sudo chmod +x /etc/profile.d/cuda.sh
+
+$ sudo nano /etc/ld.so.conf.d/cuda.conf
+
+/usr/local/cuda/lib64
+
+$ sudo ldconfig
+$ reboot
+
+$ nvcc --version
+$ nvidia-smi
+
+#-----------------------------------------------------
