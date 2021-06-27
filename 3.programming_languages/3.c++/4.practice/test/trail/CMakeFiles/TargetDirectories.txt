@@ -1,3 +1,0 @@
-/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/3.programming_languages/3.c++/4.practice/test/trail/CMakeFiles/rebuild_cache.dir
-/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/3.programming_languages/3.c++/4.practice/test/trail/CMakeFiles/edit_cache.dir
-/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/3.programming_languages/3.c++/4.practice/test/trail/CMakeFiles/sample.dir
