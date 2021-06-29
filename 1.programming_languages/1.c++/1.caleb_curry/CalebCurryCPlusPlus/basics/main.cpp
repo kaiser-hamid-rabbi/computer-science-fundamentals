@@ -446,9 +446,12 @@ String Class and C Strings
 */
 
 #include <iostream>
-#include <cmath>
+#include <string>
+
+
 
 int main()
 {
-    std::cout << "Hello!\n";
+    std::string greeting = "hello";
+    std::cout << greeting << "\n";
 }
