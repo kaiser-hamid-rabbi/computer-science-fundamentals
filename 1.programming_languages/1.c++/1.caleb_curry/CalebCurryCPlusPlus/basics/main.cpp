@@ -581,10 +581,40 @@ Literals
 =====================================================
 */
 
+//#include <iostream>
+//#include <string>
+//#include <typeinfo>
+//
+//int main()
+//{
+//    auto x = 5U;
+//    auto y = 5UL;
+//    auto z = 5ULL;
+//    auto p = 5.0F; // float
+//    auto q = 5.0; // double
+//    auto r = 5.; // double
+//    auto s = 5.0L; // long double
+//    std::cout << x << "\n";
+//    int w = 5;
+//    std::cout << typeid(w).name() << "\n";
+//    long e = 10;
+//    std::cout << typeid(e).name() << "\n";
+//    double t = 5.;
+//    std::cout << typeid(t).name() << "\n";
+//}
+
+
+
+/*
+=====================================================
+Hex and Octal
+=====================================================
+*/
+
 #include <iostream>
 #include <string>
 
 int main()
 {
-
+    std::cout << "Hello!\n";
 }
