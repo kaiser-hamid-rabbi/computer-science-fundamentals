@@ -257,45 +257,116 @@ char Data Type
 =====================================================
 */
 
+//#include <iostream>
+//#include <climits>
+//
+//int main()
+//{
+//    std::cout << "Size of char is: " << sizeof(char) << " bytes\n";
+//    std::cout << "Size of char is: " << CHAR_MAX << " to " << CHAR_MIN << "\n";
+//
+//    char x = 'A';
+//    std::cout << x << "\n";
+//    char y = 65; // [127 to -128]
+//    std::cout << y << "\n";
+//    std::cout << (int) x << "\n"; // type casting way - 1
+//    std::cout << static_cast<int>(x) << "\n"; // type casting way - 2
+//    unsigned char z = 255; // [0 to 255]
+//    std::cout << z << "\n";
+//}
+
+
+
+/*
+=====================================================
+Escape Sequences
+=====================================================
+*/
+
+//#include <iostream>
+//
+//int main()
+//{
+//    std::cout << "Hello\nThere" << "\n"; // Escape sequence
+//    std::cout << "Hello\tThere" << "\n";
+//    std::cout << "Hello\bThere" << "\n";
+//    std::cout << "Hello\vThere" << "\n";
+//    std::cout << "Hello\aThere" << "\n"; // run in terminal and will get a beep sound!
+//    std::cout << "Hello There\0" << "\n"; // to tell machine the end of string in C
+//    std::cout << "Hello \"Rabbi\"" << "\n";
+//    std::cout << "Hello \\Rabbi\\" << "\n";
+//}
+
+
+
+/*
+=====================================================
+bool Data Type
+=====================================================
+*/
+
+//#include <iostream>
+//
+//int main()
+//{
+//    bool pizza_is_good = 1;
+//    std::cout << pizza_is_good << "\n";
+//
+//    pizza_is_good = 0;
+//    std::cout << pizza_is_good << "\n";
+//
+//    pizza_is_good = -1;
+//    std::cout << pizza_is_good << "\n";
+//
+//    pizza_is_good = 1000;
+//    std::cout << pizza_is_good << "\n";
+//
+//    pizza_is_good = true;
+//    std::cout << pizza_is_good << "\n";
+//
+//    pizza_is_good = false;
+//    std::cout << pizza_is_good << "\n";
+//
+//    pizza_is_good = 1;
+//    std::cout << std::boolalpha << pizza_is_good << "\n"; // std::boolalpha for printing true or false
+//
+//    pizza_is_good = 0;
+//    std::cout << std::boolalpha << pizza_is_good << "\n";
+//}
+
+
+
+/*
+=====================================================
+Floating Point Numbers
+=====================================================
+*/
+
 #include <iostream>
-#include <climits>
 
 int main()
 {
-    std::cout << "Size of char is: " << sizeof(char) << " bytes\n";
-    std::cout << "Size of char is: " << CHAR_MAX << " to " << CHAR_MIN << "\n";
+    bool pizza_is_good = 1;
+    std::cout << pizza_is_good << "\n";
 
-    char x = 'A';
-    std::cout << x << "\n";
+    pizza_is_good = 0;
+    std::cout << pizza_is_good << "\n";
 
+    pizza_is_good = -1;
+    std::cout << pizza_is_good << "\n";
+
+    pizza_is_good = 1000;
+    std::cout << pizza_is_good << "\n";
+
+    pizza_is_good = true;
+    std::cout << pizza_is_good << "\n";
+
+    pizza_is_good = false;
+    std::cout << pizza_is_good << "\n";
+
+    pizza_is_good = 1;
+    std::cout << std::boolalpha << pizza_is_good << "\n"; // std::boolalpha for printing true or false
+
+    pizza_is_good = 0;
+    std::cout << std::boolalpha << pizza_is_good << "\n";
 }
-
-
-
-///*
-//=====================================================
-//Escape Sequences
-//=====================================================
-//*/
-//
-//#include <iostream>
-//
-//int main()
-//{
-//
-//}
-//
-//
-//
-///*
-//=====================================================
-//bool Data Type
-//=====================================================
-//*/
-//
-//#include <iostream>
-//
-//int main()
-//{
-//
-//}
