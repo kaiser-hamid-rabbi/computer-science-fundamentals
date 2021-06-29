@@ -503,6 +503,52 @@ String Modifier Methods
 =====================================================
 */
 
+//#include <iostream>
+//#include <string>
+//
+//int main()
+//{
+//    std::string greeting = "Hello";
+//    std::cout << greeting.length() << "\n";
+//    std::cout << greeting.size() << "\n"; // same as length()
+//    greeting += " there"; // this is recommended
+//    std::cout << greeting << "\n";
+//    greeting.append(" everyone!"); // same as +=
+//    std::cout << greeting << "\n";
+//
+//    greeting = "Hello";
+//    greeting.insert(3, " ");
+//    std::cout << greeting << "\n";
+//    greeting.erase(3, 1);
+//    std::cout << greeting << "\n";
+//    greeting.erase(3);
+//    std::cout << greeting << "\n";
+//    greeting.erase(greeting.length() - 1);
+//    std::cout << greeting << "\n";
+//    greeting.pop_back(); // same as erase(your_string.length() - 1) + recommended
+//    std::cout << greeting << "\n";
+//
+//    greeting = "Hello";
+//    greeting.replace(0, 3, "Heaven");
+//    std::cout << greeting << "\n";
+//
+//    greeting = "What the Hell";
+//    greeting.replace(9, 4, "Heaven");
+//    std::cout << greeting << "\n";
+//
+//    greeting = "What the Hell";
+//    greeting.replace(9, 4, "*****");
+//    std::cout << greeting << "\n";
+//}
+
+
+
+/*
+=====================================================
+String Operation Methods
+=====================================================
+*/
+
 #include <iostream>
 #include <string>
 
