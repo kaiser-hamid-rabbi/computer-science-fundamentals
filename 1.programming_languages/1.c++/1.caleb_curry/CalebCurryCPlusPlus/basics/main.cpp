@@ -537,7 +537,7 @@ String Modifier Methods
 //    std::cout << greeting << "\n";
 //
 //    greeting = "What the Hell";
-//    greeting.replace(9, 4, "*****");
+//    greeting.replace(9, 4, "****");
 //    std::cout << greeting << "\n";
 //}
 
@@ -549,10 +549,42 @@ String Operation Methods
 =====================================================
 */
 
+//#include <iostream>
+//#include <string>
+//
+//int main()
+//{
+//    std::string greeting = "What the hell";
+//    greeting.replace(greeting.find("hell"), 4, "****");
+//    std::cout << greeting << "\n";
+//
+//    greeting = "What is up?";
+//    std::cout << greeting.substr(5, 2) << "\n";
+//    std::cout << greeting.find_first_of("aeioy") << "\n";
+//    std::cout << greeting.find_first_of("!") << "\n"; // 18446744073709551615 equivalent as not found, npos == -1
+//    unsigned long x = -1;
+//    std::cout << x << "\n";
+//    if(greeting.find_first_of("!") == -1) std::cout << "NOT FOUND!\n";
+//
+//    greeting = "What is up?";
+//    if(greeting == "Hello") std::cout << "Equals\n"; // recommended way [==]
+//    if(greeting == "What is up?") std::cout << "Equals\n";
+//    if(greeting.compare("Hello") == 0) std::cout << "Equals\n"; // another way to compare string
+//    if(greeting.compare("What is up?") == 0) std::cout << "Equals\n";
+//}
+
+
+
+/*
+=====================================================
+Literals
+=====================================================
+*/
+
 #include <iostream>
 #include <string>
 
 int main()
 {
-    std::cout << "Hello!\n";
+
 }
