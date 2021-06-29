@@ -445,13 +445,68 @@ String Class and C Strings
 =====================================================
 */
 
+//#include <iostream>
+//#include <string>
+//
+//int main()
+//{
+//    // string is a class
+//    std::string greeting = "hello"; // greeting is a object of string class
+//    std::cout << greeting[0] << "\n";
+//    std::cout << greeting[2] << "\n";
+//    std::string temp; // default value of a string is a empty string("")
+//    std::cout << temp << "\n";
+//    std::cout << greeting + " there" << "\n"; // string concatanation
+//    std::string complete_greeting = greeting + " there";
+//    std::cout << complete_greeting << "\n";
+//    complete_greeting += "!"; // append string
+//    std::cout << complete_greeting << "\n";
+//    std::cout << complete_greeting.length() << "\n";
+//    // method == member function == functions attached to objects
+//
+//    char name[] = "Caleb"; // C string == array of characters. Have lots of limitation. Not a good practice!
+//    std::cout << name << "\n";
+//    // name = "tacobell"; // you will get an error because name's memeory assigned for 5 characters
+//    // name = "t"; // you can't do that either
+//}
+
+
+
+/*
+=====================================================
+get line for Strings
+=====================================================
+*/
+
+//#include <iostream>
+//#include <string>
+//
+//int main()
+//{
+//    std::string greeting;
+//    //std::cin >> greeting;
+//    //std::string left_over; // to get the left over from the input stream
+//    //std::cin >> left_over;
+//    //std::cout << greeting << "\n";
+//    //std::cout << left_over << "\n";
+//
+//    getline(std::cin, greeting); // proper way to take multiple word string input
+//    std::cout << greeting << "\n";
+//
+//}
+
+
+
+/*
+=====================================================
+String Modifier Methods
+=====================================================
+*/
+
 #include <iostream>
 #include <string>
 
-
-
 int main()
 {
-    std::string greeting = "hello";
-    std::cout << greeting << "\n";
+    std::cout << "Hello!\n";
 }
