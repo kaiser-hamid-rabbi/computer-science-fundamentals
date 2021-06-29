@@ -611,10 +611,36 @@ Hex and Octal
 =====================================================
 */
 
+//#include <iostream>
+//#include <string>
+//
+//int main()
+//{
+//    int number1 = 30; // decimal 30
+//    std::cout << number1 << "\n";
+//    int number2 = 0x30; // hexa decimal 48
+//    std::cout << number2 << "\n";
+//    int number3 = 030; // octal 24
+//    std::cout << number3 << "\n";
+//
+//    // decimal to hexa/octal
+//    int number = 30;
+//    std::cout << std::hex << number << "\n";
+//    std::cout << std::oct << number << "\n";
+//}
+
+
+
+/*
+=====================================================
+Operator Precedence and Associativity
+=====================================================
+*/
+
 #include <iostream>
 #include <string>
 
 int main()
 {
-    std::cout << "Hello!\n";
+
 }
