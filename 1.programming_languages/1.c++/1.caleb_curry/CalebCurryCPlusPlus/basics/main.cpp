@@ -97,7 +97,6 @@ Pow Function from cmath
 
 
 
-
 /*
 =====================================================
 Creating Custom Functions for Pow - 1
@@ -205,13 +204,63 @@ Creating Void Functions
 
 /*
 =====================================================
-Data Types in C++
+Data Types in C++ - 1
 =====================================================
 */
 
 //#include <iostream>
+//#include <climits>
 //
 //int main()
 //{
-//    std::cout << "Hello, World!" << "\n";
+///*
+//Integral Data Types:
+//int x = 99999999999999999999999999999999; // warning: integer constant is too large for its type + warning: overflow in conversion from '__int128' to 'int' changes value from '9632337040368467967' to '-1' [-Woverflow]
+//int x = 999999999999; // warning: overflow in conversion from 'long int' to 'int' changes value from '999999999999' to '-727379969' [-Woverflow]
+//*/
+//    short a;
+//    int b;
+//    long c;
+//    long long d;
+//    // short <= int <= long <= long long
+//    unsigned short aa;
+//    unsigned int bb;
+//    unsigned long cc;
+//    unsigned long long dd;
+//
+//    std::cout << "Size of short is: " << sizeof(short) << " bytes\n";
+//    std::cout << "Size of int is: " << sizeof(int) << " bytes\n";
+//    std::cout << "Size of long is: " << sizeof(long) << " bytes\n";
+//    std::cout << "Size of long long is: " << sizeof(long long) << " bytes\n";
+//    std::cout << "Size of unsigned short is: " << sizeof(unsigned short) << " bytes\n";
+//    std::cout << "Size of unsigned int is: " << sizeof(unsigned int) << " bytes\n";
+//    std::cout << "Size of unsigned long is: " << sizeof(unsigned long) << " bytes\n";
+//    std::cout << "Size of unsigned long long is: " << sizeof(unsigned long long) << " bytes\n";
+//
+//    std::cout << "Size of short is: " << SHRT_MAX << " to " << SHRT_MIN << "\n";
+//    std::cout << "Size of int is: " << INT_MAX << " to " << INT_MIN << "\n";
+//    std::cout << "Size of long is: " << LONG_MAX << " to " << LONG_MIN << "\n";
+//    std::cout << "Size of long long is: " << LONG_LONG_MAX << " to " << LONG_MIN << "\n";
+//    std::cout << "Size of unsigned short is: " << USHRT_MAX << " bits\n";
+//    std::cout << "Size of unsigned int is: " << UINT_MAX << " bits\n";
+//    std::cout << "Size of unsigned long is: " << ULONG_MAX << " bits\n";
+//    std::cout << "Size of unsigned long long is: " << ULONG_LONG_MAX << " bits\n";
 //}
+
+
+
+/*
+=====================================================
+Data Types in C++ - 2
+=====================================================
+*/
+
+#include <iostream>
+#include <climits>
+
+int main()
+{
+    char a;
+    std::cout << "Size of char is: " << CHAR_MAX << " to " << CHAR_MIN << "\n";
+
+}
