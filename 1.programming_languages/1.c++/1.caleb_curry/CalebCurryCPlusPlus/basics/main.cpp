@@ -342,31 +342,113 @@ Floating Point Numbers
 =====================================================
 */
 
+//#include <iostream>
+//#include <float.h>
+//
+//int main()
+//{
+//    float a;
+//    double b;
+//    long double c;
+//
+//    float aa = 10. / 3;
+//    std::cout << aa << "\n";
+//    aa = aa * 1000000000000;
+//    std::cout << aa << "\n";
+//    std::cout << std::fixed << aa << "\n";
+//    std::cout << FLT_DIG << "\n"; // float guarantee 6 digits
+//    double bb = 10. / 3;
+//    bb = bb * 1000000000000;
+//    std::cout << bb << "\n";
+//    std::cout << std::fixed << bb << "\n";
+//    std::cout << DBL_DIG << "\n"; // double guarantee 15 digits
+//    std::cout << LDBL_DIG << "\n"; // long double guarantee 18 digits
+//
+//}
+
+
+
+/*
+=====================================================
+Constant const, macro, and enum
+=====================================================
+*/
+
+//#include <iostream>
+//#include <float.h>
+//#define X 10
+//
+//int main()
+//{
+//    const int x = 5; // read-only variable after you declare a variable
+//    // x = 10; // you will get an error cause x is a const
+//    // const int y; // read-only variable after you declare a variable
+//    // y = 10; // you can't do that either
+//    std::cout << x << "\n";
+//    std::cout << X << "\n"; // define like this(macro) is like C programming, const if preferred
+//
+//    //enum{int z = 100};
+//    //std::cout << z << "\n";
+//    //z = 50;
+//
+//    enum colors{red=5, black};
+//    enum suit{heart, diamond=8, spade=3, club, kaiser, hamid=237, rabbi};
+//
+//    std::cout << "The value of enum color : " << red << "," << black << "\n";
+//    std::cout << "The default value of enum suit : " << heart << "," << diamond << "," << spade << "," << club << "," << kaiser << "," << hamid << ","  << rabbi << "\n";
+//}
+
+
+
+/*
+=====================================================
+Numeric Functions
+=====================================================
+*/
+
+//#include <iostream>
+//#include <cmath>
+//
+//int main()
+//{
+//    std::cout << sqrt(25) << "\n";
+//    std::cout << sqrt(-25) << "\n";
+//    std::cout << NAN << "\n";
+//    std::cout << -NAN << "\n";
+//    std::cout << pow(9, 999) << "\n";
+//    std::cout << pow(-9, 999) << "\n";
+//    std::cout << INFINITY << "\n";
+//    std::cout << -INFINITY << "\n";
+//
+//    std::cout << remainder(10, 3) << "\n"; // modulus give you only integer value, but remainder can give you floating value
+//    std::cout << 10 % 3 << "\n";
+//    std::cout << remainder(10, 3.25) << "\n"; // modulus give you only integer value, but remainder can give you floating value
+//    // std::cout << 10 % 3.25 << "\n"; // you will get an error
+//    std::cout << fmod(10, 3.25) << "\n"; // fmod is almost similar to remainder. both can handle floating number
+//    std::cout << fmax(10, 3.25) << "\n";
+//    std::cout << fmin(10, 3.25) << "\n";
+//    std::cout << ceil(fmin(10, 3.25)) << "\n";
+//    std::cout << floor(fmin(10, 3.25)) << "\n";
+//    std::cout << trunc(fmin(10, 3.25)) << "\n"; // like floor for positive numbers. but behave differently in negative numbers. trunc crop off the decimal
+//    std::cout << round(1.5) << "\n";
+//    std::cout << round(1.49) << "\n";
+//
+//    std::cout << abs(-25) << "\n";
+//    std::cout << abs(-25) << "\n";
+//}
+
+
+
+/*
+=====================================================
+String Class and C Strings
+=====================================================
+*/
+
 #include <iostream>
+#include <cmath>
 
 int main()
 {
-    bool pizza_is_good = 1;
-    std::cout << pizza_is_good << "\n";
-
-    pizza_is_good = 0;
-    std::cout << pizza_is_good << "\n";
-
-    pizza_is_good = -1;
-    std::cout << pizza_is_good << "\n";
-
-    pizza_is_good = 1000;
-    std::cout << pizza_is_good << "\n";
-
-    pizza_is_good = true;
-    std::cout << pizza_is_good << "\n";
-
-    pizza_is_good = false;
-    std::cout << pizza_is_good << "\n";
-
-    pizza_is_good = 1;
-    std::cout << std::boolalpha << pizza_is_good << "\n"; // std::boolalpha for printing true or false
-
-    pizza_is_good = 0;
-    std::cout << std::boolalpha << pizza_is_good << "\n";
+    std::cout << "Hello!\n";
 }
