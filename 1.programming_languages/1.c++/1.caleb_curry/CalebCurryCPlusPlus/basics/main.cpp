@@ -260,7 +260,10 @@ Data Types in C++ - 2
 
 int main()
 {
-    char a;
+    std::cout << "Size of char is: " << sizeof(char) << " bytes\n";
     std::cout << "Size of char is: " << CHAR_MAX << " to " << CHAR_MIN << "\n";
+
+    char x = 'A';
+    std::cout << x << "\n";
 
 }
