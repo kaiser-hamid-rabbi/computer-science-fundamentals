@@ -885,6 +885,8 @@ While Loop and Factorial Calculator
 //    //    i++;
 //    //}
 //    //std::cout << "\n";
+
+//    //while(true); // infinite loop
 //
 //    //int i = 9;
 //    //while(i >= 0)
@@ -915,10 +917,44 @@ Do While Loop
 =====================================================
 */
 
+//#include <iostream>
+//#include <string>
+//
+//int main()
+//{
+//    // atleast once - way 1
+//    //std::string password = "hellotacos123";
+//    //std::string guess;
+//    //do
+//    //{
+//    //    std::cout << "Guess the password:\t";
+//    //    std::cin >> guess;
+//    //} while(guess != password);
+//
+//    // mimic the function of dowhile loop with while loop - way 2
+//    std::string password = "hellotacos123";
+//    std::string guess;
+//    std::cout << "Guess the password:\t";
+//    std::cin >> guess;
+//    while(guess != password)
+//    {
+//        std::cout << "Guess the password:\t";
+//        std::cin >> guess;
+//    }
+//}
+
+
+
+/*
+=====================================================
+Do While Loop
+=====================================================
+*/
+
 #include <iostream>
 #include <string>
 
 int main()
 {
-
+    std::string sentence = "Hello my name if Kaiser";
 }
