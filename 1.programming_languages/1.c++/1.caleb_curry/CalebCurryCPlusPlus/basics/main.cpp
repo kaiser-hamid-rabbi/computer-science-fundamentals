@@ -632,8 +632,286 @@ Hex and Octal
 
 
 /*
+=====================================================================
+Operator Precedence(a*b   a/b   a%b   a+b   a-b) and Associativity
+=====================================================================
+*/
+
+//#include <iostream>
+//#include <string>
+//
+//int main()
+//{
+//    double x;
+//    double y;
+//    x = 10;
+//    y = x = 100;
+//    std::cout << x << "\t" << y << "\n";
+//
+//    x = 10;
+//    (y = x) = 100; // y =  x; y = 100
+//    std::cout << x << "\t" << y << "\n";
+//}
+
+
+
+/*
 =====================================================
-Operator Precedence and Associativity
+Reviewing Key Concepts
+=====================================================
+*/
+
+
+
+/*
+=====================================================
+Control Flow:
+    1. Branching -> if-elseif-else, switch
+    2. Looping -> for, while, do-while
+=====================================================
+*/
+
+
+
+/*
+=====================================================
+If Statement Practice
+=====================================================
+*/
+
+//#include <iostream>
+//
+//int main()
+//{
+//    //int age = 20;
+//    //if(age > 18)
+//    //{
+//    //    std::cout << "You're old enough!\n";
+//    //    return -1; // to finish the program
+//    //}
+//    //std::cout << "Always\n";
+//
+//    //int age = 13;
+//    //if(age > 18) std::cout << "You're old enough!\n";
+//    //else std::cout << "Sorry, You are not 18!\n";
+//
+//    std::cout << "How old are you? ";
+//    int age;
+//    std::cin >> age;
+//    if(age >= 18) std::cout << "You're old enough!\n";
+//    else if(age < 18 && age > 16) std::cout << "You are almost 18!\n";
+//    else std::cout << "Sorry, You are not 18!\n";
+//}
+
+
+
+/*
+=====================================================
+Logical and Comparison Operators
+=====================================================
+*/
+
+//#include <iostream>
+//#include <string>
+//
+//int main()
+//{
+//    // logical [&&, ||, !], comparison [==, !=, <, >, <=, >=]
+//    std::string name_answer = "Kaiser";
+//    int age_answer = 30;
+//    std::string name_guess;
+//    std::cout << "Guess my name: ";
+//    std::cin >> name_guess;
+//
+//    int age_guess;
+//    std::cout << "Guess my age: ";
+//    std::cin >> age_guess;
+//
+//    if(name_guess == name_answer && age_guess == age_answer)
+//    {
+//        std::cout << "You got it right!\n";
+//    }
+//
+//    if(name_guess == name_answer || age_guess == age_answer)
+//    {
+//        std::cout << "You got it right!\n";
+//    }
+//
+//    // Let's say, you want to guess any name without Clark
+//    name_answer = "Clark";
+//    if(!(name_guess == name_answer)) // way 1
+//    {
+//        std::cout << "You got it right!\n";
+//    }
+//    if(name_guess != name_answer) // way 2 - recommended
+//    {
+//        std::cout << "You got it right!\n";
+//    }
+//}
+
+
+
+/*
+=====================================================
+Switch Statement and Enum
+=====================================================
+*/
+
+//#include <iostream>
+//#include <string>
+//
+//int main()
+//{
+//    //int age;
+//    //std::cout << "What is your age?: ";
+//    //std::cin >> age;
+//    //switch(age) // only work with integer value. Not recommended, use if-elseif-else instead
+//    //{
+//    //    case 13:
+//    //        std::cout << "You are 13\n";
+//    //        break;
+//    //        // return 0; // work as break, means everything is okay, not recommended in switch statement
+//    //        // return -1; // means something is wrong in the program
+//    //    case 14:
+//    //        std::cout << "You are 14\n";
+//    //        break;
+//    //    default:
+//    //        std::cout << "Catch all!\n";
+//    //        break;
+//    //}
+//
+//    //enum seasons{summer, spring, fall, winter}; // enum + switch - not recommended
+//    //seasons now = winter;
+//    //switch(now)
+//    //{
+//    //    case summer:
+//    //        break;
+//    //    case spring:
+//    //        break;
+//    //    case fall:
+//    //        break;
+//    //    case winter:
+//    //        std::cout << "Stay warm!\n";
+//    //        break;
+//    //}
+//
+//    enum class Season{summer, spring, fall, winter}; // enum class+ switch - recommended
+//    Season now = Season::fall;
+//    switch(now)
+//    {
+//        case Season::summer:
+//            std::cout << "Stay cool!\n";
+//            break;
+//        case Season::spring:
+//            std::cout << "Stay happy!\n";
+//            break;
+//        case Season::fall:
+//        std::cout << "Stay great!\n";
+//            break;
+//        case Season::winter:
+//            std::cout << "Stay warm!\n";
+//            break;
+//    }
+//}
+
+
+
+/*
+=====================================================
+Intro to Loops
+=====================================================
+*/
+
+
+
+/*
+=====================================================
+For Loops (How to Calculate Factorial)
+=====================================================
+*/
+
+//#include <iostream>
+//#include <string>
+//
+//int main()
+//{
+//    //for (int i = 0; i < 10; i++)
+//    //{
+//    //    std::cout << i << "\t";
+//    //}
+//    //std::cout << "\n";
+//
+//    // infinite loop
+//    //for (int i = 9; i >= 0; i++)
+//    //{
+//    //    std::cout << i << "\t";
+//    //}
+//    //std::cout << "\n";
+//
+//    //for (int i = 9; i >= 0; i--)
+//    //{
+//    //    std::cout << i << "\t";
+//    //}
+//    //std::cout << "\n";
+//
+//    std::cout << "Enter a integer number:\t";
+//    int fact;
+//    std::cin >> fact;
+//    int factorial = fact;
+//    for (int i = factorial - 1; i > 1; i--)
+//    {
+//        factorial *= i;
+//    }
+//    std::cout << "factorial of " << fact << " is: " << factorial << "\n";
+//}
+
+
+
+/*
+=====================================================
+While Loop and Factorial Calculator
+=====================================================
+*/
+
+//#include <iostream>
+//#include <string>
+//
+//int main()
+//{
+//    //int i = 0;
+//    //while(i < 10)
+//    //{
+//    //    std::cout << i << "\t";
+//    //    i++;
+//    //}
+//    //std::cout << "\n";
+//
+//    //int i = 9;
+//    //while(i >= 0)
+//    //{
+//    //    std::cout << i << "\t";
+//    //    i--;
+//    //}
+//    //std::cout << "\n";
+//
+//    std::cout << "Enter a integer number:\t";
+//    int inp;
+//    std::cin >> inp;
+//    int factorial = inp;
+//    int i = factorial - 1;
+//    while(i > 1)
+//    {
+//        factorial *= i;
+//        i--;
+//    }
+//    std::cout << "factorial of " << inp << " is: " << factorial << "\n";
+//}
+
+
+
+/*
+=====================================================
+Do While Loop
 =====================================================
 */
 
