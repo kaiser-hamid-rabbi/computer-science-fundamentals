@@ -947,14 +947,181 @@ Do While Loop
 
 /*
 =====================================================
-Do While Loop
+Break and Continue
 =====================================================
 */
 
-#include <iostream>
-#include <string>
+//#include <iostream>
+//#include <string>
+//
+//int main()
+//{
+//    //std::string sentence = "Hello my name is Kaiser";
+//    //for(int i = 0; i < sentence.size(); i++)
+//    //{
+//    //    std::cout << sentence[i];
+//    //}
+//    //std::cout << "\n";
+//
+//    //std::string sentence = "Hello my name is Kaiser";
+//    //for(int i = 0; i < sentence.size(); i++)
+//    //{
+//    //    std::cout << sentence[i] << "\n";
+//    //    if(sentence[i] == 'o')
+//    //    {
+//    //        std::cout << "found o!\n";
+//    //    }
+//    //}
+//
+//    //std::string sentence = "Hello my name is Kaiser";
+//    //for(int i = 0; i < sentence.size(); i++)
+//    //{
+//    //    std::cout << sentence[i] << "\n";
+//    //    if(sentence[i] == 'o')
+//    //    {
+//    //        std::cout << "found o!\n";
+//    //        break;
+//    //    }
+//    //}
+//    //std::cout << "Done!\n";
+//
+//    std::string sentence = "Hello my name is Kaiser";
+//    for(int i = 0; i < sentence.size(); i++)
+//    {
+//        if(sentence[i] == ' ')
+//        {
+//            continue;
+//        }
+//        std::cout << sentence[i] << "\n";
+//    }
+//    std::cout << "Done!\n";
+//}
 
-int main()
-{
-    std::string sentence = "Hello my name if Kaiser";
-}
+
+
+/*
+=====================================================
+Conditional Operator
+=====================================================
+*/
+
+//#include <iostream>
+//#include <string>
+//
+//int main()
+//{
+//    int answer = 11;
+//    while(true)
+//    {
+//        std::cout << "Guess the number: ";
+//        int guess;
+//        std::cin >> guess;
+//        guess == answer ? std::cout << "Good job!\n" : std::cout << "Bad luck!\n";
+//    }
+//
+//}
+
+
+
+/*
+=====================================================
+Intro to Our App
+=====================================================
+*/
+
+
+
+/*
+=====================================================
+Creating a Menu
+=====================================================
+*/
+
+//#include <iostream>
+//#include <string>
+//
+//int main()
+//{
+//    int choice;
+//    do
+//    {
+//        std::cout << "0. Quit\n" << "1. Play Game\n";
+//        std::cin>> choice;
+//        switch(choice)
+//        {
+//            case 0:
+//                std::cout << "Thanks for nothing!\n";
+//                return 0;
+//            case 1:
+//                std::cout << "Yo let's play!\n";
+//                break;
+//        }
+//    }while(choice !=  0);
+//}
+
+
+
+/*
+=====================================================
+Creating a Guessing Game
+=====================================================
+*/
+
+//#include <iostream>
+//#include <string>
+//#include <cstdlib>
+//#include <ctime>
+//
+//void play_game()
+//{
+//    int random = rand() % 251;
+//    std::cout << "The number you have to guess: " << random << "\n";
+//    std::cout << "Guess a number: ";
+//    while(true)
+//    {
+//        int guess;
+//        std::cin >> guess;
+//        if(guess == random)
+//        {
+//            std::cout << "You win!\n";
+//            break;
+//        }
+//        else if(guess < random)
+//        {
+//            std::cout << "Too low\n";
+//        }
+//        else
+//        {
+//            std::cout << "Too high\n";
+//        }
+//    }
+//}
+//
+//int main()
+//{
+//    srand(time(NULL));
+//    int choice;
+//    do
+//    {
+//        std::cout << "0. Quit\n" << "1. Play Game\n";
+//        std::cin>> choice;
+//        switch(choice)
+//        {
+//            case 0:
+//                std::cout << "Thanks for nothing!\n";
+//                return 0;
+//            case 1:
+//                play_game();
+//                break;
+//        }
+//    }while(choice !=  0);
+//}
+
+
+
+/*
+=====================================================
+Intro to Arrays and Vectors
+=====================================================
+*/
+
