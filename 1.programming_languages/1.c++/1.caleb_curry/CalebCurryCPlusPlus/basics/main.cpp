@@ -1134,7 +1134,6 @@ Working with Arrays
 */
 
 //#include <iostream>
-//#include <string>
 //
 //int main()
 //{
@@ -1175,10 +1174,116 @@ Passing Arrays to Functions
 =====================================================
 */
 
+//#include <iostream>
+//
+//void print_array(int array[], int size)
+//{
+//    std::cout << size << "\n";
+//    for(int i = 0; i < size; i++)
+//    {
+//        std::cout << array[i] << "\t";
+//    }
+//    std::cout << "\n";
+//}
+//
+//int main()
+//{
+//    int guesses[] = {12, 43, 23, 43, 23, 45, 34, 24, 11, 19};
+//    int size = sizeof(guesses) / sizeof(int);
+//    print_array(guesses, size);
+//}
+
+
+
+/*
+=====================================================
+Fill Array from Input
+=====================================================
+*/
+
+//#include <iostream>
+//#include <limits>
+//
+//void print_array(int array[], int size)
+//{
+//    for(int i = 0; i < size; i++)
+//    {
+//        std::cout << array[i] << "\t";
+//    }
+//    std::cout << "\n";
+//}
+//
+//int main()
+//{
+//    const int SIZE = 100;
+//    int guesses[SIZE];
+//    int count = 0;
+//
+//    for(int i = 0; i < SIZE; i++)
+//    {
+//        if(std::cin >> guesses[i]) // return cin if everything properly stored
+//        {
+//            // input worked
+//            count++;
+//        }
+//        else
+//        {
+//            // invalid character given
+//            break;
+//        }
+//    }
+//    print_array(guesses, count);
+//
+//    // To clear the input stream after putting junk in case like 'asdfasdfasdf'
+//    std::cin.clear();
+//    std::cin.ignore(10000, '\n'); // way 1(shortcut)
+//    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // way 2(recommended)
+//}
+
+
+
+/*
+=====================================================
+Using an Array to Keep Track of Guessing
+=====================================================
+*/
+
 #include <iostream>
-#include <string>
+#include <limits>
+
+
+void print_array(int array[], int size)
+{
+    for(int i = 0; i < size; i++)
+    {
+        std::cout << array[i] << "\t";
+    }
+    std::cout << "\n";
+}
 
 int main()
 {
+    const int SIZE = 100;
+    int guesses[SIZE];
+    int count = 0;
 
+    for(int i = 0; i < SIZE; i++)
+    {
+        if(std::cin >> guesses[i]) // return cin if everything properly stored
+        {
+            // input worked
+            count++;
+        }
+        else
+        {
+            // invalid character given
+            break;
+        }
+    }
+    print_array(guesses, count);
+
+    // To clear the input stream after putting junk in case like 'asdfasdfasdf'
+    std::cin.clear();
+    std::cin.ignore(10000, '\n'); // way 1(shortcut)
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // way 2(recommended)
 }
