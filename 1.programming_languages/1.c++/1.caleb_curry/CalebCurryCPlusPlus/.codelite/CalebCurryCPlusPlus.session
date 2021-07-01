@@ -5,8 +5,8 @@
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
       <wxString Value="/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.c++/1.caleb_curry/CalebCurryCPlusPlus/basics/main.cpp" Name="FileName"/>
-      <int Value="1155" Name="FirstVisibleLine"/>
-      <int Value="1164" Name="CurrentLine"/>
+      <int Value="1319" Name="FirstVisibleLine"/>
+      <int Value="1357" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
