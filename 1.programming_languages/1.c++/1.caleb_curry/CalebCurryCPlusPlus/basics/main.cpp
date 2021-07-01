@@ -1248,42 +1248,76 @@ Using an Array to Keep Track of Guessing
 =====================================================
 */
 
-#include <iostream>
-#include <limits>
+//#include <iostream>
+//#include <string>
+//#include <cstdlib>
+//#include <ctime>
+//
+//void print_array(int array[], int count)
+//{
+//    for(int i = 0; i < count; i++)
+//    {
+//        std::cout << array[i] << "\t";
+//    }
+//    std::cout << "\n";
+//}
+//
+//void play_game()
+//{
+//    int guesses[251];
+//    int guess_count = 0;
+//
+//    int random = rand() % 251;
+//    std::cout << "The number you have to guess: " << random << "\n";
+//    std::cout << "Guess a number: ";
+//    while(true)
+//    {
+//        int guess;
+//        std::cin >> guess;
+//        guesses[guess_count++] = guess; //guess_count++;
+//
+//        if(guess == random)
+//        {
+//            std::cout << "You win!\n";
+//            break;
+//        }
+//        else if(guess < random)
+//        {
+//            std::cout << "Too low\n";
+//        }
+//        else
+//        {
+//            std::cout << "Too high\n";
+//        }
+//    }
+//    print_array(guesses, guess_count);
+//}
+//
+//int main()
+//{
+//    srand(time(NULL));
+//    int choice;
+//    do
+//    {
+//        std::cout << "0. Quit\n" << "1. Play Game\n";
+//        std::cin>> choice;
+//        switch(choice)
+//        {
+//            case 0:
+//                std::cout << "Thanks for nothing!\n";
+//                return 0;
+//            case 1:
+//                play_game();
+//                break;
+//        }
+//    }while(choice !=  0);
+//}
 
 
-void print_array(int array[], int size)
-{
-    for(int i = 0; i < size; i++)
-    {
-        std::cout << array[i] << "\t";
-    }
-    std::cout << "\n";
-}
 
-int main()
-{
-    const int SIZE = 100;
-    int guesses[SIZE];
-    int count = 0;
+/*
+=====================================================
+Intro to Vectors
+=====================================================
+*/
 
-    for(int i = 0; i < SIZE; i++)
-    {
-        if(std::cin >> guesses[i]) // return cin if everything properly stored
-        {
-            // input worked
-            count++;
-        }
-        else
-        {
-            // invalid character given
-            break;
-        }
-    }
-    print_array(guesses, count);
-
-    // To clear the input stream after putting junk in case like 'asdfasdfasdf'
-    std::cin.clear();
-    std::cin.ignore(10000, '\n'); // way 1(shortcut)
-    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // way 2(recommended)
-}
