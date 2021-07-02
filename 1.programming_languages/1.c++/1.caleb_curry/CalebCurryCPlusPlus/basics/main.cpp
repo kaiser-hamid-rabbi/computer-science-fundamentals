@@ -1625,6 +1625,40 @@ Range Based for Loop
 =====================================================
 */
 
+//#include <iostream>
+//#include <string>
+//#include <vector>
+//#include <array>
+//
+//int main()
+//{
+//    //int data[] = {1, 2, 3, 4, 5, 6};
+//    //std::vector<int> data = {1, 2, 3, 4, 5, 6};
+//    std::array<int, 6> data = {1, 2, 3, 4, 5, 6};
+//
+//    // range based for loop
+//    for(int n : data)
+//    {
+//        std::cout << n << "\t";
+//    }
+//    std::cout << "\n";
+//
+//    // normal for loop
+//    for(int i = 0; i < 6; i++)
+//    {
+//        std::cout << data[i] << "\t";
+//    }
+//    std::cout << "\n";
+//}
+
+
+
+/*
+=====================================================
+Intro to IO Streams
+=====================================================
+*/
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -1632,5 +1666,21 @@ Range Based for Loop
 
 int main()
 {
-    std::cout << "Hello\n";
+    //int data[] = {1, 2, 3, 4, 5, 6};
+    //std::vector<int> data = {1, 2, 3, 4, 5, 6};
+    std::array<int, 6> data = {1, 2, 3, 4, 5, 6};
+
+    // range based for loop
+    for(int n : data)
+    {
+        std::cout << n << "\t";
+    }
+    std::cout << "\n";
+
+    // normal for loop
+    for(int i = 0; i < 6; i++)
+    {
+        std::cout << data[i] << "\t";
+    }
+    std::cout << "\n";
 }
