@@ -1487,6 +1487,13 @@ Refactor Guessing Game to Use Vectors
 /*
 =====================================================
 STL Array
+=====================================================
+*/
+
+
+
+/*
+=====================================================
 STL Arrays in Practice
 =====================================================
 */
@@ -1496,7 +1503,7 @@ STL Arrays in Practice
 //#include <vector>
 //#include <array>
 //
-////void print_templetized_array(std::array<int, 20> data)
+////void print_templatized_array(std::array<int, 20> data)
 ////{
 ////    for(int i = 0; i < data.size(); i++)
 ////    {
@@ -1508,11 +1515,11 @@ STL Arrays in Practice
 ////int main()
 ////{
 ////    std::array<int, 20> data = {1, 2, 3};
-////    print_templetized_array(data);
+////    print_templatized_array(data);
 ////}
 //
 //
-//void print_templetized_array(std::array<int, 20> &data, int size)
+//void print_templatized_array(std::array<int, 20> &data, int size)
 //{
 //    for(int i = 0; i < size; i++)
 //    {
@@ -1524,7 +1531,7 @@ STL Arrays in Practice
 //int main()
 //{
 //    std::array<int, 20> data = {1, 2, 3};
-//    print_templetized_array(data, 3);
+//    print_templatized_array(data, 3);
 //}
 
 
@@ -1535,68 +1542,95 @@ Refactor Guessing Game to Use Templatized Array
 =====================================================
 */
 
+//#include <iostream>
+//#include <string>
+//#include <vector>
+//#include <array>
+//#include <cstdlib>
+//#include <ctime>
+//
+//void print_templatized_array(std::array<int, 251> data, int size)
+//{
+//    for(int i = 0; i < size; i++)
+//    {
+//        std::cout << data[i] << "\t";
+//    }
+//    std::cout << "\n";
+//}
+//
+//void play_game()
+//{
+//    std::array<int, 251> guesses;
+//    int count = 0;
+//
+//    int random = rand() % 251;
+//    std::cout << "The number you have to guess: " << random << "\n";
+//    std::cout << "Guess a number: ";
+//    while(true)
+//    {
+//        int guess;
+//        std::cin >> guess;
+//        guesses[count++] = guess;
+//
+//        if(guess == random)
+//        {
+//            std::cout << "You win!\n";
+//            break;
+//        }
+//        else if(guess < random)
+//        {
+//            std::cout << "Too low\n";
+//        }
+//        else
+//        {
+//            std::cout << "Too high\n";
+//        }
+//    }
+//    print_templatized_array(guesses, count);
+//}
+//
+//int main()
+//{
+//    srand(time(NULL));
+//    int choice;
+//    do
+//    {
+//        std::cout << "0. Quit\n" << "1. Play Game\n";
+//        std::cin>> choice;
+//        switch(choice)
+//        {
+//            case 0:
+//                std::cout << "Thanks for nothing!\n";
+//                return 0;
+//            case 1:
+//                play_game();
+//                break;
+//        }
+//    }while(choice !=  0);
+//}
+
+
+
+/*
+=====================================================
+C style Array vs STL Vector vs STL Array
+=====================================================
+*/
+
+
+
+/*
+=====================================================
+Range Based for Loop
+=====================================================
+*/
+
 #include <iostream>
 #include <string>
 #include <vector>
 #include <array>
-#include <cstdlib>
-#include <ctime>
-
-void print_vector(std::vector<int> data)
-{
-    for(int i = 0; i < data.size(); i++)
-    {
-        std::cout << data[i] << "\t";
-    }
-    std::cout << "\n";
-}
-
-void play_game()
-{
-    std::vector<int> guesses;
-
-    int random = rand() % 251;
-    std::cout << "The number you have to guess: " << random << "\n";
-    std::cout << "Guess a number: ";
-    while(true)
-    {
-        int guess;
-        std::cin >> guess;
-        guesses.push_back(guess);
-
-        if(guess == random)
-        {
-            std::cout << "You win!\n";
-            break;
-        }
-        else if(guess < random)
-        {
-            std::cout << "Too low\n";
-        }
-        else
-        {
-            std::cout << "Too high\n";
-        }
-    }
-    print_vector(guesses);
-}
 
 int main()
 {
-    srand(time(NULL));
-    int choice;
-    do
-    {
-        std::cout << "0. Quit\n" << "1. Play Game\n";
-        std::cin>> choice;
-        switch(choice)
-        {
-            case 0:
-                std::cout << "Thanks for nothing!\n";
-                return 0;
-            case 1:
-                play_game();
-                break;
-        }
-    }while(choice !=  0);
+    std::cout << "Hello\n";
 }
