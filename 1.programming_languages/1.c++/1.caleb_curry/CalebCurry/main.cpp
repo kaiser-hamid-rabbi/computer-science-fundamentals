@@ -1704,7 +1704,60 @@ Writing to Files with ofstream
 
 /* 
 =====================================================
-Writing to Files with ofstream
+Readings from Files with ifstream
+=====================================================
+ */
+
+// #include <iostream>
+// #include <fstream>
+// #include <vector>
+// #include <string>
+
+// int main()
+// {
+//     std::ifstream file ("tacos.txt");
+
+//     if(file.is_open())
+//     {
+//         std::cout << "success!\n";
+//     }
+
+//     // std::vector <std::string> names;
+//     // std::string input;
+//     // while(file >> input) // return file
+//     // {
+//     //     names.push_back(input);
+//     // }
+//     // for(std::string name : names)
+//     // {
+//     //     std::cout << name << "\n";
+//     // }
+
+//     // std::vector <char> names;
+//     // char input;
+//     // while(file >> input) // return file
+//     // {
+//     //     names.push_back(input);
+//     // }
+//     // for(char name : names)
+//     // {
+//     //     std::cout << name << "\n";
+//     // }
+
+//     // char temp = file.get();
+//     // std::cout << temp << "\n";
+//     std::string line;
+//     getline(file, line);
+//     std::cout << line << "\n";
+
+//     file.close();
+// }
+
+
+
+/* 
+=====================================================
+Saving High Scores to File
 =====================================================
  */
 
@@ -1715,28 +1768,5 @@ Writing to Files with ofstream
 
 int main()
 {
-    // std::ofstream file;
-    // file.open("hello.txt");
-    std::string filename;
-    std::cin >> filename;
-
-    std::ofstream file (filename.c_str(), std::ios::app);
-    if(file.is_open())
-    {
-        std::cout << "success!\n";
-    }
-
-    // file << "hey";
-
-    std::vector<std::string> names;
-    names.push_back("Caleb");
-    names.push_back("Amy");
-    names.push_back("Susan");
-
-    for(std::string name : names)
-    {
-        file << name << "\n";
-    }
-
-    file.close();
+    std::cout << "Hello\n";
 }
