@@ -1661,33 +1661,82 @@ Intro to IO Streams
 
 
 
-/*
+/* 
 =====================================================
 Writing to Files with ofstream
 =====================================================
-*/
+ */
+
+// #include <iostream>
+// #include <fstream>
+// #include <vector>
+// #include <string>
+
+// int main()
+// {
+//     // std::ofstream file;
+//     // file.open("hello.txt");
+//     std::string filename;
+//     std::cin >> filename;
+
+//     std::ofstream file (filename.c_str(), std::ios::app);
+//     if(file.is_open())
+//     {
+//         std::cout << "success!\n";
+//     }
+
+//     // file << "hey";
+
+//     std::vector<std::string> names;
+//     names.push_back("Caleb");
+//     names.push_back("Amy");
+//     names.push_back("Susan");
+
+//     for(std::string name : names)
+//     {
+//         file << name << "\n";
+//     }
+
+//     file.close();
+// }
+
+
+
+/* 
+=====================================================
+Writing to Files with ofstream
+=====================================================
+ */
 
 #include <iostream>
-#include <string>
+#include <fstream>
 #include <vector>
-#include <array>
+#include <string>
 
 int main()
 {
-    //int data[] = {1, 2, 3, 4, 5, 6};
-    //std::vector<int> data = {1, 2, 3, 4, 5, 6};
-    std::array<int, 6> data = {1, 2, 3, 4, 5, 6};
+    // std::ofstream file;
+    // file.open("hello.txt");
+    std::string filename;
+    std::cin >> filename;
 
-    // range based for loop
-    for(int n : data)
+    std::ofstream file (filename.c_str(), std::ios::app);
+    if(file.is_open())
     {
-        std::cout << n << "\t";
+        std::cout << "success!\n";
     }
-    std::cout << "\n";
 
-    for(int i = 0; i < 6; i++)
+    // file << "hey";
+
+    std::vector<std::string> names;
+    names.push_back("Caleb");
+    names.push_back("Amy");
+    names.push_back("Susan");
+
+    for(std::string name : names)
     {
-        std::cout << data[i] << "\t";
+        file << name << "\n";
     }
-    std::cout << "\n";
+
+    file.close();
 }
