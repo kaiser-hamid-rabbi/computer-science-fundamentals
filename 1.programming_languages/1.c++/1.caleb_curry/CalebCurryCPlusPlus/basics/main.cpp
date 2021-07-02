@@ -1487,14 +1487,57 @@ Refactor Guessing Game to Use Vectors
 /*
 =====================================================
 STL Array
+STL Arrays in Practice
+=====================================================
+*/
+
+//#include <iostream>
+//#include <string>
+//#include <vector>
+//#include <array>
+//
+////void print_templetized_array(std::array<int, 20> data)
+////{
+////    for(int i = 0; i < data.size(); i++)
+////    {
+////        std::cout << data[i] << "\t";
+////    }
+////    std::cout << "\n";
+////}
+////
+////int main()
+////{
+////    std::array<int, 20> data = {1, 2, 3};
+////    print_templetized_array(data);
+////}
+//
+//
+//void print_templetized_array(std::array<int, 20> &data, int size)
+//{
+//    for(int i = 0; i < size; i++)
+//    {
+//        std::cout << data[i] << "\t";
+//    }
+//    std::cout << "\n";
+//}
+//
+//int main()
+//{
+//    std::array<int, 20> data = {1, 2, 3};
+//    print_templetized_array(data, 3);
+//}
+
+
+
+/*
+=====================================================
+Refactor Guessing Game to Use Templatized Array
 =====================================================
 */
 
 #include <iostream>
 #include <string>
 #include <vector>
+#include <array>
 
-int main()
-{
 
-}
