@@ -466,7 +466,7 @@ String Class and C Strings
 //
 //    char name[] = "Caleb"; // C string == array of characters. Have lots of limitation. Not a good practice!
 //    std::cout << name << "\n";
-//    // name = "tacobell"; // you will get an error because name's memeory assigned for 5 characters
+//    // name = "tacobell"; // you will get an error because name's memory assigned for 5 characters
 //    // name = "t"; // you can't do that either
 //}
 
@@ -1868,93 +1868,150 @@ Refactoring IO to Function Call and Testing
 =====================================================
  */
 
+// #include <iostream>
+// #include <string>
+// #include <cstdlib>
+// #include <ctime>
+// #include <vector>
+// #include <fstream>
+
+// void save_score(int count)
+// {
+//     std::ifstream input("best-score.txt");
+//     if(!input.is_open())
+//     {
+//         std::cout << "Unable to read file!\n";
+//         return;
+//     }
+//     int best_score;
+//     input >> best_score;
+//     std::ofstream output("best-score.txt");
+//     if(!output.is_open())
+//     {
+//         std::cout << "Unable to read file!\n";
+//         return;
+//     }
+//     if(count < best_score)
+//     {
+//         output << count;
+//     }
+//     else
+//     {
+//         output << best_score;
+//     }
+// }
+
+// void print_vector(std::vector<int> data)
+// {
+//    for(int i = 0; i < data.size(); i++)
+//    {
+//        std::cout << data[i] << "\t";
+//    }
+//    std::cout << "\n";
+// }
+
+// void play_game()
+// {
+//    std::vector<int> guesses;
+//    int count = 0;
+
+//    int random = rand() % 251;
+//    std::cout << "The number you have to guess: " << random << "\n";
+//    std::cout << "Guess a number: ";
+//    while(true)
+//    {
+//        int guess;
+//        std::cin >> guess;
+//        count++;
+//        guesses.push_back(guess);
+
+//        if(guess == random)
+//        {
+//            std::cout << "You win!\n";
+//            break;
+//        }
+//        else if(guess < random)
+//        {
+//            std::cout << "Too low\n";
+//        }
+//        else
+//        {
+//            std::cout << "Too high\n";
+//        }
+//    }
+//    save_score(count);
+//    print_vector(guesses);
+// }
+
+// int main()
+// {
+//    srand(time(NULL));
+//    int choice;
+//    do
+//    {
+//        std::cout << "0. Quit\n" << "1. Play Game\n";
+//        std::cin>> choice;
+//        switch(choice)
+//        {
+//            case 0:
+//                std::cout << "Thanks for nothing!\n";
+//                return 0;
+//            case 1:
+//                play_game();
+//                break;
+//        }
+//    }while(choice !=  0);
+// }
+
+
+
+/* 
+=====================================================
+Multidimensional Arrays and Nested Vectors
+=====================================================
+ */
+
+// #include <iostream>
+// #include <vector>
+
+// int main()
+// {
+//     int grades_array[][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    
+//     for(int r = 0; r < 3; r++)
+//     {
+//         for(int c = 0; c < 3; c++)
+//         {
+//             std::cout << grades_array[r][c] << "\t";
+//         }
+//         std::cout << "\n";
+//     }
+
+
+//     std::vector<std::vector<int>> grades_vector = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    
+//     for(int r = 0; r < 3; r++)
+//     {
+//         for(int c = 0; c < 3; c++)
+//         {
+//             std::cout << grades_vector[r][c] << "\t";
+//         }
+//         std::cout << "\n";
+//     }
+// }
+
+
+
+/* 
+=====================================================
+Const Modifier
+=====================================================
+ */
+
 #include <iostream>
-#include <string>
-#include <cstdlib>
-#include <ctime>
 #include <vector>
-#include <fstream>
-
-void print_vector(std::vector<int> data)
-{
-   for(int i = 0; i < data.size(); i++)
-   {
-       std::cout << data[i] << "\t";
-   }
-   std::cout << "\n";
-}
-
-void play_game()
-{
-   std::vector<int> guesses;
-   int count = 0;
-
-   int random = rand() % 251;
-   std::cout << "The number you have to guess: " << random << "\n";
-   std::cout << "Guess a number: ";
-   while(true)
-   {
-       int guess;
-       std::cin >> guess;
-       count++;
-       guesses.push_back(guess);
-
-       if(guess == random)
-       {
-           std::cout << "You win!\n";
-           break;
-       }
-       else if(guess < random)
-       {
-           std::cout << "Too low\n";
-       }
-       else
-       {
-           std::cout << "Too high\n";
-       }
-   }
-   std::ifstream input("best-score.txt");
-   if(!input.is_open())
-   {
-       std::cout << "Unable to read file!\n";
-       return;
-   }
-   int best_score;
-   input >> best_score;
-   std::ofstream output("best-score.txt");
-   if(!output.is_open())
-   {
-       std::cout << "Unable to read file!\n";
-       return;
-   }
-   if(count < best_score)
-   {
-       output << count;
-   }
-   else
-   {
-       output << best_score;
-   }
-
-   print_vector(guesses);
-}
 
 int main()
 {
-   srand(time(NULL));
-   int choice;
-   do
-   {
-       std::cout << "0. Quit\n" << "1. Play Game\n";
-       std::cin>> choice;
-       switch(choice)
-       {
-           case 0:
-               std::cout << "Thanks for nothing!\n";
-               return 0;
-           case 1:
-               play_game();
-               break;
-       }
-   }while(choice !=  0);
+    std::cout << "Hello!\n";
 }
