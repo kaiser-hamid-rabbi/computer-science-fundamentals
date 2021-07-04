@@ -2148,13 +2148,13 @@ Function Overloading Examples - 2
 //     double width;
 // };
 
-// double area(double length, double width)
+// double area(double length, double width) // rectangle
 // {
 //     return length * width;
 // }
 
 // // Function Overloading for Square
-// double area(double length)
+// double area(double length) // square
 // {
 //     return length * length;
 // }
@@ -2183,37 +2183,58 @@ Default Arguments
 =====================================================
  */
 
+// #include <iostream>
+
+// // double pow(double base, int exponent)
+// // {
+// //     int total = 1;
+// //     for(int i = 0; i < exponent; i++)
+// //     {
+// //         total *= base;
+// //     }
+// //     return total;
+// // }
+
+// // double pow(double base)
+// // {
+// //     return base * base;
+// // }
+
+// // int main()
+// // {
+// //     std::cout << pow(3, 3) << "\n";
+// //     std::cout << pow(3) << "\n";
+// // }
+
+// // better solution then above with default argument for function overloading
+// // you should minimize overloading by using default arguments if it's possible
+// double pow(double base, int exponent = 2) // default argument exponent
+// {
+//     int total = 1;
+//     for(int i = 0; i < exponent; i++)
+//     {
+//         total *= base;
+//     }
+//     return total;
+// }
+
+// int main()
+// {
+//     std::cout << pow(3, 3) << "\n";
+//     std::cout << pow(3) << "\n";
+// }
+
+
+
+/* 
+=====================================================
+Multifile Compilation
+=====================================================
+ */
+
 #include <iostream>
-
-struct Rectangle
-{
-    double length;
-    double width;
-};
-
-double area(double length, double width)
-{
-    return length * width;
-}
-
-// Function Overloading for Square
-double area(double length)
-{
-    return length * length;
-}
-
-// another function overloading with custom type data with struct
-double area(Rectangle rectangle)
-{
-    return rectangle.length * rectangle.width;
-}
 
 int main()
 {
-    Rectangle rectangle;
-    rectangle.length = 10;
-    rectangle.width = 15;
-    std::cout<< "Area of a Rectangle: " << area(rectangle.length, rectangle. width) << "\n";
-    std::cout<< "Area of a Square: " << area(rectangle.length) << "\n";
-    std::cout<< "Area of a custom Rectangle type : " << area(rectangle) << "\n";
+    std::cout << "Hello...\n";
 }
