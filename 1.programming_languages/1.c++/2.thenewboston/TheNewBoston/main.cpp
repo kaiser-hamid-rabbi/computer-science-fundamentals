@@ -53,7 +53,7 @@ Variables
 
 // int main()
 // {
-//    int tuna = 6;
+//    int tuna = 6; // variable is like a placeholder
 //    cout << "tuna: " << tuna << endl;
 
 //    int a = 4;
@@ -116,24 +116,67 @@ Basic Arithmetic
 =====================================================
 */
 
+// #include <iostream>
+
+// using namespace std;
+
+// int main()
+// {
+//    int x = 4 + 6;
+//    cout << "x: " << x << endl;
+//    int y = 4 * 6;
+//    cout << "y: " << y << endl;
+//    int z = 10 / 4;
+//    cout << "z: " << z << endl;
+//    int a = 24 % 7;
+//    cout << "a: " << a << endl;
+//    int b = 6 * 4 + 8 * 4 + 9 / 20; // (6 * 4) + (8 * 4) + (9 / 20)
+//    cout << "b: " << b << endl;
+//    int c = 4 + 3 * 7;
+//    cout << "c: " << c << endl;
+//    int d = (4 + 3) * 7;
+//    cout << "d: " << d << endl;
+// }
+
+
+
+/*
+=====================================================
+If
+=====================================================
+*/
+
+// #include <iostream>
+
+// using namespace std;
+
+// int main()
+// {
+//    int a = 98;
+//    int b = 76;
+//    if(5 < 3) // [<, >, <=, >=, ==, !=]
+//    {
+//       cout << "Bucky is AWESOME!!!\n";
+//    }
+//    if(a > b) // [<, >, <=, >=, ==, !=]
+//    {
+//       cout << "Bucky is AWESOME!!!\n";
+//    }
+// }
+
+
+
+/*
+=====================================================
+Function
+=====================================================
+*/
+
 #include <iostream>
 
 using namespace std;
 
 int main()
 {
-   int x = 4 + 6;
-   cout << "x: " << x << endl;
-   int y = 4 * 6;
-   cout << "y: " << y << endl;
-   int z = 10 / 4;
-   cout << "z: " << z << endl;
-   int a = 24 % 7;
-   cout << "a: " << a << endl;
-   int b = 6 * 4 + 8 * 4 + 9 / 20; // (6 * 4) + (8 * 4) + (9 / 20)
-   cout << "b: " << b << endl;
-   int c = 4 + 3 * 7;
-   cout << "c: " << c << endl;
-   int d = (4 + 3) * 7;
-   cout << "d: " << d << endl;
+   cout << "Hello Rabbi!" << endl;
 }
