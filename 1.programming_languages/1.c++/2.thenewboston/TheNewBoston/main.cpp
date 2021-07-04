@@ -11,15 +11,29 @@
 
 /*
 =====================================================
-First "Hello World" program with cout(printf in C)
+Intro
+Installing g++
+C++ Concepts
+More C++ Concepts
+=====================================================
+*/
+
+
+
+/*
+=====================================================
+Installing CodeBlocks
+Simple C++ Program
 =====================================================
 */
 
 #include <iostream>
 
+using namespace std;
+
 int main() //main function
 {
-   std::cout << "Hello, World Rabbi!\n";
-   std::cout << "Hello, World Rabbi!" << "\n";
-   std::cout << "Hello, World Rabbi!" << std::endl;
+   cout << "Hello, World Rabbi!\n";
+   cout << "Hello, World Rabbi!" << "\n";
+   cout << "Hello, World Rabbi!" << endl;
 }
