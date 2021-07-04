@@ -2024,6 +2024,7 @@ Const Modifier
 
 // void do_something(const int data[])
 // {
+//     std::cout << "References/Pointer of data: " << data << "\n"; // if you pass array to a function, then it pass the reference, not value
 //     std::cout << "Type of data: " << typeid(data).name() << "\n"; // PKi means Public Key Infrastructure
 // }
 // void print_array(const int data[], const int size)
@@ -2053,10 +2054,46 @@ Pass by Reference and Pass By Value
 =====================================================
  */
 
+
+
+/* 
+=====================================================
+Swap Function with Pass by Reference
+=====================================================
+ */
+
+// #include <iostream>
+// #include <vector>
+
+// // void swap(int a, int b) // pass by value
+// void swap(int &a, int &b) // pass by reference
+// {
+//     int temp = a;
+//     a = b;
+//     b = temp;
+//     std::cout << "a: " << a << "\tb: " << b << "\n";
+// }
+
+// int main()
+// {
+//     int a = 10;
+//     int b = 20;
+//     swap(a, b);
+//     std::cout << "a: " << a << "\tb: " << b << "\n";
+// }
+
+
+
+/* 
+=====================================================
+Swap Function with Pass by Reference
+=====================================================
+ */
+
 #include <iostream>
 #include <vector>
 
 int main()
 {
-    std::cout << "Hello\n";
+    std::cout << "Hello!\n";
 }
