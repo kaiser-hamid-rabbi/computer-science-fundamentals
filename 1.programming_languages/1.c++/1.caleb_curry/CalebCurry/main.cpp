@@ -2008,10 +2008,55 @@ Const Modifier
 =====================================================
  */
 
+// #include <iostream>
+// #include <vector>
+// #include <typeinfo>
+
+// // void print_array(int data[], int size)
+// // {
+// //     for(int i = 0; i < size; i++)
+// //     {
+// //         data[i]++;
+// //         std::cout << data[i] << "\t";
+// //     }
+// //     std::cout << "\n";
+// // }
+
+// void do_something(const int data[])
+// {
+//     std::cout << "Type of data: " << typeid(data).name() << "\n"; // PKi means Public Key Infrastructure
+// }
+// void print_array(const int data[], const int size)
+// {
+//     for(int i = 0; i < size; i++)
+//     {
+//         // data[i]++; // you will get an error here because data is a const interger array
+//         // size++; // you will get an error here because size is a const interger
+//         std::cout << data[i] << "\t";
+//     }
+//     std::cout << "\n";
+//     do_something(data); // you will get an error as well if you don't declare data as const in do_something function parameter, because it could potentially change the const data value
+// }
+
+// int main()
+// {
+//     int data[] = {1, 2, 3};
+//     print_array(data, 3);
+//     std::cout << data[0] << "\n";
+// }
+
+
+
+/* 
+=====================================================
+Pass by Reference and Pass By Value
+=====================================================
+ */
+
 #include <iostream>
 #include <vector>
 
 int main()
 {
-    std::cout << "Hello!\n";
+    std::cout << "Hello\n";
 }
