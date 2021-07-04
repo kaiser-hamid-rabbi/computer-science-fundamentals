@@ -2094,14 +2094,126 @@ Intro to Function Overloading
 
 /* 
 =====================================================
-Function Overloading Examples
+Function Overloading Examples - 1
+=====================================================
+ */
+
+// #include <iostream>
+// #include <vector>
+// #include<string>
+
+// void swap(int &a, int &b) // pass by reference
+// {
+//     int temp = a;
+//     a = b;
+//     b = temp;
+//     std::cout << "a: " << a << "\tb: " << b << "\n";
+// }
+
+// // Function Overloading(Same function name but different parameters)
+// void swap(std::string &a, std::string &b) // pass by reference
+// {
+//     std::string temp = a;
+//     a = b;
+//     b = temp;
+//     std::cout << "First Name: " << a << "\tLast Name: " << b << "\n";
+// }
+
+// int main()
+// {
+//     int a = 10;
+//     int b = 20;
+//     swap(a, b);
+//     std::cout << "a: " << a << "\tb: " << b << "\n";
+
+//     std::string first_name = "Kaiser Hamid";
+//     std::string last_name = "Rabbi";
+//     swap(first_name, last_name);
+//     std::cout << "First Name: " << first_name << "\tLast Name: " << last_name << "\n";
+// }
+
+
+
+/* 
+=====================================================
+Function Overloading Examples - 2
+=====================================================
+ */
+
+// #include <iostream>
+
+// struct Rectangle
+// {
+//     double length;
+//     double width;
+// };
+
+// double area(double length, double width)
+// {
+//     return length * width;
+// }
+
+// // Function Overloading for Square
+// double area(double length)
+// {
+//     return length * length;
+// }
+
+// // another function overloading with custom type data with struct
+// double area(Rectangle rectangle)
+// {
+//     return rectangle.length * rectangle.width;
+// }
+
+// int main()
+// {
+//     Rectangle rectangle;
+//     rectangle.length = 10;
+//     rectangle.width = 15;
+//     std::cout<< "Area of a Rectangle: " << area(rectangle.length, rectangle. width) << "\n";
+//     std::cout<< "Area of a Square: " << area(rectangle.length) << "\n";
+//     std::cout<< "Area of a custom Rectangle type : " << area(rectangle) << "\n";
+// }
+
+
+
+/* 
+=====================================================
+Default Arguments
 =====================================================
  */
 
 #include <iostream>
-#include <vector>
+
+struct Rectangle
+{
+    double length;
+    double width;
+};
+
+double area(double length, double width)
+{
+    return length * width;
+}
+
+// Function Overloading for Square
+double area(double length)
+{
+    return length * length;
+}
+
+// another function overloading with custom type data with struct
+double area(Rectangle rectangle)
+{
+    return rectangle.length * rectangle.width;
+}
 
 int main()
 {
-    std::cout << "Hello!\n";
+    Rectangle rectangle;
+    rectangle.length = 10;
+    rectangle.width = 15;
+    std::cout<< "Area of a Rectangle: " << area(rectangle.length, rectangle. width) << "\n";
+    std::cout<< "Area of a Square: " << area(rectangle.length) << "\n";
+    std::cout<< "Area of a custom Rectangle type : " << area(rectangle) << "\n";
 }
