@@ -2240,7 +2240,31 @@ Multifile Compilation
 =====================================================
  */
 
+/* 
 
+1. header file => declarations => .h => can be more than one file
+2. implementation file => definitions => .cpp => can be more than one file
+3. main file => calling => .cpp => one file only
+
+// add header file in both cpp files
+#include "file.h"
+
+// Pre-processor Directive
+#ifndef FILE_H
+#define FILE_H
+...
+#endif
+
+// For Open Source Projects
+$ g++ file1.cpp file2.cpp // compile multiple .cpp files
+$ ./a.out // run program
+
+// For Private Projects
+$ g++ -c file1.cpp file2.cpp // it will generate object(.o) files
+$ g++ -c file1.o file2.o // compile multiple .o files
+$ ./a.out // run program
+
+ */
 
 /* 
 =====================================================
