@@ -738,34 +738,7 @@ Class Across Files
 
 #include <iostream>
 #include <string>
-
-class User
-{
-    std::string status = "Gold";   
-    public:
-        std::string first_name;
-        std::string last_name;
-        friend std::ostream& operator << (std::ostream &output, const User user);
-        friend std::istream& operator >> (std::istream &input, User &user);
-};
-
-std::ostream& operator << (std::ostream &output, const User user)
-{
-    output << "First Name: " << user.first_name << "\tLast Name: " << user.last_name << "\tStatus: " << user.status << "\n";
-    return output;
-}
-
-// This operator overloading works for only public data members
-std::istream& operator >> (std::istream &input, User &user)
-{
-    std::cout << "Enter First Name: ";
-    input >> user.first_name;
-    std::cout << "Enter Last Name: ";
-    input >> user.last_name;
-    std::cout << "Enter Status: ";
-    input >> user.status;
-    return input;
-}
+#include "user.h"
 
 int main()
 {
