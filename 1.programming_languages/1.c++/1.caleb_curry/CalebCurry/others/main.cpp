@@ -2503,7 +2503,7 @@ Creating a Struct
 
 int main()
 {
-    
+    std::cout << "hello...\n";
 }
 
 
