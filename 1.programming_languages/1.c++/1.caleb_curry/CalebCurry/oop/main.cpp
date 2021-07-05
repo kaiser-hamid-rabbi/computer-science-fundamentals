@@ -244,45 +244,294 @@ Encapsulation
 =====================================================
 */
 
+
+
+/* 
+=====================================================
+Getters and Setters
+=====================================================
+*/
+
+// #include <iostream>
+// #include <string>
+
+// class User
+// {
+//     std::string first_name;
+//     std::string last_name;
+//     std::string status;
+
+//     public:
+//         std::string get_first_name() // getters
+//         {
+//             return first_name;
+//         }
+//         void set_first_name(std::string first_name) // setters
+//         {
+//             this -> first_name = first_name;      
+//         }
+
+//         std::string get_last_name() // getters
+//         {
+//             return last_name;
+//         }
+//         void set_last_name(std::string last_name) // setters
+//         {
+//             this -> last_name = last_name;      
+//         }
+
+//         std::string get_status() // getters
+//         {
+//             return status;
+//         }
+//         void set_status(std::string status) // setters
+//         {
+//             // you can set constraints/conditions in setter for better data manipulation
+//             if(status == "Gold" || status == "Silver" || status == "Bronze")
+//             {
+//                 this -> status = status;
+//             }
+//             else
+//             {
+//                 this -> status = "No status!";
+//             }
+//         }
+// };
+
+// int main()
+// {
+//     User user1, user2, user3, user4;
+
+//     user1.set_first_name("Kaiser Hamid");
+//     user1.set_last_name("Rabbi");
+//     user1.set_status("Gold");
+
+//     user2.set_first_name("Caleb");
+//     user2.set_last_name("Curry");
+//     user2.set_status("Silver");
+
+//     user3.set_first_name("Corey");
+//     user3.set_last_name("Schefer");
+//     user3.set_status("Bronze");
+
+//     user4.set_first_name("Kirill");
+//     user4.set_last_name("Eremenko");
+//     user4.set_status("Premium");
+
+//     std::cout << "First Name: " << user1.get_first_name() << "\t" << "Last Name: " << user1.get_last_name() << "\t" << "Status: " << user1.get_status() << "\n";
+//     std::cout << "First Name: " << user2.get_first_name() << "\t" << "Last Name: " << user2.get_last_name() << "\t" << "Status: " << user2.get_status() << "\n";
+//     std::cout << "First Name: " << user3.get_first_name() << "\t" << "Last Name: " << user3.get_last_name() << "\t" << "Status: " << user3.get_status() << "\n";
+//     std::cout << "First Name: " << user4.get_first_name() << "\t" << "Last Name: " << user4.get_last_name() << "\t" << "Status: " << user4.get_status() << "\n";
+// }
+
+
+
+/* 
+=====================================================
+Static Data Members
+=====================================================
+*/
+
+// #include <iostream>
+// #include <string>
+
+// class User
+// {
+//     static int user_count; // static variable, can't assign value here, you've to assign value outside the class
+//     std::string first_name;
+//     std::string last_name;
+//     std::string status;
+
+//     public:
+//         static int get_user_count() // static function
+//         {
+//             return user_count;
+//         }
+//         User()
+//         {
+//             user_count++;
+//         }
+//         ~User()
+//         {
+//             user_count--;
+//         }
+
+//         std::string get_first_name() // getters
+//         {
+//             return first_name;
+//         }
+//         void set_first_name(std::string first_name) // setters
+//         {
+//             this -> first_name = first_name;      
+//         }
+
+//         std::string get_last_name() // getters
+//         {
+//             return last_name;
+//         }
+//         void set_last_name(std::string last_name) // setters
+//         {
+//             this -> last_name = last_name;      
+//         }
+
+//         std::string get_status() // getters
+//         {
+//             return status;
+//         }
+//         void set_status(std::string status) // setters
+//         {
+//             // you can set constraints/conditions in setter for better data manipulation
+//             if(status == "Gold" || status == "Silver" || status == "Bronze")
+//             {
+//                 this -> status = status;
+//             }
+//             else
+//             {
+//                 this -> status = "No status!";
+//             }
+//         }
+// };
+
+// int User::user_count = 0;
+
+// int main()
+// {
+//     User user1, user2, user3, user4;
+
+//     user1.set_first_name("Kaiser Hamid");
+//     user1.set_last_name("Rabbi");
+//     user1.set_status("Gold");
+
+//     user2.set_first_name("Caleb");
+//     user2.set_last_name("Curry");
+//     user2.set_status("Silver");
+
+//     user3.set_first_name("Corey");
+//     user3.set_last_name("Schefer");
+//     user3.set_status("Bronze");
+
+//     user4.set_first_name("Kirill");
+//     user4.set_last_name("Eremenko");
+//     user4.set_status("Premium");
+
+//     std::cout << "First Name: " << user1.get_first_name() << "\t" << "Last Name: " << user1.get_last_name() << "\t" << "Status: " << user1.get_status() << "\n";
+//     std::cout << "First Name: " << user2.get_first_name() << "\t" << "Last Name: " << user2.get_last_name() << "\t" << "Status: " << user2.get_status() << "\n";
+//     std::cout << "First Name: " << user3.get_first_name() << "\t" << "Last Name: " << user3.get_last_name() << "\t" << "Status: " << user3.get_status() << "\n";
+//     std::cout << "First Name: " << user4.get_first_name() << "\t" << "Last Name: " << user4.get_last_name() << "\t" << "Status: " << user4.get_status() << "\n";
+
+//     std::cout << "Total number of users: " << User::get_user_count() << "\n";
+//     user1.~User();
+//     std::cout << "Total number of users: " << User::get_user_count() << "\n";
+//     user2.~User();
+//     std::cout << "Total number of users: " << User::get_user_count() << "\n";
+//     user3.~User();
+//     std::cout << "Total number of users: " << User::get_user_count() << "\n";
+//     user4.~User();
+//     std::cout << "Total number of users: " << User::get_user_count() << "\n";
+// }
+
+
+
+/* 
+=====================================================
+Intro to Operator Overloading
+=====================================================
+*/
+
 #include <iostream>
 #include <string>
-#include <vector>
 
 class User
 {
-    std::string status = "Gold";
+    static int user_count; // static variable, can't assign value here, you've to assign value outside the class
+    std::string first_name;
+    std::string last_name;
+    std::string status;
+
     public:
-        std::string first_name;
-        std::string last_name;
-        std::string get_status()
+        static int get_user_count() // static function
         {
-            return status;
+            return user_count;
         }
-        User() // default constructor
+        User()
         {
-            std::cout << "Constructor!\n";
-        }
-        User(std::string first_name, std::string last_name, std::string status) // constructor with parameters
-        {
-            this -> first_name = first_name;
-            this -> last_name = last_name;
-            this -> status = status;
+            user_count++;
         }
         ~User()
         {
-            std::cout << "Destructor!\n";
+            user_count--;
+        }
+
+        std::string get_first_name() // getters
+        {
+            return first_name;
+        }
+        void set_first_name(std::string first_name) // setters
+        {
+            this -> first_name = first_name;      
+        }
+
+        std::string get_last_name() // getters
+        {
+            return last_name;
+        }
+        void set_last_name(std::string last_name) // setters
+        {
+            this -> last_name = last_name;      
+        }
+
+        std::string get_status() // getters
+        {
+            return status;
+        }
+        void set_status(std::string status) // setters
+        {
+            // you can set constraints/conditions in setter for better data manipulation
+            if(status == "Gold" || status == "Silver" || status == "Bronze")
+            {
+                this -> status = status;
+            }
+            else
+            {
+                this -> status = "No status!";
+            }
         }
 };
 
+int User::user_count = 0;
+
 int main()
 {
-    User user1;
-    std::cout << "First Name: " << user1.first_name << "\n";
-    std::cout << "Last Name: " << user1.last_name << "\n";
-    
-    User user2("Caleb", "Curry", "Silver");
-    std::cout << "First Name: " << user2.first_name << "\n";
-    std::cout << "Last Name: " << user2.last_name << "\n";
-    // user.status; // you will get an error because status is private member variable
-    std::cout << "Status: " << user2.get_status() << "\n";
+    User user1, user2, user3, user4;
+
+    user1.set_first_name("Kaiser Hamid");
+    user1.set_last_name("Rabbi");
+    user1.set_status("Gold");
+
+    user2.set_first_name("Caleb");
+    user2.set_last_name("Curry");
+    user2.set_status("Silver");
+
+    user3.set_first_name("Corey");
+    user3.set_last_name("Schefer");
+    user3.set_status("Bronze");
+
+    user4.set_first_name("Kirill");
+    user4.set_last_name("Eremenko");
+    user4.set_status("Premium");
+
+    std::cout << "First Name: " << user1.get_first_name() << "\t" << "Last Name: " << user1.get_last_name() << "\t" << "Status: " << user1.get_status() << "\n";
+    std::cout << "First Name: " << user2.get_first_name() << "\t" << "Last Name: " << user2.get_last_name() << "\t" << "Status: " << user2.get_status() << "\n";
+    std::cout << "First Name: " << user3.get_first_name() << "\t" << "Last Name: " << user3.get_last_name() << "\t" << "Status: " << user3.get_status() << "\n";
+    std::cout << "First Name: " << user4.get_first_name() << "\t" << "Last Name: " << user4.get_last_name() << "\t" << "Status: " << user4.get_status() << "\n";
+
+    std::cout << "Total number of users: " << User::get_user_count() << "\n";
+    user1.~User();
+    std::cout << "Total number of users: " << User::get_user_count() << "\n";
+    user2.~User();
+    std::cout << "Total number of users: " << User::get_user_count() << "\n";
+    user3.~User();
+    std::cout << "Total number of users: " << User::get_user_count() << "\n";
+    user4.~User();
+    std::cout << "Total number of users: " << User::get_user_count() << "\n";
 }
