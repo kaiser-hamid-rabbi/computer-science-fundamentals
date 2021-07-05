@@ -60,7 +60,7 @@ taking input from the user
 //{
 //    int slices = 5; //declaration + initialization
 //    int a; // declaration
-//    a = 10 + 2; //initializaion
+//    a = 10 + 2; //initialization
 //    int b = slices; // assign one variable to another variable
 //
 //    std::cout << "slices: " << slices << ", a: " << a << ", b: " << b << "\n";
@@ -217,8 +217,8 @@ Integral Data Types, sizeof, limit
 //{
 ///*
 //Integral Data Types:
-//int x = 99999999999999999999999999999999; // warning: integer constant is too large for its type + warning: overflow in conversion from '__int128' to 'int' changes value from '9632337040368467967' to '-1' [-Woverflow]
-//int x = 999999999999; // warning: overflow in conversion from 'long int' to 'int' changes value from '999999999999' to '-727379969' [-Woverflow]
+//int x = 99999999999999999999999999999999; // warning: integer constant is too large for its type + warning: overflow in conversion from '__int128' to 'int' changes value from '9632337040368467967' to '-1' [-overflow]
+//int x = 999999999999; // warning: overflow in conversion from 'long int' to 'int' changes value from '999999999999' to '-727379969' [-overflow]
 //*/
 //    short a;
 //    int b;
@@ -931,7 +931,7 @@ Do While Loop
 //    //    std::cin >> guess;
 //    //} while(guess != password);
 //
-//    // mimic the function of dowhile loop with while loop - way 2
+//    // mimic the function of do-while loop with while loop - way 2
 //    std::string password = "hellotacos123";
 //    std::string guess;
 //    std::cout << "Guess the password:\t";
@@ -2310,3 +2310,62 @@ Creating a Namespace
 =====================================================
  */
 
+// // Also implemented this concept in folder "multifile-compilation" => makefile, math_stuff.cpp, math_utils.cpp, math_utils.h with "utilz" namespace
+// #include <iostream>
+// #include <vector>
+
+// namespace utilz
+// {
+//     void print_array(const int data[], int size)
+//     {
+//         for(int i = 0; i < size; i++)
+//         {
+//             std::cout << data[i] << "\t";
+//         }
+//         std::cout << "\n";
+//     }
+// }
+
+// using namespace utilz;
+
+// int main()
+// {
+//     int data[] = {1, 2, 3};
+//     // utilz::print_array(data, 3); // best practice
+//     print_array(data, 3); // Bad practice with "using namespace", you increase the risk of conflicts
+//     std::cout << data[0] << "\n";
+// }
+
+
+
+/* 
+=====================================================
+Intro to Function Templates
+=====================================================
+ */
+
+// Also implemented this concept in folder "multifile-compilation" => makefile, math_stuff.cpp, math_utils.cpp, math_utils.h with "utilz" namespace
+#include <iostream>
+#include <vector>
+
+namespace utilz
+{
+    void print_array(const int data[], int size)
+    {
+        for(int i = 0; i < size; i++)
+        {
+            std::cout << data[i] << "\t";
+        }
+        std::cout << "\n";
+    }
+}
+
+using namespace utilz;
+
+int main()
+{
+    int data[] = {1, 2, 3};
+    // utilz::print_array(data, 3); // best practice
+    print_array(data, 3); // Bad practice with "using namespace", you increase the risk of conflicts
+    std::cout << data[0] << "\n";
+}
