@@ -2286,3 +2286,19 @@ Creating a Simple Makefile
 =====================================================
  */
 
+// In folder "multifile-compilation" => makefile, math_stuff.cpp, math_utils.cpp, math_utils.h
+
+// commands to execute makefile:
+// $ make
+// $ ./math
+// $ make clean
+// $ ./math
+
+
+
+/* 
+=====================================================
+Creating a Simple Makefile
+=====================================================
+ */
+
