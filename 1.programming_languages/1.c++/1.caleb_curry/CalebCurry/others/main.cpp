@@ -2352,9 +2352,96 @@ Creating a Function Template
 =====================================================
  */
 
+// #include <iostream>
+// #include <vector>
+// #include<string>
+
+// template <typename T>
+
+// void swap(T &a, T &b) // Function templates => Generic programming
+// {
+//     T temp = a;
+//     a = b;
+//     b = temp;
+// }
+
+// // void swap(int &a, int &b) // pass by reference
+// // {
+// //     int temp = a;
+// //     a = b;
+// //     b = temp;
+// //     std::cout << "a: " << a << "\tb: " << b << "\n";
+// // }
+
+// // // Function Overloading(Same function name but different parameters)
+// // void swap(std::string &a, std::string &b) // pass by reference
+// // {
+// //     std::string temp = a;
+// //     a = b;
+// //     b = temp;
+// //     std::cout << "First Name: " << a << "\tLast Name: " << b << "\n";
+// // }
+
+// int main()
+// {
+//     int a = 10;
+//     int b = 20;
+//     swap(a, b);
+//     std::cout << "a: " << a << "\tb: " << b << "\n";
+
+//     std::string first_name = "Kaiser Hamid";
+//     std::string last_name = "Rabbi";
+//     swap(first_name, last_name);
+//     std::cout << "First Name: " << first_name << "\tLast Name: " << last_name << "\n";
+// }
+
+
+
+/* 
+=====================================================
+Overloading Function Templates
+=====================================================
+ */
+
 #include <iostream>
+#include <vector>
+#include<string>
+
+template <typename T>
+
+void swap(T &a, T &b) // Function templates => Generic programming
+{
+    T temp = a;
+    a = b;
+    b = temp;
+}
+
+// void swap(int &a, int &b) // pass by reference
+// {
+//     int temp = a;
+//     a = b;
+//     b = temp;
+//     std::cout << "a: " << a << "\tb: " << b << "\n";
+// }
+
+// // Function Overloading(Same function name but different parameters)
+// void swap(std::string &a, std::string &b) // pass by reference
+// {
+//     std::string temp = a;
+//     a = b;
+//     b = temp;
+//     std::cout << "First Name: " << a << "\tLast Name: " << b << "\n";
+// }
 
 int main()
 {
-    std::cout << "Hello...\n";
+    int a = 10;
+    int b = 20;
+    swap(a, b);
+    std::cout << "a: " << a << "\tb: " << b << "\n";
+
+    std::string first_name = "Kaiser Hamid";
+    std::string last_name = "Rabbi";
+    swap(first_name, last_name);
+    std::cout << "First Name: " << first_name << "\tLast Name: " << last_name << "\n";
 }
