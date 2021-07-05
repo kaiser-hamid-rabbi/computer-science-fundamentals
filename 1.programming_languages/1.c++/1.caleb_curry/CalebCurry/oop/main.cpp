@@ -599,7 +599,7 @@ Overloading Insert and Extraction Operators - 2
 //         std::string status;
 // };
 
-// std::ostream& operator << (std::ostream &output, User &user)
+// std::ostream& operator << (std::ostream &output, const User user)
 // {
 //     output << "First Name: " << user.first_name << "\tLast Name: " << user.last_name << "\tStatus: " << user.status << "\n";
 //     return output;
@@ -630,7 +630,109 @@ Overloading Insert and Extraction Operators - 2
 
 /* 
 =====================================================
-Friend Functions and Operator Overloading
+Friend Functions and Operator Overloading - 1
+=====================================================
+*/
+
+// #include <iostream>
+// #include <string>
+
+// class User
+// {
+//     std::string status = "Gold";   
+//     public:
+//         std::string first_name;
+//         std::string last_name;
+//         friend void output_status(User user);
+// };
+
+// void output_status(User user)
+// {
+//     std::cout << user.status;
+// }
+
+// std::ostream& operator << (std::ostream &output, const User user)
+// {
+//     output << "First Name: " << user.first_name << "\tLast Name: " << user.last_name << "\n";
+//     return output;
+// }
+
+// // This operator overloading works for only public data members
+// std::istream& operator >> (std::istream &input, User &user)
+// {
+//     std::cout << "Enter First Name: ";
+//     input >> user.first_name;
+//     std::cout << "Enter Last Name: ";
+//     input >> user.last_name;
+//     return input;
+// }
+
+// int main()
+// {
+//     User user;
+//     std::cout << user;
+//     std::cin >> user;
+//     std::cout << "After Extraction Operators overloading... \n";
+//     std::cout << user;
+
+//     // std::cout << user.status << "\n"; // you will get an error because status is private
+//     output_status(user);
+//     std::cout << "\n";
+// }
+
+
+
+/* 
+=====================================================
+Friend Functions and Operator Overloading - 2
+=====================================================
+*/
+
+// #include <iostream>
+// #include <string>
+
+// class User
+// {
+//     std::string status = "Gold";   
+//     public:
+//         std::string first_name;
+//         std::string last_name;
+//         friend std::ostream& operator << (std::ostream &output, const User user);
+//         friend std::istream& operator >> (std::istream &input, User &user);
+// };
+
+// std::ostream& operator << (std::ostream &output, const User user)
+// {
+//     output << "First Name: " << user.first_name << "\tLast Name: " << user.last_name << "\tStatus: " << user.status << "\n";
+//     return output;
+// }
+
+// // This operator overloading works for only public data members
+// std::istream& operator >> (std::istream &input, User &user)
+// {
+//     std::cout << "Enter First Name: ";
+//     input >> user.first_name;
+//     std::cout << "Enter Last Name: ";
+//     input >> user.last_name;
+//     std::cout << "Enter Status: ";
+//     input >> user.status;
+//     return input;
+// }
+
+// int main()
+// {
+//     User user;
+//     std::cout << user;
+//     std::cin >> user;
+//     std::cout << "After Extraction Operators overloading... \n";
+//     std::cout << user;
+// }
+
+
+
+/* 
+=====================================================
+Class Across Files
 =====================================================
 */
 
@@ -638,20 +740,22 @@ Friend Functions and Operator Overloading
 #include <string>
 
 class User
-{   
+{
+    std::string status = "Gold";   
     public:
         std::string first_name;
         std::string last_name;
-        std::string status;
+        friend std::ostream& operator << (std::ostream &output, const User user);
+        friend std::istream& operator >> (std::istream &input, User &user);
 };
 
-std::ostream& operator << (std::ostream &output, User &user)
+std::ostream& operator << (std::ostream &output, const User user)
 {
     output << "First Name: " << user.first_name << "\tLast Name: " << user.last_name << "\tStatus: " << user.status << "\n";
     return output;
 }
 
-// it work for only public data members
+// This operator overloading works for only public data members
 std::istream& operator >> (std::istream &input, User &user)
 {
     std::cout << "Enter First Name: ";
