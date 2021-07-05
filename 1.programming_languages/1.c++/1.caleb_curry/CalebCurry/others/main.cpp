@@ -2403,45 +2403,89 @@ Overloading Function Templates
 =====================================================
  */
 
-#include <iostream>
-#include <vector>
-#include<string>
+// #include <iostream>
+// #include <vector>
+// #include<string>
 
-template <typename T>
+// template <typename T>
 
-void swap(T &a, T &b) // Function templates => Generic programming
-{
-    T temp = a;
-    a = b;
-    b = temp;
-}
-
-// void swap(int &a, int &b) // pass by reference
+// void swap(T &a, T &b) // Function templates => Generic programming
 // {
-//     int temp = a;
+//     T temp = a;
 //     a = b;
 //     b = temp;
+// }
+
+// template<typename T>
+// void swap(T a[], T b[], int size)
+// {
+//     for(int i = 0; i < size; i++)
+//     {
+//         T temp = a[i];
+//         a[i] = b[i];
+//         b[i] = temp;
+//     }
+// }
+
+// // void swap(int &a, int &b) // pass by reference
+// // {
+// //     int temp = a;
+// //     a = b;
+// //     b = temp;
+// //     std::cout << "a: " << a << "\tb: " << b << "\n";
+// // }
+
+// // // Function Overloading(Same function name but different parameters)
+// // void swap(std::string &a, std::string &b) // pass by reference
+// // {
+// //     std::string temp = a;
+// //     a = b;
+// //     b = temp;
+// //     std::cout << "First Name: " << a << "\tLast Name: " << b << "\n";
+// // }
+
+// int main()
+// {
+//     int a = 10;
+//     int b = 20;
+//     swap(a, b);
 //     std::cout << "a: " << a << "\tb: " << b << "\n";
+
+//     std::string first_name = "Kaiser Hamid";
+//     std::string last_name = "Rabbi";
+//     swap(first_name, last_name);
+//     std::cout << "First Name: " << first_name << "\tLast Name: " << last_name << "\n";
+
+//     int const SIZE = 6;
+//     int nines[] = {9, 9, 9, 9, 9, 9};
+//     int ones[] = {1, 1, 1, 1, 1, 1};
+
+//     for(int i = 0; i < SIZE; i++)
+//     {
+//         std::cout << nines[i] << " " << ones[i] << "\t";
+//     }
+//     std::cout <<  "\n\n";
+
+//     swap(nines, ones, SIZE);
+
+//     for(int i = 0; i < SIZE; i++)
+//     {
+//         std::cout << nines[i] << " " << ones[i] << "\t";
+//     }
+//     std::cout <<  "\n\n";
 // }
 
-// // Function Overloading(Same function name but different parameters)
-// void swap(std::string &a, std::string &b) // pass by reference
-// {
-//     std::string temp = a;
-//     a = b;
-//     b = temp;
-//     std::cout << "First Name: " << a << "\tLast Name: " << b << "\n";
-// }
+
+
+/* 
+=====================================================
+Overloading Function Templates
+=====================================================
+ */
+
+#include <iostream>
 
 int main()
 {
-    int a = 10;
-    int b = 20;
-    swap(a, b);
-    std::cout << "a: " << a << "\tb: " << b << "\n";
-
-    std::string first_name = "Kaiser Hamid";
-    std::string last_name = "Rabbi";
-    swap(first_name, last_name);
-    std::cout << "First Name: " << first_name << "\tLast Name: " << last_name << "\n";
+    std::cout << "hello...\n";
 }
