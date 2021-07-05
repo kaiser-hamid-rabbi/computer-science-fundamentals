@@ -1665,7 +1665,7 @@ Intro to IO Streams
 =====================================================
 Writing to Files with ofstream
 =====================================================
- */
+*/
 
 // #include <iostream>
 // #include <fstream>
@@ -1706,7 +1706,7 @@ Writing to Files with ofstream
 =====================================================
 Readings from Files with ifstream
 =====================================================
- */
+*/
 
 // #include <iostream>
 // #include <fstream>
@@ -1759,7 +1759,7 @@ Readings from Files with ifstream
 =====================================================
 Saving High Scores to File
 =====================================================
- */
+*/
 
 // #include <iostream>
 // #include <string>
@@ -1858,7 +1858,7 @@ Saving High Scores to File
 =====================================================
 Functions and Constructors
 =====================================================
- */
+*/
 
 
 
@@ -1866,7 +1866,7 @@ Functions and Constructors
 =====================================================
 Refactoring IO to Function Call and Testing
 =====================================================
- */
+*/
 
 // #include <iostream>
 // #include <string>
@@ -1969,7 +1969,7 @@ Refactoring IO to Function Call and Testing
 =====================================================
 Multidimensional Arrays and Nested Vectors
 =====================================================
- */
+*/
 
 // #include <iostream>
 // #include <vector>
@@ -2006,7 +2006,7 @@ Multidimensional Arrays and Nested Vectors
 =====================================================
 Const Modifier
 =====================================================
- */
+*/
 
 // #include <iostream>
 // #include <vector>
@@ -2052,7 +2052,7 @@ Const Modifier
 =====================================================
 Pass by Reference and Pass By Value
 =====================================================
- */
+*/
 
 
 
@@ -2060,7 +2060,7 @@ Pass by Reference and Pass By Value
 =====================================================
 Swap Function with Pass by Reference
 =====================================================
- */
+*/
 
 // #include <iostream>
 // #include <vector>
@@ -2088,7 +2088,7 @@ Swap Function with Pass by Reference
 =====================================================
 Intro to Function Overloading
 =====================================================
- */
+*/
 
 
 
@@ -2096,7 +2096,7 @@ Intro to Function Overloading
 =====================================================
 Function Overloading Examples - 1
 =====================================================
- */
+*/
 
 // #include <iostream>
 // #include <vector>
@@ -2138,7 +2138,7 @@ Function Overloading Examples - 1
 =====================================================
 Function Overloading Examples - 2
 =====================================================
- */
+*/
 
 // #include <iostream>
 
@@ -2181,7 +2181,7 @@ Function Overloading Examples - 2
 =====================================================
 Default Arguments
 =====================================================
- */
+*/
 
 // #include <iostream>
 
@@ -2230,7 +2230,7 @@ Default Arguments
 =====================================================
 Intro to Multifile Compilation
 =====================================================
- */
+*/
 
 
 
@@ -2238,7 +2238,7 @@ Intro to Multifile Compilation
 =====================================================
 Multifile Compilation
 =====================================================
- */
+*/
 
 /* 
 
@@ -2266,7 +2266,7 @@ $ ./a.out // run program
 
 // In folder "multifile-compilation" => math_stuff.cpp, math_utils.cpp, math_utils.h
 
- */
+*/
 
 
 
@@ -2274,7 +2274,7 @@ $ ./a.out // run program
 =====================================================
 Makefiles
 =====================================================
- */
+*/
 
 // To automate the compilation and build process
 
@@ -2284,7 +2284,7 @@ Makefiles
 =====================================================
 Creating a Simple Makefile
 =====================================================
- */
+*/
 
 // In folder "multifile-compilation" => makefile, math_stuff.cpp, math_utils.cpp, math_utils.h
 
@@ -2300,7 +2300,7 @@ Creating a Simple Makefile
 =====================================================
 Intro to Namespaces
 =====================================================
- */
+*/
 
 
 
@@ -2308,7 +2308,7 @@ Intro to Namespaces
 =====================================================
 Creating a Namespace
 =====================================================
- */
+*/
 
 // // Also implemented this concept in folder "multifile-compilation" => makefile, math_stuff.cpp, math_utils.cpp, math_utils.h with "utilz" namespace
 // #include <iostream>
@@ -2342,7 +2342,7 @@ Creating a Namespace
 =====================================================
 Intro to Function Templates
 =====================================================
- */
+*/
 
 
 
@@ -2350,7 +2350,7 @@ Intro to Function Templates
 =====================================================
 Creating a Function Template
 =====================================================
- */
+*/
 
 // #include <iostream>
 // #include <vector>
@@ -2401,7 +2401,7 @@ Creating a Function Template
 =====================================================
 Overloading Function Templates
 =====================================================
- */
+*/
 
 // #include <iostream>
 // #include <vector>
@@ -2479,9 +2479,25 @@ Overloading Function Templates
 
 /* 
 =====================================================
-Intro to Object Oriented Programming
+Intro to Object Oriented Programming (O.O.P.)
 =====================================================
- */
+*/
+
+
+
+/* 
+=====================================================
+Intro to Structs
+=====================================================
+*/
+
+
+
+/* 
+=====================================================
+Creating a Struct
+=====================================================
+*/
 
 #include <iostream>
 
