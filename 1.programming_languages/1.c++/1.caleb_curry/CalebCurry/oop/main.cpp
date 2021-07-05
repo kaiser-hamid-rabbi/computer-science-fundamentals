@@ -119,6 +119,18 @@ class User
         }
 };
 
+int add_user_if_not_exist(std::vector<User> &users, User user)
+{
+    for(int i = 0; i < users.size(); i++)
+    {
+        if(5 == 5)
+        {
+            return i;
+        }
+    }
+    users.push_back(user);
+    return users.size() - 1;
+}
 
 int main()
 {
@@ -127,7 +139,12 @@ int main()
     user.last_name = "Rabbi";
     // user.status = "Gold";
 
-    std::cout << "First Name: " << user.first_name << "\n";
-    std::cout << "Last Name: " << user.last_name << "\n";
-    std::cout << "Status: " << user.get_status() << "\n";
+    std::vector<User> users;
+    // users.push_back(user);
+    users.push_back(User()); // output empty string
+    std::cout << "First Name: " << users[0].first_name << "\n";
+
+    // std::cout << "First Name: " << user.first_name << "\n";
+    // std::cout << "Last Name: " << user.last_name << "\n";
+    // std::cout << "Status: " << user.get_status() << "\n";
 }
