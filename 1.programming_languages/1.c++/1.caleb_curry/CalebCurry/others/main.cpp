@@ -2344,28 +2344,17 @@ Intro to Function Templates
 =====================================================
  */
 
-// Also implemented this concept in folder "multifile-compilation" => makefile, math_stuff.cpp, math_utils.cpp, math_utils.h with "utilz" namespace
+
+
+/* 
+=====================================================
+Creating a Function Template
+=====================================================
+ */
+
 #include <iostream>
-#include <vector>
-
-namespace utilz
-{
-    void print_array(const int data[], int size)
-    {
-        for(int i = 0; i < size; i++)
-        {
-            std::cout << data[i] << "\t";
-        }
-        std::cout << "\n";
-    }
-}
-
-using namespace utilz;
 
 int main()
 {
-    int data[] = {1, 2, 3};
-    // utilz::print_array(data, 3); // best practice
-    print_array(data, 3); // Bad practice with "using namespace", you increase the risk of conflicts
-    std::cout << data[0] << "\n";
+    std::cout << "Hello...\n";
 }
