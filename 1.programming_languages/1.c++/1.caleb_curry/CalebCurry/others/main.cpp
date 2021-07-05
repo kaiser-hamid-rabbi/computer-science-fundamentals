@@ -2264,11 +2264,25 @@ $ g++ -c file1.cpp file2.cpp // it will generate object(.o) files
 $ g++ -c file1.o file2.o // compile multiple .o files
 $ ./a.out // run program
 
+// In folder "multifile-compilation" => math_stuff.cpp, math_utils.cpp, math_utils.h
+
  */
+
+
 
 /* 
 =====================================================
 Makefiles
+=====================================================
+ */
+
+// To automate the compilation and build process
+
+
+
+/* 
+=====================================================
+Creating a Simple Makefile
 =====================================================
  */
 
