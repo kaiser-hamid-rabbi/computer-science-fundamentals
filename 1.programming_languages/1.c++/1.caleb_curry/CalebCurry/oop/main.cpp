@@ -488,44 +488,186 @@ Operator Overloading == and +
 
 /* 
 =====================================================
-Overloading Insert and Extraction Operators
+Overloading Insert and Extraction Operators - 1
+=====================================================
+*/
+
+// #include <iostream>
+// #include <string>
+
+// class User
+// {
+//     static int user_count; // static variable, can't assign value here, you've to assign value outside the class
+//     std::string first_name;
+//     std::string last_name;
+//     std::string status;
+
+//     public:
+//         static int get_user_count() // static function
+//         {
+//             return user_count;
+//         }
+//         User()
+//         {
+//             user_count++;
+//         }
+//         ~User()
+//         {
+//             user_count--;
+//         }
+
+//         std::string get_first_name() // getters
+//         {
+//             return first_name;
+//         }
+//         void set_first_name(std::string first_name) // setters
+//         {
+//             this -> first_name = first_name;      
+//         }
+
+//         std::string get_last_name() // getters
+//         {
+//             return last_name;
+//         }
+//         void set_last_name(std::string last_name) // setters
+//         {
+//             this -> last_name = last_name;      
+//         }
+
+//         std::string get_status() // getters
+//         {
+//             return status;
+//         }
+//         void set_status(std::string status) // setters
+//         {
+//             // you can set constraints/conditions in setter for better data manipulation
+//             if(status == "Gold" || status == "Silver" || status == "Bronze")
+//             {
+//                 this -> status = status;
+//             }
+//             else
+//             {
+//                 this -> status = "No status!";
+//             }
+//         }
+// };
+
+// int User::user_count = 0;
+
+// std::ostream& operator << (std::ostream &output, User &user)
+// {
+//     output << "First Name: " << user.get_first_name() << "\tLast Name: " << user.get_last_name() << "\tStatus: " << user.get_status() << "\n";
+//     return output;
+// }
+
+// int main()
+// {
+//     User user1, user2, user3;
+
+//     user1.set_first_name("Kaiser Hamid");
+//     user1.set_last_name("Rabbi");
+//     user1.set_status("Gold");
+//     std::cout << user1 << "\n";
+
+//     user2.set_first_name("Caleb");
+//     user2.set_last_name("Curry");
+//     user2.set_status("Silver");
+//     std::cout << user2 << "\n";
+
+//     user3.set_first_name("Corey");
+//     user3.set_last_name("Schefer");
+//     user3.set_status("Bronze");
+//     std::cout << user3 << "\n";
+// }
+
+
+
+/* 
+=====================================================
+Overloading Insert and Extraction Operators - 2
+=====================================================
+*/
+
+// #include <iostream>
+// #include <string>
+
+// class User
+// {   
+//     public:
+//         std::string first_name;
+//         std::string last_name;
+//         std::string status;
+// };
+
+// std::ostream& operator << (std::ostream &output, User &user)
+// {
+//     output << "First Name: " << user.first_name << "\tLast Name: " << user.last_name << "\tStatus: " << user.status << "\n";
+//     return output;
+// }
+
+// // it work for only public data members
+// std::istream& operator >> (std::istream &input, User &user)
+// {
+//     std::cout << "Enter First Name: ";
+//     input >> user.first_name;
+//     std::cout << "Enter Last Name: ";
+//     input >> user.last_name;
+//     std::cout << "Enter Status: ";
+//     input >> user.status;
+//     return input;
+// }
+
+// int main()
+// {
+//     User user;
+//     std::cout << user;
+//     std::cin >> user;
+//     std::cout << "After Extraction Operators overloading... \n";
+//     std::cout << user;
+// }
+
+
+
+/* 
+=====================================================
+Friend Functions and Operator Overloading
 =====================================================
 */
 
 #include <iostream>
 #include <string>
 
-class Position
-{
+class User
+{   
     public:
-        int x = 10;
-        int y = 20;
-        Position operator + (Position pos) // Operator Overloading
-        {
-            Position new_pos;
-            new_pos.x = x + pos.x;
-            new_pos.y = y + pos.y;
-            return new_pos;
-        }
-        bool operator == (Position pos)
-        {
-            if(x == pos.x && y == pos.y)
-            {
-                return true;
-            }
-            return false;
-        }
+        std::string first_name;
+        std::string last_name;
+        std::string status;
 };
+
+std::ostream& operator << (std::ostream &output, User &user)
+{
+    output << "First Name: " << user.first_name << "\tLast Name: " << user.last_name << "\tStatus: " << user.status << "\n";
+    return output;
+}
+
+// it work for only public data members
+std::istream& operator >> (std::istream &input, User &user)
+{
+    std::cout << "Enter First Name: ";
+    input >> user.first_name;
+    std::cout << "Enter Last Name: ";
+    input >> user.last_name;
+    std::cout << "Enter Status: ";
+    input >> user.status;
+    return input;
+}
 
 int main()
 {
-    Position pos1, pos2;
-    Position pos3 = pos1 + pos2; // you will get an error if you don't overload the "+" operator. Because compiler don't know how to add these two objects
-    std::cout << pos3.x << "\t" << pos3.y << "\n";
-
-    // pos2.x = 30;
-    if(pos1 == pos2)
-    {
-        std::cout << "They are the same!\n";
-    }
+    User user;
+    std::cout << user;
+    std::cin >> user;
+    std::cout << "After Extraction Operators overloading... \n";
+    std::cout << user;
 }
