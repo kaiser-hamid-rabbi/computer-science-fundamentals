@@ -446,100 +446,86 @@ Operator Overloading == and +
 =====================================================
 */
 
+// #include <iostream>
+// #include <string>
+
+// class Position
+// {
+//     public:
+//         int x = 10;
+//         int y = 20;
+//         Position operator + (Position pos) // Operator Overloading
+//         {
+//             Position new_pos;
+//             new_pos.x = x + pos.x;
+//             new_pos.y = y + pos.y;
+//             return new_pos;
+//         }
+//         bool operator == (Position pos)
+//         {
+//             if(x == pos.x && y == pos.y)
+//             {
+//                 return true;
+//             }
+//             return false;
+//         }
+// };
+
+// int main()
+// {
+//     Position pos1, pos2;
+//     Position pos3 = pos1 + pos2; // you will get an error if you don't overload the "+" operator. Because compiler don't know how to add these two objects
+//     std::cout << pos3.x << "\t" << pos3.y << "\n";
+
+//     // pos2.x = 30;
+//     if(pos1 == pos2)
+//     {
+//         std::cout << "They are the same!\n";
+//     }
+// }
+
+
+
+/* 
+=====================================================
+Overloading Insert and Extraction Operators
+=====================================================
+*/
+
 #include <iostream>
 #include <string>
 
-class User
+class Position
 {
-    static int user_count; // static variable, can't assign value here, you've to assign value outside the class
-    std::string first_name;
-    std::string last_name;
-    std::string status;
-
     public:
-        static int get_user_count() // static function
+        int x = 10;
+        int y = 20;
+        Position operator + (Position pos) // Operator Overloading
         {
-            return user_count;
+            Position new_pos;
+            new_pos.x = x + pos.x;
+            new_pos.y = y + pos.y;
+            return new_pos;
         }
-        User()
+        bool operator == (Position pos)
         {
-            user_count++;
-        }
-        ~User()
-        {
-            user_count--;
-        }
-
-        std::string get_first_name() // getters
-        {
-            return first_name;
-        }
-        void set_first_name(std::string first_name) // setters
-        {
-            this -> first_name = first_name;      
-        }
-
-        std::string get_last_name() // getters
-        {
-            return last_name;
-        }
-        void set_last_name(std::string last_name) // setters
-        {
-            this -> last_name = last_name;      
-        }
-
-        std::string get_status() // getters
-        {
-            return status;
-        }
-        void set_status(std::string status) // setters
-        {
-            // you can set constraints/conditions in setter for better data manipulation
-            if(status == "Gold" || status == "Silver" || status == "Bronze")
+            if(x == pos.x && y == pos.y)
             {
-                this -> status = status;
+                return true;
             }
-            else
-            {
-                this -> status = "No status!";
-            }
+            return false;
         }
 };
 
-int User::user_count = 0;
-
 int main()
 {
-    User user1, user2, user3, user4;
+    Position pos1, pos2;
+    Position pos3 = pos1 + pos2; // you will get an error if you don't overload the "+" operator. Because compiler don't know how to add these two objects
+    std::cout << pos3.x << "\t" << pos3.y << "\n";
 
-    user1.set_first_name("Kaiser Hamid");
-    user1.set_last_name("Rabbi");
-    user1.set_status("Gold");
-
-    user2.set_first_name("Caleb");
-    user2.set_last_name("Curry");
-    user2.set_status("Silver");
-
-    user3.set_first_name("Corey");
-    user3.set_last_name("Schefer");
-    user3.set_status("Bronze");
-
-    user4.set_first_name("Kirill");
-    user4.set_last_name("Eremenko");
-    user4.set_status("Premium");
-
-    std::cout << "First Name: " << user1.get_first_name() << "\t" << "Last Name: " << user1.get_last_name() << "\t" << "Status: " << user1.get_status() << "\n";
-    std::cout << "First Name: " << user2.get_first_name() << "\t" << "Last Name: " << user2.get_last_name() << "\t" << "Status: " << user2.get_status() << "\n";
-    std::cout << "First Name: " << user3.get_first_name() << "\t" << "Last Name: " << user3.get_last_name() << "\t" << "Status: " << user3.get_status() << "\n";
-    std::cout << "First Name: " << user4.get_first_name() << "\t" << "Last Name: " << user4.get_last_name() << "\t" << "Status: " << user4.get_status() << "\n";
-
-    std::cout << "Total number of users: " << User::get_user_count() << "\n";
-    user1.~User();
-    std::cout << "Total number of users: " << User::get_user_count() << "\n";
-    user2.~User();
-    std::cout << "Total number of users: " << User::get_user_count() << "\n";
-    user3.~User();
-    std::cout << "Total number of users: " << User::get_user_count() << "\n";
-    user4.~User();
-    std::cout << "Total number of users: " << User::get_user_count() << "\n";
+    // pos2.x = 30;
+    if(pos1 == pos2)
+    {
+        std::cout << "They are the same!\n";
+    }
 }
