@@ -178,5 +178,5 @@ using namespace std;
 
 int main()
 {
-   cout << "Hello Rabbi!" << endl;
+   cout << "hello..." << endl;
 }
