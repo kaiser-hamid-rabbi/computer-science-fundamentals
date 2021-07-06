@@ -26,6 +26,10 @@ class User
         void set_last_name(std::string last_name);
         std::string get_status();
         void set_status(std::string status);
+
+        virtual void output(); // "I am a teacher"
+        // void output(); // "I am a user"
+
         friend std::ostream& operator << (std::ostream &output, const User user);
         friend std::istream& operator >> (std::istream &input, User &user);
 };

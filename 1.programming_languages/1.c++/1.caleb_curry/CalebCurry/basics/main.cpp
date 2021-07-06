@@ -2483,6 +2483,8 @@ Intro to Object Oriented Programming (O.O.P.)
 =====================================================
 */
 
+// Go to "oop" folder to get the concept in a structural and sophisticated way with main.cpp, user.cpp, user.h, teacher.cpp, teacher.h, student.cpp, student.h and makefile
+
 
 
 /* 
@@ -2917,100 +2919,403 @@ Intro to Operator Overloading
 =====================================================
 */
 
+
+
+/* 
+=====================================================
+Operator Overloading == and +
+=====================================================
+*/
+
+// #include <iostream>
+// #include <string>
+
+// class Position
+// {
+//     public:
+//         int x = 10;
+//         int y = 20;
+//         Position operator + (Position pos) // Operator Overloading
+//         {
+//             Position new_pos;
+//             new_pos.x = x + pos.x;
+//             new_pos.y = y + pos.y;
+//             return new_pos;
+//         }
+//         bool operator == (Position pos)
+//         {
+//             if(x == pos.x && y == pos.y)
+//             {
+//                 return true;
+//             }
+//             return false;
+//         }
+// };
+
+// int main()
+// {
+//     Position pos1, pos2;
+//     Position pos3 = pos1 + pos2; // you will get an error if you don't overload the "+" operator. Because compiler don't know how to add these two objects
+//     std::cout << pos3.x << "\t" << pos3.y << "\n";
+
+//     // pos2.x = 30;
+//     if(pos1 == pos2)
+//     {
+//         std::cout << "They are the same!\n";
+//     }
+// }
+
+
+
+/* 
+=====================================================
+Overloading Insert and Extraction Operators - 1
+=====================================================
+*/
+
+// #include <iostream>
+// #include <string>
+
+// class User
+// {
+//     static int user_count; // static variable, can't assign value here, you've to assign value outside the class
+//     std::string first_name;
+//     std::string last_name;
+//     std::string status;
+
+//     public:
+//         static int get_user_count() // static function
+//         {
+//             return user_count;
+//         }
+//         User()
+//         {
+//             user_count++;
+//         }
+//         ~User()
+//         {
+//             user_count--;
+//         }
+
+//         std::string get_first_name() // getters
+//         {
+//             return first_name;
+//         }
+//         void set_first_name(std::string first_name) // setters
+//         {
+//             this -> first_name = first_name;      
+//         }
+
+//         std::string get_last_name() // getters
+//         {
+//             return last_name;
+//         }
+//         void set_last_name(std::string last_name) // setters
+//         {
+//             this -> last_name = last_name;      
+//         }
+
+//         std::string get_status() // getters
+//         {
+//             return status;
+//         }
+//         void set_status(std::string status) // setters
+//         {
+//             // you can set constraints/conditions in setter for better data manipulation
+//             if(status == "Gold" || status == "Silver" || status == "Bronze")
+//             {
+//                 this -> status = status;
+//             }
+//             else
+//             {
+//                 this -> status = "No status!";
+//             }
+//         }
+// };
+
+// int User::user_count = 0;
+
+// std::ostream& operator << (std::ostream &output, User &user)
+// {
+//     output << "First Name: " << user.get_first_name() << "\tLast Name: " << user.get_last_name() << "\tStatus: " << user.get_status() << "\n";
+//     return output;
+// }
+
+// int main()
+// {
+//     User user1, user2, user3;
+
+//     user1.set_first_name("Kaiser Hamid");
+//     user1.set_last_name("Rabbi");
+//     user1.set_status("Gold");
+//     std::cout << user1 << "\n";
+
+//     user2.set_first_name("Caleb");
+//     user2.set_last_name("Curry");
+//     user2.set_status("Silver");
+//     std::cout << user2 << "\n";
+
+//     user3.set_first_name("Corey");
+//     user3.set_last_name("Schefer");
+//     user3.set_status("Bronze");
+//     std::cout << user3 << "\n";
+// }
+
+
+
+/* 
+=====================================================
+Overloading Insert and Extraction Operators - 2
+=====================================================
+*/
+
+// #include <iostream>
+// #include <string>
+
+// class User
+// {   
+//     public:
+//         std::string first_name;
+//         std::string last_name;
+//         std::string status;
+// };
+
+// std::ostream& operator << (std::ostream &output, const User user)
+// {
+//     output << "First Name: " << user.first_name << "\tLast Name: " << user.last_name << "\tStatus: " << user.status << "\n";
+//     return output;
+// }
+
+// // it work for only public data members
+// std::istream& operator >> (std::istream &input, User &user)
+// {
+//     std::cout << "Enter First Name: ";
+//     input >> user.first_name;
+//     std::cout << "Enter Last Name: ";
+//     input >> user.last_name;
+//     std::cout << "Enter Status: ";
+//     input >> user.status;
+//     return input;
+// }
+
+// int main()
+// {
+//     User user;
+//     std::cout << user;
+//     std::cin >> user;
+//     std::cout << "After Extraction Operators overloading... \n";
+//     std::cout << user;
+// }
+
+
+
+/* 
+=====================================================
+Friend Functions and Operator Overloading - 1
+=====================================================
+*/
+
+// #include <iostream>
+// #include <string>
+
+// class User
+// {
+//     std::string status = "Gold";   
+//     public:
+//         std::string first_name;
+//         std::string last_name;
+//         friend void output_status(User user);
+// };
+
+// void output_status(User user)
+// {
+//     std::cout << user.status;
+// }
+
+// std::ostream& operator << (std::ostream &output, const User user)
+// {
+//     output << "First Name: " << user.first_name << "\tLast Name: " << user.last_name << "\n";
+//     return output;
+// }
+
+// // This operator overloading works for only public data members
+// std::istream& operator >> (std::istream &input, User &user)
+// {
+//     std::cout << "Enter First Name: ";
+//     input >> user.first_name;
+//     std::cout << "Enter Last Name: ";
+//     input >> user.last_name;
+//     return input;
+// }
+
+// int main()
+// {
+//     User user;
+//     std::cout << user;
+//     std::cin >> user;
+//     std::cout << "After Extraction Operators overloading... \n";
+//     std::cout << user;
+
+//     // std::cout << user.status << "\n"; // you will get an error because status is private
+//     output_status(user);
+//     std::cout << "\n";
+// }
+
+
+
+/* 
+=====================================================
+Friend Functions and Operator Overloading - 2
+=====================================================
+*/
+
+// #include <iostream>
+// #include <string>
+
+// class User
+// {
+//     std::string status = "Gold";   
+//     public:
+//         std::string first_name;
+//         std::string last_name;
+//         friend std::ostream& operator << (std::ostream &output, const User user);
+//         friend std::istream& operator >> (std::istream &input, User &user);
+// };
+
+// std::ostream& operator << (std::ostream &output, const User user)
+// {
+//     output << "First Name: " << user.first_name << "\tLast Name: " << user.last_name << "\tStatus: " << user.status << "\n";
+//     return output;
+// }
+
+// // This operator overloading works for only public data members
+// std::istream& operator >> (std::istream &input, User &user)
+// {
+//     std::cout << "Enter First Name: ";
+//     input >> user.first_name;
+//     std::cout << "Enter Last Name: ";
+//     input >> user.last_name;
+//     std::cout << "Enter Status: ";
+//     input >> user.status;
+//     return input;
+// }
+
+// int main()
+// {
+//     User user;
+//     std::cout << user;
+//     std::cin >> user;
+//     std::cout << "After Extraction Operators overloading... \n";
+//     std::cout << user;
+// }
+
+
+
+/* 
+=====================================================
+Class Across Files
+=====================================================
+*/
+
+// Go to "oop" folder to get the concept in a structural and sophisticated way with main.cpp, user.cpp, user.h, teacher.cpp, teacher.h, student.cpp, student.h and makefile
+
+// #include <iostream>
+// #include <string>
+// #include "user.h"
+
+// int main()
+// {
+//     User user;
+//     std::cout << "Before Extraction Operators overloading... \n";
+//     std::cout << user;
+//     std::cin >> user;
+//     std::cout << "After Extraction Operators overloading... \n";
+//     std::cout << user;
+// }
+
+
+
+
+/* 
+=====================================================
+Inheritance and Polymorphism
+=====================================================
+*/
+
+
+
+/* 
+=====================================================
+Base Classes and Subclasses Inheritance
+=====================================================
+*/
+
+// #include <iostream>
+// #include <string>
+// #include "user.h"
+// #include "teacher.h"
+
+// int main()
+// {
+//     User user;
+//     std::cout << "Before Extraction Operators overloading... \n";
+//     std::cout << user;
+//     std::cin >> user;
+//     std::cout << "After Extraction Operators overloading... \n";
+//     std::cout << user;
+
+//     Teacher teacher;
+//     teacher.output();
+//     teacher.set_first_name("Kaiser");
+//     teacher.set_last_name("Hamid");
+//     teacher.set_status("Gold");
+//     std::cout << "Teacher's First Name: " << teacher.get_first_name() << "\n" << "Teacher's Last Name: " << teacher.get_last_name() << "\n" << "Teacher's Status: " << teacher.get_status() << "\n";
+// }
+
+
+
+/* 
+=====================================================
+Polymorphism
+=====================================================
+*/
+
+// #include <iostream>
+// #include <string>
+// #include "user.h"
+// #include "teacher.h"
+// #include "student.h"
+
+// void do_something(User &user)
+// {
+//     user.output();
+// }
+
+// int main()
+// {
+//     Teacher teacher;
+//     User& user1 = teacher; // Polymorphism(Create teacher to act like a user/ dog is a animal)
+//     user1.output(); // if use virtual in User::output(), then you will get - "I am a teacher". else you will get "I am a user" for not using virtual
+
+//     Student student;
+//     User& user2 = student;
+//     user2.output(); // if use virtual in User::output(), then you will get - "I am a student". else you will get "I am a user" for not using virtual
+
+//     do_something(user1);
+//     do_something(user2);
+// }
+
+
+
+/* 
+=====================================================
+Conclusion
+=====================================================
+*/
+
 #include <iostream>
-#include <string>
-
-class User
-{
-    static int user_count; // static variable, can't assign value here, you've to assign value outside the class
-    std::string first_name;
-    std::string last_name;
-    std::string status;
-
-    public:
-        static int get_user_count() // static function
-        {
-            return user_count;
-        }
-        User()
-        {
-            user_count++;
-        }
-        ~User()
-        {
-            user_count--;
-        }
-
-        std::string get_first_name() // getters
-        {
-            return first_name;
-        }
-        void set_first_name(std::string first_name) // setters
-        {
-            this -> first_name = first_name;      
-        }
-
-        std::string get_last_name() // getters
-        {
-            return last_name;
-        }
-        void set_last_name(std::string last_name) // setters
-        {
-            this -> last_name = last_name;      
-        }
-
-        std::string get_status() // getters
-        {
-            return status;
-        }
-        void set_status(std::string status) // setters
-        {
-            // you can set constraints/conditions in setter for better data manipulation
-            if(status == "Gold" || status == "Silver" || status == "Bronze")
-            {
-                this -> status = status;
-            }
-            else
-            {
-                this -> status = "No status!";
-            }
-        }
-};
-
-int User::user_count = 0;
 
 int main()
 {
-    User user1, user2, user3, user4;
-
-    user1.set_first_name("Kaiser Hamid");
-    user1.set_last_name("Rabbi");
-    user1.set_status("Gold");
-
-    user2.set_first_name("Caleb");
-    user2.set_last_name("Curry");
-    user2.set_status("Silver");
-
-    user3.set_first_name("Corey");
-    user3.set_last_name("Schefer");
-    user3.set_status("Bronze");
-
-    user4.set_first_name("Kirill");
-    user4.set_last_name("Eremenko");
-    user4.set_status("Premium");
-
-    std::cout << "First Name: " << user1.get_first_name() << "\t" << "Last Name: " << user1.get_last_name() << "\t" << "Status: " << user1.get_status() << "\n";
-    std::cout << "First Name: " << user2.get_first_name() << "\t" << "Last Name: " << user2.get_last_name() << "\t" << "Status: " << user2.get_status() << "\n";
-    std::cout << "First Name: " << user3.get_first_name() << "\t" << "Last Name: " << user3.get_last_name() << "\t" << "Status: " << user3.get_status() << "\n";
-    std::cout << "First Name: " << user4.get_first_name() << "\t" << "Last Name: " << user4.get_last_name() << "\t" << "Status: " << user4.get_status() << "\n";
-
-    std::cout << "Total number of users: " << User::get_user_count() << "\n";
-    user1.~User();
-    std::cout << "Total number of users: " << User::get_user_count() << "\n";
-    user2.~User();
-    std::cout << "Total number of users: " << User::get_user_count() << "\n";
-    user3.~User();
-    std::cout << "Total number of users: " << User::get_user_count() << "\n";
-    user4.~User();
-    std::cout << "Total number of users: " << User::get_user_count() << "\n";
+    std::cout << "\nSuccessfully completed this C++ course!\n\n";
 }

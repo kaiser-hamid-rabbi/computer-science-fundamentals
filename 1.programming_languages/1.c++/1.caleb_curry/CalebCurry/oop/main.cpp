@@ -785,7 +785,7 @@ Base Classes and Subclasses Inheritance
 //     teacher.output();
 //     teacher.set_first_name("Kaiser");
 //     teacher.set_last_name("Hamid");
-//     teacher.set_status("Diamond");
+//     teacher.set_status("Gold");
 //     std::cout << "Teacher's First Name: " << teacher.get_first_name() << "\n" << "Teacher's Last Name: " << teacher.get_last_name() << "\n" << "Teacher's Status: " << teacher.get_status() << "\n";
 // }
 
@@ -801,22 +801,25 @@ Polymorphism
 #include <string>
 #include "user.h"
 #include "teacher.h"
+#include "student.h"
+
+void do_something(User &user)
+{
+    user.output();
+}
 
 int main()
 {
-    User user;
-    std::cout << "Before Extraction Operators overloading... \n";
-    std::cout << user;
-    std::cin >> user;
-    std::cout << "After Extraction Operators overloading... \n";
-    std::cout << user;
-
     Teacher teacher;
-    teacher.output();
-    teacher.set_first_name("Kaiser");
-    teacher.set_last_name("Hamid");
-    teacher.set_status("Diamond");
-    std::cout << "Teacher's First Name: " << teacher.get_first_name() << "\n" << "Teacher's Last Name: " << teacher.get_last_name() << "\n" << "Teacher's Status: " << teacher.get_status() << "\n";
+    User& user1 = teacher; // Polymorphism(Create teacher to act like a user/ dog is a animal)
+    user1.output(); // if use virtual in User::output(), then you will get - "I am a teacher". else you will get "I am a user" for not using virtual
+
+    Student student;
+    User& user2 = student;
+    user2.output(); // if use virtual in User::output(), then you will get - "I am a student". else you will get "I am a user" for not using virtual
+
+    do_something(user1); // "I am a teacher"
+    do_something(user2); // "I am a student"
 }
 
 

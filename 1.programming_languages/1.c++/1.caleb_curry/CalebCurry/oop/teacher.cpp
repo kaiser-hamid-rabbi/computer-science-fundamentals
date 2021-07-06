@@ -2,7 +2,7 @@
 
 void Teacher::output()
 {
-    std::cout << "output passed!\n";
+    std::cout << "I am a teacher\n";
 }
 
 Teacher:: Teacher()

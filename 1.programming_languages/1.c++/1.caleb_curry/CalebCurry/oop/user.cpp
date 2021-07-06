@@ -57,6 +57,11 @@ void User::set_status(std::string status) // setters
     }
 }
 
+void User::output()
+{
+    std::cout << "I am a user\n";
+}
+
 std::ostream& operator << (std::ostream &output, const User user);
 std::istream& operator >> (std::istream &input, User &user);
 
