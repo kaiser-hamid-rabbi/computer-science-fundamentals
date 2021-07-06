@@ -821,11 +821,3 @@ int main()
     do_something(user1); // "I am a teacher"
     do_something(user2); // "I am a student"
 }
-
-
-
-/* 
-=====================================================
-Conclusion
-=====================================================
-*/
