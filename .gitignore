@@ -2,7 +2,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
-.vscode/
 
 # C extensions
 *.so
@@ -137,3 +136,4 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+.vscode
