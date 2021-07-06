@@ -172,11 +172,60 @@ Function
 =====================================================
 */
 
+// // Way 1 - not recommended
+// // #include <iostream>
+
+// // using namespace std;
+
+// // void print_something(); // declaration. also known as "prototyping a function"
+
+// // int main()
+// // {
+// //    cout << "hello..." << endl;
+// //    print_something();
+// // }
+
+// // void print_something() // implementation
+// // {
+// //    cout << "oooo i am text on the screen\n";
+// // }
+
+
+// // Way 2 - recommended
+// #include <iostream>
+
+// using namespace std;
+
+// void print_something() // declaration + implementation
+// {
+//    cout << "oooo i am text on the screen\n";
+// }
+
+// int main()
+// {
+//    cout << "hello..." << endl;
+//    print_something();
+// }
+
+
+
+/*
+=====================================================
+Creating functions with parameters
+=====================================================
+*/
+
 #include <iostream>
 
 using namespace std;
 
+void print_something() // declaration + implementation
+{
+   cout << "oooo i am text on the screen\n";
+}
+
 int main()
 {
    cout << "hello..." << endl;
+   print_something();
 }
