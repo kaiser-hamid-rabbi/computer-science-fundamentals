@@ -736,9 +736,71 @@ Class Across Files
 =====================================================
 */
 
+// #include <iostream>
+// #include <string>
+// #include "user.h"
+
+// int main()
+// {
+//     User user;
+//     std::cout << "Before Extraction Operators overloading... \n";
+//     std::cout << user;
+//     std::cin >> user;
+//     std::cout << "After Extraction Operators overloading... \n";
+//     std::cout << user;
+// }
+
+
+
+
+/* 
+=====================================================
+Inheritance and Polymorphism
+=====================================================
+*/
+
+
+
+/* 
+=====================================================
+Base Classes and Subclasses Inheritance
+=====================================================
+*/
+
+// #include <iostream>
+// #include <string>
+// #include "user.h"
+// #include "teacher.h"
+
+// int main()
+// {
+//     User user;
+//     std::cout << "Before Extraction Operators overloading... \n";
+//     std::cout << user;
+//     std::cin >> user;
+//     std::cout << "After Extraction Operators overloading... \n";
+//     std::cout << user;
+
+//     Teacher teacher;
+//     teacher.output();
+//     teacher.set_first_name("Kaiser");
+//     teacher.set_last_name("Hamid");
+//     teacher.set_status("Diamond");
+//     std::cout << "Teacher's First Name: " << teacher.get_first_name() << "\n" << "Teacher's Last Name: " << teacher.get_last_name() << "\n" << "Teacher's Status: " << teacher.get_status() << "\n";
+// }
+
+
+
+/* 
+=====================================================
+Polymorphism
+=====================================================
+*/
+
 #include <iostream>
 #include <string>
 #include "user.h"
+#include "teacher.h"
 
 int main()
 {
@@ -748,4 +810,19 @@ int main()
     std::cin >> user;
     std::cout << "After Extraction Operators overloading... \n";
     std::cout << user;
+
+    Teacher teacher;
+    teacher.output();
+    teacher.set_first_name("Kaiser");
+    teacher.set_last_name("Hamid");
+    teacher.set_status("Diamond");
+    std::cout << "Teacher's First Name: " << teacher.get_first_name() << "\n" << "Teacher's Last Name: " << teacher.get_last_name() << "\n" << "Teacher's Status: " << teacher.get_status() << "\n";
 }
+
+
+
+/* 
+=====================================================
+Conclusion
+=====================================================
+*/

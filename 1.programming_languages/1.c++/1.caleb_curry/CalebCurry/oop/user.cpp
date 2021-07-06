@@ -14,6 +14,7 @@ int User::get_user_count() // static function
 }
 User::User()
 {
+    std::cout << "User created!\n";
     User::user_count++;
 }
 User::~User()
