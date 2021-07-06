@@ -743,6 +743,7 @@ Class Across Files
 int main()
 {
     User user;
+    std::cout << "Before Extraction Operators overloading... \n";
     std::cout << user;
     std::cin >> user;
     std::cout << "After Extraction Operators overloading... \n";
