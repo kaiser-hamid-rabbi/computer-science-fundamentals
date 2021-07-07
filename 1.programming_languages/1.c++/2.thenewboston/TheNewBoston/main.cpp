@@ -226,7 +226,7 @@ void print_something() // declaration + implementation
 
 int main()
 {
-   cout << "hello..." << endl;
+   cout << "hello everyone!" << endl;
    print_something();
 }
 
