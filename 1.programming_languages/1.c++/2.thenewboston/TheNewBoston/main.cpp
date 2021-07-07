@@ -197,20 +197,20 @@ Creating functions with parameters
 =====================================================
 */
 
-// #include <iostream>
+#include <iostream>
 
-// using namespace std;
+using namespace std;
 
-// void print_something() // declaration + implementation
-// {
-//    cout << "oooo i am text on the screen\n";
-// }
+void print_something() // declaration + implementation
+{
+    cout << "oooo i am text on the screen\n";
+}
 
-// int main()
-// {
-//    cout << "hello rabbi..." << endl;
-//    print_something();
-// }
+int main()
+{
+    cout << "hello rabbi..." << endl;
+    print_something();
+}
 
 // #include <iostream>
 // #include <string>
