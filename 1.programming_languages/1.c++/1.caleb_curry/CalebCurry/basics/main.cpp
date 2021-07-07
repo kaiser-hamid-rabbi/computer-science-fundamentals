@@ -7,8 +7,6 @@
 ==================================================================
 */
 
-
-
 /*
 =====================================================
 First "Hello World" program with cout(printf in C)
@@ -45,8 +43,6 @@ First "Hello World" program with cout(printf in C)
 //    std::cin.get();
 //}
 
-
-
 /*
 =====================================================
 Variable Declaration, Initialization and cin for
@@ -74,8 +70,6 @@ taking input from the user
 //    std::cout << "Your numbers are " << first_number << " and " << second_number << "\n";
 //}
 
-
-
 /*
 =====================================================
 Pow Function from cmath
@@ -94,8 +88,6 @@ Pow Function from cmath
 //    std::cin >> exponent;
 //    std::cout << base << " raised to the " << exponent << " power is " << pow(base, exponent) << "\n";
 //}
-
-
 
 /*
 =====================================================
@@ -129,8 +121,6 @@ Creating Custom Functions for Pow - 1
 //    return result;
 //}
 
-
-
 /*
 =====================================================
 Creating Custom Functions for Pow - 2
@@ -162,8 +152,6 @@ Creating Custom Functions for Pow - 2
 //    double result = power(base, exponent); // base and exponent are arguments here
 //    std::cout << base << " raised to the " << exponent << " power is " << result << "\n";
 //}
-
-
 
 /*
 =====================================================
@@ -199,8 +187,6 @@ Creating Void Functions
 //    print_power(base, exponent);
 //    print_power(10, 2);
 //}
-
-
 
 /*
 =====================================================
@@ -249,8 +235,6 @@ Integral Data Types, sizeof, limit
 //    std::cout << "Size of unsigned long long is: " << ULONG_LONG_MAX << " bits\n";
 //}
 
-
-
 /*
 =====================================================
 char Data Type
@@ -275,8 +259,6 @@ char Data Type
 //    std::cout << z << "\n";
 //}
 
-
-
 /*
 =====================================================
 Escape Sequences
@@ -296,8 +278,6 @@ Escape Sequences
 //    std::cout << "Hello \"Rabbi\"" << "\n";
 //    std::cout << "Hello \\Rabbi\\" << "\n";
 //}
-
-
 
 /*
 =====================================================
@@ -334,8 +314,6 @@ bool Data Type
 //    std::cout << std::boolalpha << pizza_is_good << "\n";
 //}
 
-
-
 /*
 =====================================================
 Floating Point Numbers
@@ -366,8 +344,6 @@ Floating Point Numbers
 //
 //}
 
-
-
 /*
 =====================================================
 Constant const, macro, and enum
@@ -397,8 +373,6 @@ Constant const, macro, and enum
 //    std::cout << "The value of enum color : " << red << "," << black << "\n";
 //    std::cout << "The default value of enum suit : " << heart << "," << diamond << "," << spade << "," << club << "," << kaiser << "," << hamid << ","  << rabbi << "\n";
 //}
-
-
 
 /*
 =====================================================
@@ -437,8 +411,6 @@ Numeric Functions
 //    std::cout << abs(-25) << "\n";
 //}
 
-
-
 /*
 =====================================================
 String Class and C Strings
@@ -470,8 +442,6 @@ String Class and C Strings
 //    // name = "t"; // you can't do that either
 //}
 
-
-
 /*
 =====================================================
 get line for Strings
@@ -494,8 +464,6 @@ get line for Strings
 //    std::cout << greeting << "\n";
 //
 //}
-
-
 
 /*
 =====================================================
@@ -541,8 +509,6 @@ String Modifier Methods
 //    std::cout << greeting << "\n";
 //}
 
-
-
 /*
 =====================================================
 String Operation Methods
@@ -573,8 +539,6 @@ String Operation Methods
 //    if(greeting.compare("What is up?") == 0) std::cout << "Equals\n";
 //}
 
-
-
 /*
 =====================================================
 Literals
@@ -603,8 +567,6 @@ Literals
 //    std::cout << typeid(t).name() << "\n";
 //}
 
-
-
 /*
 =====================================================
 Hex and Octal
@@ -629,8 +591,6 @@ Hex and Octal
 //    std::cout << std::oct << number << "\n";
 //}
 
-
-
 /*
 =====================================================================
 Operator Precedence(a*b   a/b   a%b   a+b   a-b) and Associativity
@@ -653,15 +613,11 @@ Operator Precedence(a*b   a/b   a%b   a+b   a-b) and Associativity
 //    std::cout << x << "\t" << y << "\n";
 //}
 
-
-
 /*
 =====================================================
 Reviewing Key Concepts
 =====================================================
 */
-
-
 
 /*
 =====================================================
@@ -670,8 +626,6 @@ Control Flow:
     2. Looping -> for, while, do-while
 =====================================================
 */
-
-
 
 /*
 =====================================================
@@ -702,8 +656,6 @@ If Statement Practice
 //    else if(age < 18 && age > 16) std::cout << "You are almost 18!\n";
 //    else std::cout << "Sorry, You are not 18!\n";
 //}
-
-
 
 /*
 =====================================================
@@ -748,8 +700,6 @@ Logical and Comparison Operators
 //        std::cout << "You got it right!\n";
 //    }
 //}
-
-
 
 /*
 =====================================================
@@ -814,15 +764,11 @@ Switch Statement and Enum
 //    }
 //}
 
-
-
 /*
 =====================================================
 Intro to Loops
 =====================================================
 */
-
-
 
 /*
 =====================================================
@@ -864,8 +810,6 @@ For Loops (How to Calculate Factorial)
 //    }
 //    std::cout << "factorial of " << fact << " is: " << factorial << "\n";
 //}
-
-
 
 /*
 =====================================================
@@ -909,8 +853,6 @@ While Loop and Factorial Calculator
 //    std::cout << "factorial of " << inp << " is: " << factorial << "\n";
 //}
 
-
-
 /*
 =====================================================
 Do While Loop
@@ -942,8 +884,6 @@ Do While Loop
 //        std::cin >> guess;
 //    }
 //}
-
-
 
 /*
 =====================================================
@@ -997,8 +937,6 @@ Break and Continue
 //    std::cout << "Done!\n";
 //}
 
-
-
 /*
 =====================================================
 Conditional Operator
@@ -1021,15 +959,11 @@ Conditional Operator
 //
 //}
 
-
-
 /*
 =====================================================
 Intro to Our App
 =====================================================
 */
-
-
 
 /*
 =====================================================
@@ -1058,8 +992,6 @@ Creating a Menu
 //        }
 //    }while(choice !=  0);
 //}
-
-
 
 /*
 =====================================================
@@ -1117,15 +1049,11 @@ Creating a Guessing Game
 //    }while(choice !=  0);
 //}
 
-
-
 /*
 =====================================================
 Intro to Arrays and Vectors
 =====================================================
 */
-
-
 
 /*
 =====================================================
@@ -1166,8 +1094,6 @@ Working with Arrays
 //    std::cout << "\n";
 //}
 
-
-
 /*
 =====================================================
 Passing Arrays to Functions
@@ -1192,8 +1118,6 @@ Passing Arrays to Functions
 //    int size = sizeof(guesses) / sizeof(int);
 //    print_array(guesses, size);
 //}
-
-
 
 /*
 =====================================================
@@ -1239,8 +1163,6 @@ Fill Array from Input
 //    std::cin.ignore(10000, '\n'); // way 1(shortcut)
 //    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // way 2(recommended)
 //}
-
-
 
 /*
 =====================================================
@@ -1313,15 +1235,11 @@ Using an Array to Keep Track of Guessing
 //    }while(choice !=  0);
 //}
 
-
-
 /*
 =====================================================
 Intro to Vectors
 =====================================================
 */
-
-
 
 /*
 =====================================================
@@ -1341,8 +1259,6 @@ Creating a Vector
 //    data.pop_back();
 //    std::cout << data.size() << "\n";
 //}
-
-
 
 /*
 =====================================================
@@ -1408,8 +1324,6 @@ Passing Vectors to Functions
 //    print_vector(data);
 //    print_vector(data);
 //}
-
-
 
 /*
 =====================================================
@@ -1482,15 +1396,11 @@ Refactor Guessing Game to Use Vectors
 //    }while(choice !=  0);
 //}
 
-
-
 /*
 =====================================================
 STL Array
 =====================================================
 */
-
-
 
 /*
 =====================================================
@@ -1533,8 +1443,6 @@ STL Arrays in Practice
 //    std::array<int, 20> data = {1, 2, 3};
 //    print_templatized_array(data, 3);
 //}
-
-
 
 /*
 =====================================================
@@ -1609,15 +1517,11 @@ Refactor Guessing Game to Use Templatized Array
 //    }while(choice !=  0);
 // }
 
-
-
 /*
 =====================================================
 C style Array vs STL Vector vs STL Array
 =====================================================
 */
-
-
 
 /*
 =====================================================
@@ -1651,15 +1555,11 @@ Range Based for Loop
 //    std::cout << "\n";
 //}
 
-
-
 /*
 =====================================================
 Intro to IO Streams
 =====================================================
 */
-
-
 
 /* 
 =====================================================
@@ -1699,8 +1599,6 @@ Writing to Files with ofstream
 
 //     file.close();
 // }
-
-
 
 /* 
 =====================================================
@@ -1752,8 +1650,6 @@ Readings from Files with ifstream
 
 //     file.close();
 // }
-
-
 
 /* 
 =====================================================
@@ -1852,15 +1748,11 @@ Saving High Scores to File
 //    }while(choice !=  0);
 // }
 
-
-
 /* 
 =====================================================
 Functions and Constructors
 =====================================================
 */
-
-
 
 /* 
 =====================================================
@@ -1963,8 +1855,6 @@ Refactoring IO to Function Call and Testing
 //    }while(choice !=  0);
 // }
 
-
-
 /* 
 =====================================================
 Multidimensional Arrays and Nested Vectors
@@ -1977,7 +1867,7 @@ Multidimensional Arrays and Nested Vectors
 // int main()
 // {
 //     int grades_array[][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-    
+
 //     for(int r = 0; r < 3; r++)
 //     {
 //         for(int c = 0; c < 3; c++)
@@ -1987,9 +1877,8 @@ Multidimensional Arrays and Nested Vectors
 //         std::cout << "\n";
 //     }
 
-
 //     std::vector<std::vector<int>> grades_vector = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-    
+
 //     for(int r = 0; r < 3; r++)
 //     {
 //         for(int c = 0; c < 3; c++)
@@ -1999,8 +1888,6 @@ Multidimensional Arrays and Nested Vectors
 //         std::cout << "\n";
 //     }
 // }
-
-
 
 /* 
 =====================================================
@@ -2046,15 +1933,11 @@ Const Modifier
 //     std::cout << data[0] << "\n";
 // }
 
-
-
 /* 
 =====================================================
 Pass by Reference and Pass By Value
 =====================================================
 */
-
-
 
 /* 
 =====================================================
@@ -2082,15 +1965,11 @@ Swap Function with Pass by Reference
 //     std::cout << "a: " << a << "\tb: " << b << "\n";
 // }
 
-
-
 /* 
 =====================================================
 Intro to Function Overloading
 =====================================================
 */
-
-
 
 /* 
 =====================================================
@@ -2132,8 +2011,6 @@ Function Overloading Examples - 1
 //     std::cout << "First Name: " << first_name << "\tLast Name: " << last_name << "\n";
 // }
 
-
-
 /* 
 =====================================================
 Function Overloading Examples - 2
@@ -2174,8 +2051,6 @@ Function Overloading Examples - 2
 //     std::cout<< "Area of a Square: " << area(rectangle.length) << "\n";
 //     std::cout<< "Area of a custom Rectangle type : " << area(rectangle) << "\n";
 // }
-
-
 
 /* 
 =====================================================
@@ -2224,15 +2099,11 @@ Default Arguments
 //     std::cout << pow(3) << "\n";
 // }
 
-
-
 /* 
 =====================================================
 Intro to Multifile Compilation
 =====================================================
 */
-
-
 
 /* 
 =====================================================
@@ -2268,8 +2139,6 @@ $ ./a.out // run program
 
 */
 
-
-
 /* 
 =====================================================
 Makefiles
@@ -2277,8 +2146,6 @@ Makefiles
 */
 
 // To automate the compilation and build process
-
-
 
 /* 
 =====================================================
@@ -2294,15 +2161,11 @@ Creating a Simple Makefile
 // $ make clean
 // $ ./math
 
-
-
 /* 
 =====================================================
 Intro to Namespaces
 =====================================================
 */
-
-
 
 /* 
 =====================================================
@@ -2336,15 +2199,11 @@ Creating a Namespace
 //     std::cout << data[0] << "\n";
 // }
 
-
-
 /* 
 =====================================================
 Intro to Function Templates
 =====================================================
 */
-
-
 
 /* 
 =====================================================
@@ -2394,8 +2253,6 @@ Creating a Function Template
 //     swap(first_name, last_name);
 //     std::cout << "First Name: " << first_name << "\tLast Name: " << last_name << "\n";
 // }
-
-
 
 /* 
 =====================================================
@@ -2475,8 +2332,6 @@ Overloading Function Templates
 //     std::cout <<  "\n\n";
 // }
 
-
-
 /* 
 =====================================================
 Intro to Object Oriented Programming (O.O.P.)
@@ -2485,15 +2340,11 @@ Intro to Object Oriented Programming (O.O.P.)
 
 // Go to "oop" folder to get the concept in a structural and sophisticated way with main.cpp, user.cpp, user.h, teacher.cpp, teacher.h, student.cpp, student.h and makefile
 
-
-
 /* 
 =====================================================
 Intro to Structs
 =====================================================
 */
-
-
 
 /* 
 =====================================================
@@ -2518,7 +2369,6 @@ Creating a Struct
 //         std::string status = "Gold";
 // };
 
-
 // int main()
 // {
 //     User user;
@@ -2531,15 +2381,11 @@ Creating a Struct
 //     std::cout << "Status: " << user.get_status() << "\n";
 // }
 
-
-
 /* 
 =====================================================
  Classes and Object
 =====================================================
 */
-
-
 
 /* 
 =====================================================
@@ -2563,7 +2409,6 @@ Creating a Struct
 //         }
 // };
 
-
 // int main()
 // {
 //     User user;
@@ -2575,8 +2420,6 @@ Creating a Struct
 //     std::cout << "Last Name: " << user.last_name << "\n";
 //     std::cout << "Status: " << user.get_status() << "\n";
 // }
-
-
 
 /* 
 =====================================================
@@ -2629,8 +2472,6 @@ Working with Objects
 //     // std::cout << "Last Name: " << user.last_name << "\n";
 //     // std::cout << "Status: " << user.get_status() << "\n";
 
-
-
 //     std:: vector<User> users;
 
 //     User user1, user2, user3;
@@ -2658,15 +2499,11 @@ Working with Objects
 //     std::cout << users.size() << "\n";
 // }
 
-
-
 /* 
 =====================================================
 Intro to Constructors
 =====================================================
 */
-
-
 
 /* 
 =====================================================
@@ -2717,15 +2554,11 @@ Constructors and Destructors
 //     std::cout << "Status: " << user2.get_status() << "\n";
 // }
 
-
-
 /* 
 =====================================================
 Encapsulation
 =====================================================
 */
-
-
 
 /* 
 =====================================================
@@ -2749,7 +2582,7 @@ Getters and Setters
 //         }
 //         void set_first_name(std::string first_name) // setters
 //         {
-//             this -> first_name = first_name;      
+//             this -> first_name = first_name;
 //         }
 
 //         std::string get_last_name() // getters
@@ -2758,7 +2591,7 @@ Getters and Setters
 //         }
 //         void set_last_name(std::string last_name) // setters
 //         {
-//             this -> last_name = last_name;      
+//             this -> last_name = last_name;
 //         }
 
 //         std::string get_status() // getters
@@ -2805,8 +2638,6 @@ Getters and Setters
 //     std::cout << "First Name: " << user4.get_first_name() << "\t" << "Last Name: " << user4.get_last_name() << "\t" << "Status: " << user4.get_status() << "\n";
 // }
 
-
-
 /* 
 =====================================================
 Static Data Members
@@ -2843,7 +2674,7 @@ Static Data Members
 //         }
 //         void set_first_name(std::string first_name) // setters
 //         {
-//             this -> first_name = first_name;      
+//             this -> first_name = first_name;
 //         }
 
 //         std::string get_last_name() // getters
@@ -2852,7 +2683,7 @@ Static Data Members
 //         }
 //         void set_last_name(std::string last_name) // setters
 //         {
-//             this -> last_name = last_name;      
+//             this -> last_name = last_name;
 //         }
 
 //         std::string get_status() // getters
@@ -2911,15 +2742,11 @@ Static Data Members
 //     std::cout << "Total number of users: " << User::get_user_count() << "\n";
 // }
 
-
-
 /* 
 =====================================================
 Intro to Operator Overloading
 =====================================================
 */
-
-
 
 /* 
 =====================================================
@@ -2965,8 +2792,6 @@ Operator Overloading == and +
 //     }
 // }
 
-
-
 /* 
 =====================================================
 Overloading Insert and Extraction Operators - 1
@@ -3003,7 +2828,7 @@ Overloading Insert and Extraction Operators - 1
 //         }
 //         void set_first_name(std::string first_name) // setters
 //         {
-//             this -> first_name = first_name;      
+//             this -> first_name = first_name;
 //         }
 
 //         std::string get_last_name() // getters
@@ -3012,7 +2837,7 @@ Overloading Insert and Extraction Operators - 1
 //         }
 //         void set_last_name(std::string last_name) // setters
 //         {
-//             this -> last_name = last_name;      
+//             this -> last_name = last_name;
 //         }
 
 //         std::string get_status() // getters
@@ -3061,8 +2886,6 @@ Overloading Insert and Extraction Operators - 1
 //     std::cout << user3 << "\n";
 // }
 
-
-
 /* 
 =====================================================
 Overloading Insert and Extraction Operators - 2
@@ -3073,7 +2896,7 @@ Overloading Insert and Extraction Operators - 2
 // #include <string>
 
 // class User
-// {   
+// {
 //     public:
 //         std::string first_name;
 //         std::string last_name;
@@ -3107,8 +2930,6 @@ Overloading Insert and Extraction Operators - 2
 //     std::cout << user;
 // }
 
-
-
 /* 
 =====================================================
 Friend Functions and Operator Overloading - 1
@@ -3120,7 +2941,7 @@ Friend Functions and Operator Overloading - 1
 
 // class User
 // {
-//     std::string status = "Gold";   
+//     std::string status = "Gold";
 //     public:
 //         std::string first_name;
 //         std::string last_name;
@@ -3161,8 +2982,6 @@ Friend Functions and Operator Overloading - 1
 //     std::cout << "\n";
 // }
 
-
-
 /* 
 =====================================================
 Friend Functions and Operator Overloading - 2
@@ -3174,7 +2993,7 @@ Friend Functions and Operator Overloading - 2
 
 // class User
 // {
-//     std::string status = "Gold";   
+//     std::string status = "Gold";
 //     public:
 //         std::string first_name;
 //         std::string last_name;
@@ -3209,8 +3028,6 @@ Friend Functions and Operator Overloading - 2
 //     std::cout << user;
 // }
 
-
-
 /* 
 =====================================================
 Class Across Files
@@ -3233,16 +3050,11 @@ Class Across Files
 //     std::cout << user;
 // }
 
-
-
-
 /* 
 =====================================================
 Inheritance and Polymorphism
 =====================================================
 */
-
-
 
 /* 
 =====================================================
@@ -3271,8 +3083,6 @@ Base Classes and Subclasses Inheritance
 //     teacher.set_status("Gold");
 //     std::cout << "Teacher's First Name: " << teacher.get_first_name() << "\n" << "Teacher's Last Name: " << teacher.get_last_name() << "\n" << "Teacher's Status: " << teacher.get_status() << "\n";
 // }
-
-
 
 /* 
 =====================================================
@@ -3304,8 +3114,6 @@ Polymorphism
 //     do_something(user1);
 //     do_something(user2);
 // }
-
-
 
 /* 
 =====================================================
