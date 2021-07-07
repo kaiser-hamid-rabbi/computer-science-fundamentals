@@ -7,8 +7,6 @@
 ==================================================================
 */
 
-
-
 /*
 =====================================================
 Intro
@@ -17,8 +15,6 @@ C++ Concepts
 More C++ Concepts
 =====================================================
 */
-
-
 
 /*
 =====================================================
@@ -38,8 +34,6 @@ Printing Text
 //    cout << "Hello, World Rabbi!" << "\n";
 //    cout << "Hello, World Rabbi!" << endl;
 // }
-
-
 
 /*
 =====================================================
@@ -61,8 +55,6 @@ Variables
 //    int sum = a + b;
 //    cout << "sum: " << sum << endl;
 // }
-
-
 
 /*
 =====================================================
@@ -88,8 +80,6 @@ Basic Calculator
 //    cout << "the sum of those numbers is: " << sum << endl;
 // }
 
-
-
 /*
 =====================================================
 Variable Memory
@@ -107,8 +97,6 @@ Variable Memory
 //    tuna = 76; // override the initial value
 //    cout << "tuna: " << tuna << endl;
 // }
-
-
 
 /*
 =====================================================
@@ -138,8 +126,6 @@ Basic Arithmetic
 //    cout << "d: " << d << endl;
 // }
 
-
-
 /*
 =====================================================
 If
@@ -164,8 +150,6 @@ If
 //    }
 // }
 
-
-
 /*
 =====================================================
 Function
@@ -177,7 +161,8 @@ Function
 
 // // using namespace std;
 
-// // void print_something(); // declaration. also known as "prototyping a function"
+// // void print_something(); // declaration. also known as "prototyping a
+// function"
 
 // // int main()
 // // {
@@ -189,7 +174,6 @@ Function
 // // {
 // //    cout << "oooo i am text on the screen\n";
 // // }
-
 
 // // Way 2 - recommended
 // #include <iostream>
@@ -207,42 +191,39 @@ Function
 //    print_something();
 // }
 
-
-
 /*
 =====================================================
 Creating functions with parameters
 =====================================================
 */
 
-#include <iostream>
+// #include <iostream>
 
-using namespace std;
+// using namespace std;
 
-void print_something() // declaration + implementation
-{
-   cout << "oooo i am text on the screen\n";
-}
+// void print_something() // declaration + implementation
+// {
+//    cout << "oooo i am text on the screen\n";
+// }
 
-int main()
-{
-   cout << "hello rabbi..." << endl;
-       print_something();
-}
+// int main()
+// {
+//    cout << "hello rabbi..." << endl;
+//    print_something();
+// }
 
+// #include <iostream>
+// #include <string>
+// #include <vector>
 
-/* #include <iostream>
-#include <vector>
-#include <string>
+// using namespace std;
 
-using namespace std;
-
-int main()
-{
-   vector<string> msg {"Hello", "C++", "from", "VS Code", "and the C++ extension"};
-   for(const string& word: msg)
-   {
-      cout << word << " ";
-   }
-   cout << "\n";
-} */
+// int main()
+// {
+//    vector<string> msg{"Hello", "C++", "from", "VS Code", "and the C++ extension"};
+//    for (const string &word : msg)
+//    {
+//       cout << word << " ";
+//    }
+//    cout << "\n";
+// }
