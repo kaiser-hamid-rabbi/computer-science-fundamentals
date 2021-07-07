@@ -4,15 +4,11 @@ Intro to Object Oriented Programming (O.O.P.)
 =====================================================
 */
 
-
-
 /* 
 =====================================================
 Intro to Structs
 =====================================================
 */
-
-
 
 /* 
 =====================================================
@@ -37,7 +33,6 @@ Creating a Struct
 //         std::string status = "Gold";
 // };
 
-
 // int main()
 // {
 //     User user;
@@ -50,15 +45,11 @@ Creating a Struct
 //     std::cout << "Status: " << user.get_status() << "\n";
 // }
 
-
-
 /* 
 =====================================================
  Classes and Object
 =====================================================
 */
-
-
 
 /* 
 =====================================================
@@ -82,7 +73,6 @@ Creating a Struct
 //         }
 // };
 
-
 // int main()
 // {
 //     User user;
@@ -94,8 +84,6 @@ Creating a Struct
 //     std::cout << "Last Name: " << user.last_name << "\n";
 //     std::cout << "Status: " << user.get_status() << "\n";
 // }
-
-
 
 /* 
 =====================================================
@@ -148,8 +136,6 @@ Working with Objects
 //     // std::cout << "Last Name: " << user.last_name << "\n";
 //     // std::cout << "Status: " << user.get_status() << "\n";
 
-
-
 //     std:: vector<User> users;
 
 //     User user1, user2, user3;
@@ -177,15 +163,11 @@ Working with Objects
 //     std::cout << users.size() << "\n";
 // }
 
-
-
 /* 
 =====================================================
 Intro to Constructors
 =====================================================
 */
-
-
 
 /* 
 =====================================================
@@ -236,15 +218,11 @@ Constructors and Destructors
 //     std::cout << "Status: " << user2.get_status() << "\n";
 // }
 
-
-
 /* 
 =====================================================
 Encapsulation
 =====================================================
 */
-
-
 
 /* 
 =====================================================
@@ -268,7 +246,7 @@ Getters and Setters
 //         }
 //         void set_first_name(std::string first_name) // setters
 //         {
-//             this -> first_name = first_name;      
+//             this -> first_name = first_name;
 //         }
 
 //         std::string get_last_name() // getters
@@ -277,7 +255,7 @@ Getters and Setters
 //         }
 //         void set_last_name(std::string last_name) // setters
 //         {
-//             this -> last_name = last_name;      
+//             this -> last_name = last_name;
 //         }
 
 //         std::string get_status() // getters
@@ -324,8 +302,6 @@ Getters and Setters
 //     std::cout << "First Name: " << user4.get_first_name() << "\t" << "Last Name: " << user4.get_last_name() << "\t" << "Status: " << user4.get_status() << "\n";
 // }
 
-
-
 /* 
 =====================================================
 Static Data Members
@@ -362,7 +338,7 @@ Static Data Members
 //         }
 //         void set_first_name(std::string first_name) // setters
 //         {
-//             this -> first_name = first_name;      
+//             this -> first_name = first_name;
 //         }
 
 //         std::string get_last_name() // getters
@@ -371,7 +347,7 @@ Static Data Members
 //         }
 //         void set_last_name(std::string last_name) // setters
 //         {
-//             this -> last_name = last_name;      
+//             this -> last_name = last_name;
 //         }
 
 //         std::string get_status() // getters
@@ -430,15 +406,11 @@ Static Data Members
 //     std::cout << "Total number of users: " << User::get_user_count() << "\n";
 // }
 
-
-
 /* 
 =====================================================
 Intro to Operator Overloading
 =====================================================
 */
-
-
 
 /* 
 =====================================================
@@ -484,8 +456,6 @@ Operator Overloading == and +
 //     }
 // }
 
-
-
 /* 
 =====================================================
 Overloading Insert and Extraction Operators - 1
@@ -522,7 +492,7 @@ Overloading Insert and Extraction Operators - 1
 //         }
 //         void set_first_name(std::string first_name) // setters
 //         {
-//             this -> first_name = first_name;      
+//             this -> first_name = first_name;
 //         }
 
 //         std::string get_last_name() // getters
@@ -531,7 +501,7 @@ Overloading Insert and Extraction Operators - 1
 //         }
 //         void set_last_name(std::string last_name) // setters
 //         {
-//             this -> last_name = last_name;      
+//             this -> last_name = last_name;
 //         }
 
 //         std::string get_status() // getters
@@ -580,8 +550,6 @@ Overloading Insert and Extraction Operators - 1
 //     std::cout << user3 << "\n";
 // }
 
-
-
 /* 
 =====================================================
 Overloading Insert and Extraction Operators - 2
@@ -592,7 +560,7 @@ Overloading Insert and Extraction Operators - 2
 // #include <string>
 
 // class User
-// {   
+// {
 //     public:
 //         std::string first_name;
 //         std::string last_name;
@@ -626,8 +594,6 @@ Overloading Insert and Extraction Operators - 2
 //     std::cout << user;
 // }
 
-
-
 /* 
 =====================================================
 Friend Functions and Operator Overloading - 1
@@ -639,7 +605,7 @@ Friend Functions and Operator Overloading - 1
 
 // class User
 // {
-//     std::string status = "Gold";   
+//     std::string status = "Gold";
 //     public:
 //         std::string first_name;
 //         std::string last_name;
@@ -680,8 +646,6 @@ Friend Functions and Operator Overloading - 1
 //     std::cout << "\n";
 // }
 
-
-
 /* 
 =====================================================
 Friend Functions and Operator Overloading - 2
@@ -693,7 +657,7 @@ Friend Functions and Operator Overloading - 2
 
 // class User
 // {
-//     std::string status = "Gold";   
+//     std::string status = "Gold";
 //     public:
 //         std::string first_name;
 //         std::string last_name;
@@ -728,8 +692,6 @@ Friend Functions and Operator Overloading - 2
 //     std::cout << user;
 // }
 
-
-
 /* 
 =====================================================
 Class Across Files
@@ -750,16 +712,11 @@ Class Across Files
 //     std::cout << user;
 // }
 
-
-
-
 /* 
 =====================================================
 Inheritance and Polymorphism
 =====================================================
 */
-
-
 
 /* 
 =====================================================
@@ -789,8 +746,6 @@ Base Classes and Subclasses Inheritance
 //     std::cout << "Teacher's First Name: " << teacher.get_first_name() << "\n" << "Teacher's Last Name: " << teacher.get_last_name() << "\n" << "Teacher's Status: " << teacher.get_status() << "\n";
 // }
 
-
-
 /* 
 =====================================================
 Polymorphism
@@ -811,11 +766,11 @@ void do_something(User &user)
 int main()
 {
     Teacher teacher;
-    User& user1 = teacher; // Polymorphism(Create teacher to act like a user/ dog is a animal)
-    user1.output(); // if use virtual in User::output(), then you will get - "I am a teacher". else you will get "I am a user" for not using virtual
+    User &user1 = teacher; // Polymorphism(Create teacher to act like a user/ dog is a animal)
+    user1.output();        // if use virtual in User::output(), then you will get - "I am a teacher". else you will get "I am a user" for not using virtual
 
     Student student;
-    User& user2 = student;
+    User &user2 = student;
     user2.output(); // if use virtual in User::output(), then you will get - "I am a student". else you will get "I am a user" for not using virtual
 
     do_something(user1); // "I am a teacher"

@@ -5,7 +5,7 @@ void Student::output()
     std::cout << "I am a student\n";
 }
 
-Student:: Student()
+Student::Student()
 {
     std::cout << "Student created!\n";
 }

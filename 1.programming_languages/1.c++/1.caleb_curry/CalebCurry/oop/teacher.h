@@ -3,15 +3,15 @@
 
 #include <iostream>
 #include <string>
-#include<vector>
+#include <vector>
 #include "user.h"
 
 class Teacher : public User
 {
-    public:
-        std::vector<std::string> classes_teaching;
-        void output();
-        Teacher();
+public:
+    std::vector<std::string> classes_teaching;
+    void output();
+    Teacher();
 };
 
 #endif

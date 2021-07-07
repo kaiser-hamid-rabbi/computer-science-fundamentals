@@ -7,7 +7,7 @@ double squared(double x)
 
 int main()
 {
-    if((squared(5) == 25) && (squared(-5) == 25))
+    if ((squared(5) == 25) && (squared(-5) == 25))
     {
         std::cout << "Test passed!\n";
     }

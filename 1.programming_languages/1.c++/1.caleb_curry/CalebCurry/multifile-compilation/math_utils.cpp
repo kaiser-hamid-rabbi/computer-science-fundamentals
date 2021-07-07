@@ -27,11 +27,10 @@ namespace utilz
     double pow(double base, int exponent) // default argument exponent
     {
         int total = 1;
-        for(int i = 0; i < exponent; i++)
+        for (int i = 0; i < exponent; i++)
         {
             total *= base;
         }
         return total;
     }
 }
-
