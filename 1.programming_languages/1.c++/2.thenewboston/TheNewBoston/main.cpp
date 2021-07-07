@@ -194,35 +194,36 @@ Function
 /*
 =====================================================
 Creating functions with parameters
+Functions with multiple parameters
 =====================================================
 */
 
-#include <iostream>
-#include <string>
+// #include <iostream>
+// #include <string>
 
-void print_something()
-{
-    std::cout << "oooo i am text on the screen\n";
-}
-int addNumbers(int x, int y, std::string name)
-{
-    std::cout << name << "'s favourite number is " << x << "\n";
-    int answer = x + y;
-    return answer;
-}
+// void print_something()
+// {
+//     std::cout << "oooo i am text on the screen\n";
+// }
+// int addNumbers(int x, int y, std::string name)
+// {
+//     std::cout << name << "'s favourite number is " << x << "\n";
+//     int answer = x + y;
+//     return answer;
+// }
 
-int main()
-{
-    print_something();
+// int main()
+// {
+//     print_something();
 
-    int a, b;
-    std::cout << "enter first number: ";
-    std::cin >> a;
-    std::cout << "enter second number: ";
-    std::cin >> b;
-    int result = addNumbers(a, b, "bucky");
-    std::cout << "x + y = " << result << "\n";
-}
+//     int a, b;
+//     std::cout << "enter first number: ";
+//     std::cin >> a;
+//     std::cout << "enter second number: ";
+//     std::cin >> b;
+//     int result = addNumbers(a, b, "bucky");
+//     std::cout << "x + y = " << result << "\n";
+// }
 
 // #include <iostream>
 // #include <string>
@@ -240,3 +241,17 @@ int main()
 //    }
 //    cout << "\n";
 // }
+
+/*
+=====================================================
+Classes and Objects
+=====================================================
+*/
+
+#include <iostream>
+#include <string>
+
+int main()
+{
+    std::cout << "hello...\n";
+}
