@@ -225,6 +225,7 @@ Functions with multiple parameters
 //     std::cout << "x + y = " << result << "\n";
 // }
 
+// // Loop through vector of string
 // #include <iostream>
 // #include <string>
 // #include <vector>
@@ -233,13 +234,13 @@ Functions with multiple parameters
 
 // int main()
 // {
-//    vector<string> msg{"Hello", "C++", "from", "VS Code", "and the C++ extension"};
+//     vector<string> msg{"Hello", "C++", "from", "VS Code", "and the C++ extension"};
 
-//    for (const string &word : msg)
-//    {
-//       cout << word << " ";
-//    }
-//    cout << "\n";
+//     for (const string &word : msg)
+//     {
+//         cout << word << " ";
+//     }
+//     cout << "\n";
 // }
 
 /*
