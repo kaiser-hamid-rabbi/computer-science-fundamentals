@@ -490,15 +490,23 @@ Sentinel controlled loops
 
 int main()
 {
-    int x = 1;
-    int number;
-    int total = 0;
+    int age;
+    int ageTotal = 0;
+    int numberOfPeopleEntered = 0;
 
-    while (x <= 5)
+    std::cout << "Enter first person's age or -1 to quit\n";
+    std::cin >> age;
+
+    while (age != -1)
     {
-        std::cin >> number;
-        total = total + number;
-        x++;
+        ageTotal = ageTotal + age;
+        numberOfPeopleEntered++;
+
+        std::cout << "Enter next person's age or -1 to quit\n";
+        std::cin >> age;
     }
-    std::cout << "Your total is: " << total << "\n";
+
+    std::cout << "Number of people entered: " << numberOfPeopleEntered << "\n";
+
+    std::cout << "Average age of all people are: " << (ageTotal / numberOfPeopleEntered) << "\n";
 }
