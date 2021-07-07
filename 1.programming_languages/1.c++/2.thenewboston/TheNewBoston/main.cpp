@@ -204,17 +204,23 @@ void print_something()
 {
     std::cout << "oooo i am text on the screen\n";
 }
-int printCrap(int x, int y, std::string name)
+int addNumbers(int x, int y, std::string name)
 {
     std::cout << name << "'s favourite number is " << x << "\n";
-    int result = x + y;
-    return result;
+    int answer = x + y;
+    return answer;
 }
 
 int main()
 {
     print_something();
-    int result = printCrap(11, 9, "bucky");
+
+    int a, b;
+    std::cout << "enter first number: ";
+    std::cin >> a;
+    std::cout << "enter second number: ";
+    std::cin >> b;
+    int result = addNumbers(a, b, "bucky");
     std::cout << "x + y = " << result << "\n";
 }
 
