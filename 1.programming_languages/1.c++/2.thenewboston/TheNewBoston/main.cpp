@@ -301,7 +301,7 @@ Variables in Classes
 
 /*
 =====================================================
-Constructor
+Constructor and Destructor
 =====================================================
 */
 
@@ -314,6 +314,22 @@ private:
     std::string name;
 
 public:
+    BuckysClass() // Constructor without parameter
+    {
+        std::cout << "I'm from the Constructor...\n";
+    }
+    BuckysClass() // Constructor without parameter
+    {
+        std::cout << "I'm from the Constructor...\n";
+    }
+    ~BuckysClass() // Destructor without parameter
+    {
+        std::cout << "I'm from the Destructor...\n";
+    }
+    ~BuckysClass() // Destructor without parameter
+    {
+        std::cout << "I'm from the Destructor...\n";
+    }
     void setName(std::string x) // setter
     {
         name = x;
