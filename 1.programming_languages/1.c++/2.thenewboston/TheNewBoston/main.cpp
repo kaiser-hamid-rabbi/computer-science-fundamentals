@@ -207,6 +207,7 @@ void print_something() // declaration + implementation
 }
 int printCrap(int x, int y)
 {
+    cout << "bucky's favourite number is " << x << endl;
     int result = x + y;
     return result;
 }
