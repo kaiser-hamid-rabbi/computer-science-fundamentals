@@ -198,16 +198,15 @@ Creating functions with parameters
 */
 
 #include <iostream>
+#include <string>
 
-using namespace std;
-
-void print_something() // declaration + implementation
+void print_something()
 {
-    cout << "oooo i am text on the screen\n";
+    std::cout << "oooo i am text on the screen\n";
 }
-int printCrap(int x, int y)
+int printCrap(int x, int y, std::string name)
 {
-    cout << "bucky's favourite number is " << x << endl;
+    std::cout << name << "'s favourite number is " << x << "\n";
     int result = x + y;
     return result;
 }
@@ -215,7 +214,8 @@ int printCrap(int x, int y)
 int main()
 {
     print_something();
-    cout << printCrap(10, 20) << endl;
+    int result = printCrap(11, 9, "bucky");
+    std::cout << "x + y = " << result << "\n";
 }
 
 // #include <iostream>
