@@ -318,31 +318,19 @@ public:
     {
         std::cout << "I'm from the Constructor...\n";
     }
-    BuckysClass() // Constructor without parameter
+    BuckysClass(int x) // Constructor with parameter
     {
-        std::cout << "I'm from the Constructor...\n";
+        std::cout << "I'm from the Constructor too...\n";
+        std::cout << "Bucky's favourite number is: " << x << "\n";
     }
-    ~BuckysClass() // Destructor without parameter
+    ~BuckysClass() // Destructor without parameter (it can't take parameters)
     {
         std::cout << "I'm from the Destructor...\n";
-    }
-    ~BuckysClass() // Destructor without parameter
-    {
-        std::cout << "I'm from the Destructor...\n";
-    }
-    void setName(std::string x) // setter
-    {
-        name = x;
-    }
-    std::string getName() // getter
-    {
-        return name;
     }
 };
 
 int main()
 {
-    BuckysClass bo;
-    bo.setName("Bucky Roberts");
-    std::cout << "Name: " << bo.getName() << "\n";
+    BuckysClass bo1;
+    BuckysClass bo2(11);
 }

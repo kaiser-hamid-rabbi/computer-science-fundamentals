@@ -1,16 +1,4 @@
-#include <iostream>
-#include <string>
-#include <vector>
-
-using namespace std;
-
-int main()
-{
-    vector<string> msg{"Hello", "C++", "from", "VS Code", "and the C++ extension"};
-
-    for (const string &word : msg)
-    {
-        cout << word << " ";
-    }
-    cout << "\n";
-}
+BuckysClass() // Destructor without parameter
+    // {
+    //     std::cout << "I'm from the Destructor...\n";
+    // }
