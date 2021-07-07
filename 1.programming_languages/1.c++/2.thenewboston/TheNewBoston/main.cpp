@@ -205,11 +205,16 @@ void print_something() // declaration + implementation
 {
     cout << "oooo i am text on the screen\n";
 }
+int printCrap(int x, int y)
+{
+    int result = x + y;
+    return result;
+}
 
 int main()
 {
-    cout << "hello rabbi..." << endl;
     print_something();
+    cout << printCrap(10, 20) << endl;
 }
 
 // #include <iostream>
