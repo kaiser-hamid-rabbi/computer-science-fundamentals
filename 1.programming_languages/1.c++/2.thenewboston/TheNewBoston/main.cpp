@@ -318,10 +318,10 @@ public:
     {
         std::cout << "I'm from the Constructor...\n";
     }
-    BuckysClass(int x) // Constructor with parameter
+    BuckysClass(int x, std::string name) // Constructor with parameter
     {
         std::cout << "I'm from the Constructor too...\n";
-        std::cout << "Bucky's favourite number is: " << x << "\n";
+        std::cout << name << "'s favourite number is: " << x << "\n";
     }
     ~BuckysClass() // Destructor without parameter (it can't take parameters)
     {
@@ -332,5 +332,5 @@ public:
 int main()
 {
     BuckysClass bo1;
-    BuckysClass bo2(11);
+    BuckysClass bo2(11, "Bucky");
 }
