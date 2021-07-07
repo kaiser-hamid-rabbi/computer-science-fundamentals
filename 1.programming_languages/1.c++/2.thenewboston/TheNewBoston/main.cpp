@@ -215,23 +215,23 @@ Creating functions with parameters
 =====================================================
 */
 
-// #include <iostream>
-
-// using namespace std;
-
-// void print_something() // declaration + implementation
-// {
-//    cout << "oooo i am text on the screen\n";
-// }
-
-// int main()
-// {
-//    cout << "hello..." << endl;
-//    print_something();
-// }
-
-
 #include <iostream>
+
+using namespace std;
+
+void print_something() // declaration + implementation
+{
+   cout << "oooo i am text on the screen\n";
+}
+
+int main()
+{
+   cout << "hello..." << endl;
+   print_something();
+}
+
+
+/* #include <iostream>
 #include <vector>
 #include <string>
 
@@ -244,12 +244,5 @@ int main()
    {
       cout << word << " ";
    }
-   cout << "Hello..." << endl;
-   cout << "Rabbi" << endl;
-   cout << "Hello..." << endl;
-   cout << "Rabbi" << endl;
-   cout << "Hello..." << endl;
-   cout << "Rabbi" << endl;
-   cout << "I am Kaiser Hamid Rabbiiiiiiiiiiiiiii";
-   cout << endl;
-}
+   cout << "\n";
+} */
