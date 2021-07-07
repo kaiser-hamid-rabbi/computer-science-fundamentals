@@ -482,7 +482,7 @@ Program using loops
 
 /*
 =====================================================
-Program using loops
+Sentinel controlled loops
 =====================================================
 */
 
