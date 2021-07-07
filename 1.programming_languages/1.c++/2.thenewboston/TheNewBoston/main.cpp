@@ -301,7 +301,43 @@ Variables in Classes
 
 /*
 =====================================================
-Constructor and Destructor
+Constructor and Destructor - 1
+=====================================================
+*/
+
+// #include <iostream>
+// #include <string>
+
+// class BuckysClass
+// {
+// private:
+//     std::string name;
+
+// public:
+//     BuckysClass() // Constructor without parameters
+//     {
+//         std::cout << "I'm from the Constructor...\n";
+//     }
+//     BuckysClass(int x, std::string name) // Constructor with parameters
+//     {
+//         std::cout << "I'm from the Constructor too...\n";
+//         std::cout << name << "'s favourite number is: " << x << "\n";
+//     }
+//     ~BuckysClass() // Destructor without parameters (it can't take parameters)
+//     {
+//         std::cout << "I'm from the Destructor...\n";
+//     }
+// };
+
+// int main()
+// {
+//     BuckysClass bo1;
+//     BuckysClass bo2(11, "Bucky");
+// }
+
+/*
+=====================================================
+Constructor and Destructor - 2
 =====================================================
 */
 
@@ -314,23 +350,26 @@ private:
     std::string name;
 
 public:
-    BuckysClass() // Constructor without parameter
+    BuckysClass(std::string name) // Constructor with parameters
     {
-        std::cout << "I'm from the Constructor...\n";
+        setName(name);
     }
-    BuckysClass(int x, std::string name) // Constructor with parameter
+    void setName(std::string newName)
     {
-        std::cout << "I'm from the Constructor too...\n";
-        std::cout << name << "'s favourite number is: " << x << "\n";
+        name = newName;
     }
-    ~BuckysClass() // Destructor without parameter (it can't take parameters)
+    std::string getname()
     {
-        std::cout << "I'm from the Destructor...\n";
+        return name;
     }
 };
 
 int main()
 {
-    BuckysClass bo1;
-    BuckysClass bo2(11, "Bucky");
+    BuckysClass bo1("Bucky Roberts");
+    std::cout << bo1.getname() << "\n";
+    BuckysClass bo2("Caleb Curry");
+    std::cout << bo2.getname() << "\n";
+    BuckysClass bo3("Kaiser Hamid Rabbi");
+    std::cout << bo3.getname() << "\n";
 }
