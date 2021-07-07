@@ -212,18 +212,19 @@ Creating functions with parameters
 //    print_something();
 // }
 
-// #include <iostream>
-// #include <string>
-// #include <vector>
+#include <iostream>
+#include <string>
+#include <vector>
 
-// using namespace std;
+using namespace std;
 
-// int main()
-// {
-//    vector<string> msg{"Hello", "C++", "from", "VS Code", "and the C++ extension"};
-//    for (const string &word : msg)
-//    {
-//       cout << word << " ";
-//    }
-//    cout << "\n";
-// }
+int main()
+{
+   vector<string> msg{"Hello", "C++", "from", "VS Code", "and the C++ extension"};
+
+   for (const string &word : msg)
+   {
+      cout << word << " ";
+   }
+   cout << "\n";
+}
