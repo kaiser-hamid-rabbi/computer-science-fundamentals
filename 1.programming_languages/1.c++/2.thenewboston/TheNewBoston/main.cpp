@@ -277,15 +277,23 @@ Variables in Classes
 
 class BuckysClass
 {
+private:
+    std::string name;
+
 public:
-    void coolSaying()
+    void setName(std::string x) // setter
     {
-        std::cout << "preaching to the choir\n";
+        name = x;
+    }
+    std::string getName() // getter
+    {
+        return name;
     }
 };
 
 int main()
 {
-    BuckysClass buckysObject;
-    buckysObject.coolSaying();
+    BuckysClass bo;
+    bo.setName("Bucky Roberts");
+    std::cout << "Name: " << bo.getName() << "\n";
 }
