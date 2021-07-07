@@ -251,7 +251,17 @@ Classes and Objects
 #include <iostream>
 #include <string>
 
+class BuckysClass
+{
+public:
+    void coolSaying()
+    {
+        std::cout << "preaching to the choir\n";
+    }
+};
+
 int main()
 {
-    std::cout << "hello...\n";
+    BuckysClass buckysObject;
+    buckysObject.coolSaying();
 }
