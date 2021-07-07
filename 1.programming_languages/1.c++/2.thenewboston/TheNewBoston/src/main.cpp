@@ -380,11 +380,26 @@ Placing classes in different files
 =====================================================
 */
 
+// // See main.cpp, Burrito.cpp and Burrito.h files for more details...
+// #include <iostream>
+// #include <string>
+// #include "Burrito.h"
+
+// int main()
+// {
+//     Burrito bo;
+// }
+
+/*
+=====================================================
+If statement
+=====================================================
+*/
+
 #include <iostream>
 #include <string>
-#include "Burrito.h"
 
 int main()
 {
-    Burrito bo;
+    std::cout << "hello...\n";
 }
