@@ -396,10 +396,36 @@ If statement
 =====================================================
 */
 
+// #include <iostream>
+// #include <string>
+
+// int main()
+// {
+//     int x = 10;
+//     int y = 20;
+//     if (x != y) // condition to check. [==, !=, <, >, <=, >=]
+//     {
+//         // code
+//         std::cout << "x is not equal to y\n";
+//     }
+// }
+
+/*
+=====================================================
+If else statement
+=====================================================
+*/
+
 #include <iostream>
 #include <string>
 
 int main()
 {
-    std::cout << "hello...\n";
+    int x = 10;
+    int y = 20;
+    if (x != y) // condition to check. [==, !=, <, >, <=, >=]
+    {
+        // code
+        std::cout << "x is not equal to y\n";
+    }
 }
