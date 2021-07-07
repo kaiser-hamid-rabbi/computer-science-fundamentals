@@ -341,35 +341,50 @@ Constructor and Destructor - 2
 =====================================================
 */
 
+// #include <iostream>
+// #include <string>
+
+// class BuckysClass
+// {
+// private:
+//     std::string name;
+
+// public:
+//     BuckysClass(std::string name) // Constructor with parameters
+//     {
+//         setName(name);
+//     }
+//     void setName(std::string newName)
+//     {
+//         name = newName;
+//     }
+//     std::string getname()
+//     {
+//         return name;
+//     }
+// };
+
+// int main()
+// {
+//     BuckysClass bo1("Bucky Roberts");
+//     std::cout << bo1.getname() << "\n";
+//     BuckysClass bo2("Caleb Curry");
+//     std::cout << bo2.getname() << "\n";
+//     BuckysClass bo3("Kaiser Hamid Rabbi");
+//     std::cout << bo3.getname() << "\n";
+// }
+
+/*
+=====================================================
+Placing classes in different files
+=====================================================
+*/
+
 #include <iostream>
 #include <string>
-
-class BuckysClass
-{
-private:
-    std::string name;
-
-public:
-    BuckysClass(std::string name) // Constructor with parameters
-    {
-        setName(name);
-    }
-    void setName(std::string newName)
-    {
-        name = newName;
-    }
-    std::string getname()
-    {
-        return name;
-    }
-};
+#include "Burrito.h"
 
 int main()
 {
-    BuckysClass bo1("Bucky Roberts");
-    std::cout << bo1.getname() << "\n";
-    BuckysClass bo2("Caleb Curry");
-    std::cout << bo2.getname() << "\n";
-    BuckysClass bo3("Kaiser Hamid Rabbi");
-    std::cout << bo3.getname() << "\n";
+    Burrito bo;
 }
