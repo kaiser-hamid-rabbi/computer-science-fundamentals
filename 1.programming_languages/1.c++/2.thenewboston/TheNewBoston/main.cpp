@@ -272,6 +272,38 @@ Variables in Classes
 =====================================================
 */
 
+// #include <iostream>
+// #include <string>
+
+// class BuckysClass
+// {
+// private:
+//     std::string name;
+
+// public:
+//     void setName(std::string x) // setter
+//     {
+//         name = x;
+//     }
+//     std::string getName() // getter
+//     {
+//         return name;
+//     }
+// };
+
+// int main()
+// {
+//     BuckysClass bo;
+//     bo.setName("Bucky Roberts");
+//     std::cout << "Name: " << bo.getName() << "\n";
+// }
+
+/*
+=====================================================
+Constructor
+=====================================================
+*/
+
 #include <iostream>
 #include <string>
 
