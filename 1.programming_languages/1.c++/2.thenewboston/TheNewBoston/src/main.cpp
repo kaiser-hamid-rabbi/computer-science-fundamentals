@@ -421,11 +421,18 @@ If else statement
 
 int main()
 {
-    int x = 10;
+    int x = 30;
     int y = 20;
-    if (x != y) // condition to check. [==, !=, <, >, <=, >=]
+    if (x == y) // condition to check. [==, !=, <, >, <=, >=]
     {
-        // code
+        std::cout << "x is equal to y\n";
+    }
+    else if (x == 10)
+    {
+        std::cout << "x is equal to 10\n";
+    }
+    else
+    {
         std::cout << "x is not equal to y\n";
     }
 }
