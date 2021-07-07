@@ -248,6 +248,30 @@ Classes and Objects
 =====================================================
 */
 
+// #include <iostream>
+// #include <string>
+
+// class BuckysClass
+// {
+// public:
+//     void coolSaying()
+//     {
+//         std::cout << "preaching to the choir\n";
+//     }
+// };
+
+// int main()
+// {
+//     BuckysClass buckysObject;
+//     buckysObject.coolSaying();
+// }
+
+/*
+=====================================================
+Variables in Classes
+=====================================================
+*/
+
 #include <iostream>
 #include <string>
 
