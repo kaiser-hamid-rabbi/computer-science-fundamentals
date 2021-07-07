@@ -421,7 +421,7 @@ If else statement
 
 int main()
 {
-    int x = 30;
+    int x = 10;
     int y = 20;
     if (x == y) // condition to check. [==, !=, <, >, <=, >=]
     {
