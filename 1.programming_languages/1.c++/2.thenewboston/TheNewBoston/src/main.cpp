@@ -486,27 +486,40 @@ Sentinel controlled loops
 =====================================================
 */
 
+// #include <iostream>
+
+// int main()
+// {
+//     int age;
+//     int ageTotal = 0;
+//     int numberOfPeopleEntered = 0;
+
+//     std::cout << "Enter first person's age or -1 to quit\n";
+//     std::cin >> age;
+
+//     while (age != -1)
+//     {
+//         ageTotal = ageTotal + age;
+//         numberOfPeopleEntered++;
+
+//         std::cout << "Enter next person's age or -1 to quit\n";
+//         std::cin >> age;
+//     }
+
+//     std::cout << "Number of people entered: " << numberOfPeopleEntered << "\n";
+
+//     std::cout << "Average age of all people are: " << (ageTotal / numberOfPeopleEntered) << "\n";
+// }
+
+/*
+=====================================================
+Assignment & Increment operator
+=====================================================
+*/
+
 #include <iostream>
 
 int main()
 {
-    int age;
-    int ageTotal = 0;
-    int numberOfPeopleEntered = 0;
-
-    std::cout << "Enter first person's age or -1 to quit\n";
-    std::cin >> age;
-
-    while (age != -1)
-    {
-        ageTotal = ageTotal + age;
-        numberOfPeopleEntered++;
-
-        std::cout << "Enter next person's age or -1 to quit\n";
-        std::cin >> age;
-    }
-
-    std::cout << "Number of people entered: " << numberOfPeopleEntered << "\n";
-
-    std::cout << "Average age of all people are: " << (ageTotal / numberOfPeopleEntered) << "\n";
+    std::cout << "hello...\n";
 }
