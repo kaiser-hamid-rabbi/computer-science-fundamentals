@@ -463,16 +463,42 @@ Program using loops
 =====================================================
 */
 
+// #include <iostream>
+
+// int main()
+// {
+//     int x = 1;
+//     int number;
+//     int total = 0;
+
+//     while (x <= 5)
+//     {
+//         std::cin >> number;
+//         total = total + number;
+//         x++;
+//     }
+//     std::cout << "Your total is: " << total << "\n";
+// }
+
+/*
+=====================================================
+Program using loops
+=====================================================
+*/
+
 #include <iostream>
 
 int main()
 {
-    int bacon = 1;
+    int x = 1;
+    int number;
+    int total = 0;
 
-    while (bacon <= 20)
+    while (x <= 5)
     {
-        std::cout << "bacon is " << bacon << "\n";
-        // bacon++;
-        bacon = bacon + 3;
+        std::cin >> number;
+        total = total + number;
+        x++;
     }
+    std::cout << "Your total is: " << total << "\n";
 }
