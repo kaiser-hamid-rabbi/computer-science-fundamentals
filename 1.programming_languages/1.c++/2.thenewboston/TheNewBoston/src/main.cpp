@@ -416,23 +416,63 @@ If else statement
 =====================================================
 */
 
+// #include <iostream>
+// #include <string>
+
+// int main()
+// {
+//     int x = 20;
+//     int y = 20;
+//     if (x == y) // condition to check. [==, !=, <, >, <=, >=]
+//     {
+//         std::cout << "x is equal to y\n";
+//     }
+//     else if (x == 10)
+//     {
+//         std::cout << "x is equal to 10\n";
+//     }
+//     else
+//     {
+//         std::cout << "x is not equal to y\n";
+//     }
+// }
+
+/*
+=====================================================
+while loops
+=====================================================
+*/
+
+// #include <iostream>
+
+// int main()
+// {
+//     int bacon = 1;
+
+//     while (bacon <= 20)
+//     {
+//         std::cout << "bacon is " << bacon << "\n";
+//         // bacon++;
+//         bacon = bacon + 3;
+//     }
+// }
+
+/*
+=====================================================
+Program using loops
+=====================================================
+*/
+
 #include <iostream>
-#include <string>
 
 int main()
 {
-    int x = 10;
-    int y = 20;
-    if (x == y) // condition to check. [==, !=, <, >, <=, >=]
+    int bacon = 1;
+
+    while (bacon <= 20)
     {
-        std::cout << "x is equal to y\n";
-    }
-    else if (x == 10)
-    {
-        std::cout << "x is equal to 10\n";
-    }
-    else
-    {
-        std::cout << "x is not equal to y\n";
+        std::cout << "bacon is " << bacon << "\n";
+        // bacon++;
+        bacon = bacon + 3;
     }
 }
