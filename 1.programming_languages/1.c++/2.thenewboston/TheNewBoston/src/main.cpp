@@ -608,17 +608,38 @@ switch
 =====================================================
 */
 
-// Do-while loop guarantee to run at least one time
+// #include <iostream>
+// #include <cmath>
+
+// int main()
+// {
+//     int age = 18;
+//     switch (age) // only work for integer
+//     {
+//     case 16:
+//         std::cout << "hey you can drive now!\n";
+//         break;
+//     case 18:
+//         std::cout << "go buy some lotto tickets!\n";
+//         break;
+//     case 21:
+//         std::cout << "buy me some beer!\n";
+
+//     default:
+//         std::cout << "sorry you get nothing!\n";
+//         break;
+//     }
+// }
+
+/*
+=====================================================
+switch
+=====================================================
+*/
+
 #include <iostream>
-#include <cmath>
 
 int main()
 {
-    // int x = 0;
-    int x = 99;
-    do
-    {
-        std::cout << x << "\n";
-        x++;
-    } while (x < 10);
+    std::cout << "hello...\n";
 }
