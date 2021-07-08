@@ -524,4 +524,12 @@ int main()
     int x = 10;
     x += 10;
     std::cout << x << "\n";
+    x -= 5;
+    std::cout << x << "\n";
+    x *= 5;
+    std::cout << x << "\n";
+    x /= 5;
+    std::cout << x << "\n";
+    x %= 4;
+    std::cout << x << "\n";
 }
