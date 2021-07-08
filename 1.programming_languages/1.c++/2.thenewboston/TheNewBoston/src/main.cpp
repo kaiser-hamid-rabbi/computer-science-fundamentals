@@ -709,13 +709,20 @@ Random Number Generator
 
 /*
 =====================================================
-Random Number Generator
+Default arguments
 =====================================================
 */
 
 #include <iostream>
 
+int volume(int l, int w, int h);
+
 int main()
 {
-    std::cout << "hello...\n";
+    std::cout << volume(4, 5, 5) << "\n";
+}
+
+int volume(int l, int w, int h)
+{
+    return l * w * h;
 }
