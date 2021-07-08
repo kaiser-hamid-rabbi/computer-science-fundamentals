@@ -564,13 +564,19 @@ Stock Market simulator
 */
 
 #include <iostream>
+#include <cmath>
 
 int main()
 {
+    float a;
+    float p = 10000;
+    float r = .01;
+    // float r = .03;
 
-    // for (int x = 1; x < 11; x++)
-    for (int x = 5; x < 50; x += 5)
+    for (int day = 1; day <= 30; day++)
     {
-        std::cout << x << "\n";
+        a = p * pow(1 + r, day);
+        std::cout << day << " ===== " << a << "\n";
     }
+    // std::cout << a << "\n";
 }
