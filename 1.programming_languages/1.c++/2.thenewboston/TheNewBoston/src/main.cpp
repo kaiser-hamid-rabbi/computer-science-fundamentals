@@ -753,9 +753,47 @@ Scope resolution operator
 =====================================================
 */
 
+// // #include <iostream>
+
+// // int tuna = 65; // global variables
+
+// // void bucky()
+// // {
+// //     int saradin = 33; // local variables
+// //     std::cout << tuna << "\n";
+// //     std::cout << saradin << "\n";
+// // }
+
+// // int main()
+// // {
+// //     std::cout << tuna << "\n";
+// //     bucky();
+// //     // std::cout << saradin << "\n"; // you will get an error
+// // }
+
+// #include <iostream>
+
+// int tuna = 65; // global variables
+// int saradin = 50;
+
+// int main()
+// {
+//     int tuna = 55; // local variables
+//     double saradin = 30;
+//     std::cout << tuna << "\n";      // to access local variables
+//     std::cout << ::tuna << "\n";    // to access global variables
+//     std::cout << saradin << "\n";   // to access local variables
+//     std::cout << ::saradin << "\n"; // to access global variables
+// }
+
+/*
+=====================================================
+Scope resolution operator
+=====================================================
+*/
+
 #include <iostream>
 
 int main()
 {
-    std::cout << "hello...\n";
 }
