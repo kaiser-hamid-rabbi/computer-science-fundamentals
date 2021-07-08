@@ -563,20 +563,34 @@ Stock Market simulator
 =====================================================
 */
 
+// #include <iostream>
+// #include <cmath>
+
+// int main()
+// {
+//     float a;
+//     float p = 10000;
+//     float r = .01;
+//     // float r = .03;
+
+//     for (int day = 1; day <= 30; day++)
+//     {
+//         a = p * pow(1 + r, day);
+//         std::cout << day << " ===== " << a << "\n";
+//     }
+//     // std::cout << a << "\n";
+// }
+
+/*
+=====================================================
+Stock Market simulator
+=====================================================
+*/
+
 #include <iostream>
 #include <cmath>
 
 int main()
 {
-    float a;
-    float p = 10000;
-    float r = .01;
-    // float r = .03;
-
-    for (int day = 1; day <= 30; day++)
-    {
-        a = p * pow(1 + r, day);
-        std::cout << day << " ===== " << a << "\n";
-    }
-    // std::cout << a << "\n";
+    std::cout << "hello... \n";
 }
