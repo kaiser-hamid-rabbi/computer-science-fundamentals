@@ -633,7 +633,37 @@ switch
 
 /*
 =====================================================
-switch
+Logical Operator
+=====================================================
+*/
+
+// #include <iostream>
+
+// int main()
+// {
+//     int age = 23;
+//     int money = 650;
+
+//     // // Bad practice
+//     // if (age > 21)
+//     // {
+//     //     if (money > 500)
+//     //     {
+//     //         std::cout << "you are allowed in\n";
+//     //     }
+//     // }
+
+//     // Recommended
+//     // if (age > 21 && money > 500)
+//     if (age > 18 || money > 500)
+//     {
+//         std::cout << "you are allowed in\n";
+//     }
+// }
+
+/*
+=====================================================
+Random Number Generator
 =====================================================
 */
 
@@ -641,5 +671,4 @@ switch
 
 int main()
 {
-    std::cout << "hello...\n";
 }
