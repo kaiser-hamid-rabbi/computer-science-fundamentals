@@ -587,10 +587,38 @@ Do- while loop
 =====================================================
 */
 
+// // Do-while loop guarantee to run at least one time
+// #include <iostream>
+// #include <cmath>
+
+// int main()
+// {
+//     // int x = 0;
+//     int x = 99;
+//     do
+//     {
+//         std::cout << x << "\n";
+//         x++;
+//     } while (x < 10);
+// }
+
+/*
+=====================================================
+switch
+=====================================================
+*/
+
+// Do-while loop guarantee to run at least one time
 #include <iostream>
 #include <cmath>
 
 int main()
 {
-    std::cout << "hello... \n";
+    // int x = 0;
+    int x = 99;
+    do
+    {
+        std::cout << x << "\n";
+        x++;
+    } while (x < 10);
 }
