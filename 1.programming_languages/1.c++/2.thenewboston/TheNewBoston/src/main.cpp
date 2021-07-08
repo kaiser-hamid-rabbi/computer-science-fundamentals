@@ -521,5 +521,7 @@ Assignment & Increment operator
 
 int main()
 {
-    std::cout << "hello everyone...\n";
+    int x = 10;
+    x += 10;
+    std::cout << x << "\n";
 }
