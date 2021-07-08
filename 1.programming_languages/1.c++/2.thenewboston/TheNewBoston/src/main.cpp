@@ -521,15 +521,20 @@ Assignment & Increment operator
 
 int main()
 {
-    int x = 10;
-    x += 10;
-    std::cout << x << "\n";
-    x -= 5;
-    std::cout << x << "\n";
-    x *= 5;
-    std::cout << x << "\n";
-    x /= 5;
-    std::cout << x << "\n";
-    x %= 4;
-    std::cout << x << "\n";
+    // int x = 10;
+    // x += 10;
+    // std::cout << x << "\n";
+    // x -= 5;
+    // std::cout << x << "\n";
+    // x *= 5;
+    // std::cout << x << "\n";
+    // x /= 5;
+    // std::cout << x << "\n";
+    // x %= 4;
+    // std::cout << x << "\n";
+
+    int y = 5;
+    std::cout << y++ << "\n"; // 5
+    std::cout << y << "\n";   // 6
+    std::cout << ++y << "\n"; // 7
 }
