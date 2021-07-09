@@ -915,15 +915,35 @@ Array as argument
 ============================================
 */
 
+// #include <iostream>
+
+// void printArray(int theArray[], int sizeOfArray);
+
+// int main()
+// {
+//     int bucky[3] = {20, 54, 675};
+//     int jessica[6] = {54, 24, 7, 8, 9, 99};
+
+//     printArray(bucky, 3);
+//     printArray(jessica, 6);
+// }
+
+// void printArray(int theArray[], int sizeOfArray)
+// {
+//     for (int x = 0; x < sizeOfArray; x++)
+//     {
+//         std::cout << theArray[x] << "\n";
+//     }
+// }
+
+/*
+============================================
+MD Array
+============================================
+*/
+
 #include <iostream>
 
 int main()
 {
-    int tuna[5] = {20, 54, 76, 832, 546};
-    int sum = 0;
-    for (int x = 0; x < 5; x++)
-    {
-        sum += tuna[x];
-    }
-    std::cout << "Sum of the array: " << sum << "\n";
 }
