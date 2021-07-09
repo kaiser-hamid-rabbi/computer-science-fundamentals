@@ -867,4 +867,6 @@ Arrays
 
 int main()
 {
+    int bucky[5] = {66, 75, 2, 43, 99};
+    std::cout << bucky[3] << "\n";
 }
