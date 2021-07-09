@@ -301,7 +301,7 @@ Variables in Classes
 
 /*
 =====================================================
-Constructor and Destructor - 1
+Constructor and Deconstructor - 1
 =====================================================
 */
 
@@ -323,9 +323,9 @@ Constructor and Destructor - 1
 //         std::cout << "I'm from the Constructor too...\n";
 //         std::cout << name << "'s favourite number is: " << x << "\n";
 //     }
-//     ~BuckysClass() // Destructor without parameters (it can't take parameters)
+//     ~BuckysClass() // Deconstructor without parameters (it can't take parameters, don't have return value and there is no deconstructor overloading possible)
 //     {
-//         std::cout << "I'm from the Destructor...\n";
+//         std::cout << "I'm from the Deconstructor...\n";
 //     }
 // };
 
@@ -337,7 +337,7 @@ Constructor and Destructor - 1
 
 /*
 =====================================================
-Constructor and Destructor - 2
+Constructor and Deconstructor - 2
 =====================================================
 */
 
@@ -1087,8 +1087,26 @@ Deconstructor
 ============================================
 */
 
+// #include <iostream>
+// #include <string>
+// #include "Sally.h"
+
+// int main()
+// {
+//     Sally so;
+//     std::cout << "omg wtf is this on my shoe?\n";
+//     so.printCrap();
+// }
+
+/*
+============================================
+Constant Object
+============================================
+*/
+
 #include <iostream>
 #include <string>
+#include "Sally.h"
 
 int main()
 {
