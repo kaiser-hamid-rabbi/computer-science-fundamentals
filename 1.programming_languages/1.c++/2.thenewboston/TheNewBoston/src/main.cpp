@@ -1064,13 +1064,15 @@ Pointer math’s
 
 /*
 ============================================
-Pointer math’s
+Indirection Operator
 ============================================
 */
 
 #include <iostream>
+#include <string>
+#include "Sally.h"
 
 int main()
 {
-    std::cout << "hello...\n";
+    Sally sally;
 }
