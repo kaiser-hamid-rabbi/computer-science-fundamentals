@@ -1104,11 +1104,41 @@ Constant Object
 ============================================
 */
 
+// #include <iostream>
+// #include <string>
+// #include "Sally.h"
+
+// int main()
+// {
+//     // // const variable
+//     // int x = 3;
+//     // x = 5;
+//     // std::cout << x << "\n";
+
+//     // const int y = 3;
+//     // // y = 5; // you can't change the value
+//     // std::cout << y << "\n";
+
+//     // const function
+//     Sally salobj;
+//     salobj.printShiz();
+
+//     const Sally constObj;
+//     // constObj.printShiz(); // you will get an error, because costObj is a const object, but printShiz is not a const function.
+//     constObj.printShizConst();
+// }
+
+/*
+============================================
+Member Initialization list
+============================================
+*/
+
 #include <iostream>
 #include <string>
 #include "Sally.h"
 
 int main()
 {
-    std::cout << "hello...\n";
+    std::cout << "bello...\n";
 }

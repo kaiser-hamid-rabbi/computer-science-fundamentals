@@ -7,6 +7,8 @@ public:
     Sally();
     ~Sally();
     void printCrap();
+    void printShiz();
+    void printShizConst() const;
 };
 
 #endif
