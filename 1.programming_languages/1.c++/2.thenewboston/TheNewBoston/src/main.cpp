@@ -1140,5 +1140,5 @@ Member Initialization list
 
 int main()
 {
-    std::cout << "bello...\n";
+    std::cout << "hello...\n";
 }
