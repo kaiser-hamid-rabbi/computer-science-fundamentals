@@ -1026,5 +1026,6 @@ size of
 
 int main()
 {
-    std::cout << "hello...\n";
+    char c;
+    std::cout << sizeof(c) << "\n";
 }
