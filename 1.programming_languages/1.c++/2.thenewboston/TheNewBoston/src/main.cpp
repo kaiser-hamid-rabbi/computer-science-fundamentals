@@ -823,12 +823,12 @@ Recursion
 
 void printNumber(int x)
 {
-    std::cout << "i am printing an integer: 
+    std::cout << "i am printing an integer: " << x << "\n";
 }
 
 void printNumber(float x)
 {
-    std::cout << "i am printing a float: " <
+    std::cout << "i am printing a float: " << x << "\n";
 }
 
 int main()
