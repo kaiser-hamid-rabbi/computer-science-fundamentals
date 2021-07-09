@@ -1043,6 +1043,31 @@ Pointer math’s
 ============================================
 */
 
+// #include <iostream>
+
+// int main()
+// {
+//     int bucky[5];
+//     int *bp0 = &bucky[0];
+//     int *bp1 = &bucky[1];
+//     int *bp2 = &bucky[2];
+
+//     std::cout << "bp0 is at " << bp0 << "\n";
+//     std::cout << "bp1 is at " << bp1 << "\n";
+//     std::cout << "bp2 is at " << bp2 << "\n";
+
+//     bp0 += 1;
+//     std::cout << "bp0 is at " << bp0 << "\n";
+//     bp0 += 1;
+//     std::cout << "bp0 is at " << bp0 << "\n";
+// }
+
+/*
+============================================
+Pointer math’s
+============================================
+*/
+
 #include <iostream>
 
 int main()
