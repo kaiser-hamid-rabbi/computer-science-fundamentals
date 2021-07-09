@@ -877,8 +877,34 @@ Arrays with Loops
 ============================================
 */
 
+// #include <iostream>
+
+// int main()
+// {
+//     int bucky[9];
+//     std::cout << "Element - Value\n";
+//     for (int x = 0; x < 9; x++)
+//     {
+//         bucky[x] = 99;
+//         std::cout << x << " ----- " << bucky[x] << "\n";
+//     }
+// }
+
+/*
+============================================
+Arrays Calculation
+============================================
+*/
+
 #include <iostream>
 
 int main()
 {
+    int bucky[9];
+    std::cout << "Element - Value\n";
+    for (int x = 0; x < 9; x++)
+    {
+        bucky[x] = 99;
+        std::cout << x << " ----- " << bucky[x] << "\n";
+    }
 }
