@@ -819,23 +819,52 @@ Recursion
 ============================================
 */
 
+// // Useless code! Just for illustration of recursion
+// // #include <iostream>
+
+// // void bucky()
+// // {
+// //     std::cout << "omgwtfbbq\n";
+// //     bucky();
+// // }
+
+// // int main()
+// // {
+// //     bucky();
+// // }
+
+// // Using recursion to find out factorial of a given number
+// #include <iostream>
+
+// int factorialFinder(int x)
+// {
+//     if (x == 1) // base case
+//     {
+//         return 1;
+//     }
+//     else
+//     {
+//         return x * factorialFinder(x - 1);
+//     }
+// }
+
+// int main()
+// {
+//     int number;
+//     std::cout << "Please enter a number: ";
+//     std::cin >> number;
+//     int result = factorialFinder(number);
+//     std::cout << "The factorial of " << number << " is: " << result << "\n";
+// }
+
+/*
+============================================
+Arrays
+============================================
+*/
+
 #include <iostream>
-
-void printNumber(int x)
-{
-    std::cout << "i am printing an integer: " << x << "\n";
-}
-
-void printNumber(float x)
-{
-    std::cout << "i am printing a float: " << x << "\n";
-}
 
 int main()
 {
-    int a = 54;
-    float b = 32.4896;
-
-    printNumber(a);
-    printNumber(b);
 }
