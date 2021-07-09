@@ -1068,11 +1068,29 @@ Indirection Operator
 ============================================
 */
 
+// #include <iostream>
+// #include <string>
+// #include "Sally.h"
+
+// int main()
+// {
+//     Sally sallyObject;
+//     Sally *sallyPointer = &sallyObject;
+
+//     sallyObject.printCrap();
+//     sallyPointer->printCrap(); // '->' arrow memeber selection operator
+// }
+
+/*
+============================================
+Deconstructor
+============================================
+*/
+
 #include <iostream>
 #include <string>
-#include "Sally.h"
 
 int main()
 {
-    Sally sally;
+    std::cout << "hello...\n";
 }
