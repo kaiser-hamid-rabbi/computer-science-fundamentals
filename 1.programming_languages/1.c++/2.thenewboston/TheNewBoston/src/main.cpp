@@ -1022,10 +1022,30 @@ size of
 ============================================
 */
 
+// #include <iostream>
+
+// int main()
+// {
+//     char a;
+//     int b;
+//     double c;
+//     double bucky[10];
+//     std::cout << sizeof(a) << "\n";
+//     std::cout << sizeof(b) << "\n";
+//     std::cout << sizeof(c) << "\n";
+//     std::cout << sizeof(bucky) << "\n";
+//     std::cout << sizeof(bucky) / sizeof(bucky[0]) << "\n";
+// }
+
+/*
+============================================
+Pointer math’s
+============================================
+*/
+
 #include <iostream>
 
 int main()
 {
-    char c;
-    std::cout << sizeof(c) << "\n";
+    std::cout << "hello...\n";
 }
