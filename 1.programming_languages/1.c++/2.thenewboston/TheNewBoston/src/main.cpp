@@ -896,15 +896,34 @@ Arrays Calculation
 ============================================
 */
 
+// #include <iostream>
+
+// int main()
+// {
+//     int tuna[5] = {20, 54, 76, 832, 546};
+//     int sum = 0;
+//     for (int x = 0; x < 5; x++)
+//     {
+//         sum += tuna[x];
+//     }
+//     std::cout << "Sum of the array: " << sum << "\n";
+// }
+
+/*
+============================================
+Array as argument
+============================================
+*/
+
 #include <iostream>
 
 int main()
 {
-    int bucky[9];
-    std::cout << "Element - Value\n";
-    for (int x = 0; x < 9; x++)
+    int tuna[5] = {20, 54, 76, 832, 546};
+    int sum = 0;
+    for (int x = 0; x < 5; x++)
     {
-        bucky[x] = 99;
-        std::cout << x << " ----- " << bucky[x] << "\n";
+        sum += tuna[x];
     }
+    std::cout << "Sum of the array: " << sum << "\n";
 }
