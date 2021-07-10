@@ -4,11 +4,15 @@
 =============================================================
 """
 
-# String, Tuple, Set => immutable/non mutable
-# List, Dictionary => mutable
-# String, Tuple, List => ordered
-# Dictionary, Set => unordered
-# Set => no duplicates
+
+"""
+String, Tuple, Set => immutable/non mutable
+List, Dictionary => mutable
+String, Tuple, List => ordered
+Dictionary, Set => unordered
+Set => no duplicates
+"""
+
 
 # --------------------- Lists ---------------------------------------
 # you can modify Lists(mutable). List is a mutable dynamic array.
