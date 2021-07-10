@@ -1,4 +1,8 @@
-# ----------------------------- 1st lecture --------------------------
+"""
+=============================================================
+                        1st Lecture
+=============================================================
+"""
 
 # message_1 = "Hello Rabbi's world"
 # message_2 = 'Hello Rabbi\'s world'
@@ -14,7 +18,7 @@
 # print(multiple_line_message)
 
 # message = "Hello World"
-
+#
 # print(len(message))
 # print(message[-3])
 # print(message[6:9])
@@ -22,7 +26,7 @@
 # print(message[0:2])
 # print(message[:5])
 # print(message[6:])
-# print(message[100])
+# print(message[100]) # you will get an error
 
 # message = """Hello
 # asdfasdfas
@@ -32,31 +36,33 @@
 # print(message.lower())
 # print(message.upper())
 # print(message.count("l"))
-
+# print(message.find("rabbi"))
+# print(message.find("World"))
+#
 # if message.find("rabbi") == -1:
 #     print("rabbi is not found")
 # else:
 #     print("rabbi found")
 
 
-
-
+# message = """Hello
+# asdfasdfas
+# World
+# asdfsdaf
+# """
 # print(dir(message))
 # print(message.isdigit())
 # print(message.isupper())
+# print(message.islower())
 # print(help(str))
 # print(help(str.lower))
 
 
-
-
-
-
-
-
-
-
-# --------------------------------------- 2nd lecture -----------------------------------
+"""
+=============================================================
+                        2nd Lecture
+=============================================================
+"""
 
 # message = """Hello world
 # asdfasdfas
@@ -85,6 +91,11 @@
 
 
 
+"""
+=============================================================
+                        Exercise
+=============================================================
+"""
 
 # Exercise for lecture 1 and 2
 # multiple_line_message = """Hello Sandeep! How are you doing?
@@ -107,8 +118,11 @@
 
 
 
-
-# --------------------------------------- 3rd lecture -----------------------------------
+"""
+=============================================================
+                        3rd Lecture
+=============================================================
+"""
 
 # all data types in a nutshell
 
@@ -179,124 +193,3 @@
 # all_characters = "abcdefghijklmnopqrstuvwxyz"
 # for character in all_characters:
 #     print(character, pangram.count(character))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
