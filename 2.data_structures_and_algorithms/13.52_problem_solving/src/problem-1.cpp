@@ -2,12 +2,12 @@
 
 int main()
 {
-    while (true)
+    int T, i, n;
+    std::cin >> T;
+    for (i = 0; i < T; i++)
     {
-        int number;
-        std::cout << "Enter a number: ";
-        std::cin >> number;
-        if (number % 2 == 0)
+        std::cin >> n;
+        if (n % 2 == 0)
         {
             std::cout << "even\n";
         }
