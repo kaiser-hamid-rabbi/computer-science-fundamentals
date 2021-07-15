@@ -1,8 +1,10 @@
 # Object Oriented Programming in Python
 
 """
+===========================================
 Part - 1
-"""
+===========================================
+""" 
 # class Dog:
 #     def meow(self):
 #         return "meow"
@@ -18,7 +20,9 @@ Part - 1
 # print(d.add_one(5))
 
 """
+===========================================
 Part - 2
+===========================================
 """
 class Dog:
     def __init__(self, name, age):
