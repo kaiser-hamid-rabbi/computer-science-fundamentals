@@ -21,7 +21,7 @@ class SoftwareEngineer:
         self.level = level
         self.salary = salary
 
-# Instance
+# instance
 se1 = SoftwareEngineer("Max", 20, "Junior", 5000)
 print(se1.name, se1.age)
 # SoftwareEngineer.name # you will get an error

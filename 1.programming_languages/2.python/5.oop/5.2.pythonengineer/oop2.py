@@ -7,11 +7,13 @@ Functions in Classes
 # position, name, age, level, salary
 se1 = ["Software Engineer", "Max", 20, "Junior", 5000]
 se2 = ["Software Engineer", "Lisa", 25, "Senior", 7000]
+d1 = ["Designer", "Philip"]
 # List is not a perfect data structure for this kind of complex data
 
-def code(se):
-    print(f"{se[1]} is writing code...")
-code(se1)
+# def code(se):
+#     print(f"{se[1]} is writing code...")
+# code(se1)
+# code(d1) # it's not appropriate
 
 # class
 class SoftwareEngineer:
@@ -23,22 +25,24 @@ class SoftwareEngineer:
         self. age = age
         self.level = level
         self.salary = salary
+    # instance method
+    def code(self):
+        print(f"{self.name} is writing code...")
+    # instance method
+    def code_in_language(self, language):
+        print(f"{self.name} is writing code in {language}")
+    # instance method
+    def information(self):
+        information = f"name = {self.name}, age = {self.age}, level = {self.level}, salary = {self.salary}"
+        return information
 
-# Instance
+# instance
 se1 = SoftwareEngineer("Max", 20, "Junior", 5000)
-print(se1.name, se1.age)
-# SoftwareEngineer.name # you will get an error
-print(se1.alias)
-print(SoftwareEngineer.alias)
 se2 = SoftwareEngineer("Lisa", 25, "Senior", 7000)
-print(se2.name, se1.age)
-# SoftwareEngineer.name # you will get an error
-print(se2.alias)
-print(SoftwareEngineer.alias)
 
-# Recap:
-# create a class (blueprint)
-# create a instance (object)
-# class vs instance
-# instance attributes: defined in __init__(self)
-# class attributes
+se1.code()
+se2.code()
+se1.code_in_language("Python")
+se2.code_in_language("C++")
+print(se1.information())
+print(se2.information())
