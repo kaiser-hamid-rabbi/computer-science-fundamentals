@@ -36,7 +36,7 @@ class SoftwareEngineer:
     #     information = f"name = {self.name}, age = {self.age}, level = {self.level}, salary = {self.salary}"
     #     return information
     # Dunder method
-    def __str__(self):
+    def __str__(self): # string representation of the object
         information = f"name = {self.name}, age = {self.age}, level = {self.level}, salary = {self.salary}"
         return information
 
