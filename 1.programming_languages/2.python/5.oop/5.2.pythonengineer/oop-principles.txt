@@ -5,7 +5,7 @@
 2. Functions inside Classes
 3. Inheritance (Base + Child class)
 4. Encapsulation (private/protected/public)
-5. Properties (getter/setter)
+5. Properties (getter/setter) -> More Pythonic way!
 
 * 4 Princiles of OOP:
     1. Inheritance

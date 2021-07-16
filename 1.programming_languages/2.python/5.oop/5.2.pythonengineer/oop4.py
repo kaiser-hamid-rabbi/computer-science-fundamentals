@@ -47,4 +47,5 @@ se.set_salary(6000)
 print(se.get_salary())
 
 # Recap:
-# Encapsulation + Abstraction
+# encapsulation
+# abstraction
