@@ -32,7 +32,11 @@ class SoftwareEngineer:
     def code_in_language(self, language):
         print(f"{self.name} is writing code in {language}")
     # instance method
-    def information(self):
+    # def information(self):
+    #     information = f"name = {self.name}, age = {self.age}, level = {self.level}, salary = {self.salary}"
+    #     return information
+    # Dunder method
+    def __str__(self):
         information = f"name = {self.name}, age = {self.age}, level = {self.level}, salary = {self.salary}"
         return information
 
@@ -40,9 +44,12 @@ class SoftwareEngineer:
 se1 = SoftwareEngineer("Max", 20, "Junior", 5000)
 se2 = SoftwareEngineer("Lisa", 25, "Senior", 7000)
 
-se1.code()
-se2.code()
-se1.code_in_language("Python")
-se2.code_in_language("C++")
-print(se1.information())
-print(se2.information())
+# se1.code()
+# se2.code()
+# se1.code_in_language("Python")
+# se2.code_in_language("C++")
+# print(se1.information())
+# print(se2.information())
+
+print(se1)
+print(se2)
