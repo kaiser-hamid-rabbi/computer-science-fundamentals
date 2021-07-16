@@ -1,4 +1,3 @@
-
 class Person:
     def __init__(self, name:str, yob:int, height_inches:int =None):
         self.__name = name # private vairable
@@ -104,9 +103,3 @@ abc.name = "Movie"
 
 print(abc.age)
 print(abc.name)
-
-
-
-
-
-
