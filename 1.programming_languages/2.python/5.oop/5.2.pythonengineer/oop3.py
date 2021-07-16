@@ -53,3 +53,9 @@ def motivate_employees(employees):
     for employee in employees:
         employee.work()
 motivate_employees(employees)
+
+# Recap:
+# inheritance: ChildClass(BaseClass)
+# inherit, extend, override
+# super().__init__()
+# polymorphism
