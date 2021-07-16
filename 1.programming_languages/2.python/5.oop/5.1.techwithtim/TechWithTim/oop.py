@@ -128,6 +128,7 @@ Data passing between two classes
 Inheritence
 ===========================================
 """
+# # redundent __init__ functions
 # class Cat:
 #     def __init__(self, name, age):
 #         self.name = name
@@ -153,8 +154,13 @@ class Pet:
         print("I don't know what I say...")
 
 class Cat(Pet):
+    def __init__(self, name, age, color):
+        super().__init__(name, age)
+        self.color = color
     def speak(self):
         print("Meow")
+    def show(self):
+        print(f"I am {self.name} and I am {self.age} years old and I am {self.color}.")
 
 class Dog(Pet):
     def speak(self):
@@ -166,7 +172,7 @@ class Fish(Pet):
 p = Pet("Goldern Retriever", 10)
 p.show()
 p.speak()
-c = Cat("Black Cat", 5)
+c = Cat("Stray Cat", 5, "Black")
 c.show()
 c.speak()
 d = Dog("Samoyed", 12)
