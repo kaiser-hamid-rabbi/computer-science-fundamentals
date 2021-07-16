@@ -143,41 +143,105 @@ Inheritence
 #     def speak(self):
 #         print("Bark")
 
-# ---------------------------------------
-class Pet:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-    def show(self):
-        print(f"I am {self.name} and I am {self.age} years old.")
-    def speak(self):
-        print("I don't know what I say...")
+# # ---------------------------------------
+# class Pet:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#     def show(self):
+#         print(f"I am {self.name} and I am {self.age} years old.")
+#     def speak(self):
+#         print("I don't know what I say...")
 
-class Cat(Pet):
-    def __init__(self, name, age, color):
-        super().__init__(name, age)
-        self.color = color
-    def speak(self):
-        print("Meow")
-    def show(self):
-        print(f"I am {self.name} and I am {self.age} years old and I am {self.color}.")
+# class Cat(Pet):
+#     def __init__(self, name, age, color):
+#         super().__init__(name, age)
+#         self.color = color
+#     def speak(self):
+#         print("Meow")
+#     def show(self):
+#         print(f"I am {self.name} and I am {self.age} years old and I am {self.color}.")
 
-class Dog(Pet):
-    def speak(self):
-        print("Bark")
+# class Dog(Pet):
+#     def speak(self):
+#         print("Bark")
 
-class Fish(Pet):
-    pass
+# class Fish(Pet):
+#     pass
 
-p = Pet("Goldern Retriever", 10)
-p.show()
-p.speak()
-c = Cat("Stray Cat", 5, "Black")
-c.show()
-c.speak()
-d = Dog("Samoyed", 12)
-d.show()
-d.speak()
-f = Fish("Bubbles", 3)
-f.show()
-f.speak()
+# p = Pet("Goldern Retriever", 10)
+# p.show()
+# p.speak()
+# c = Cat("Stray Cat", 5, "Black")
+# c.show()
+# c.speak()
+# d = Dog("Samoyed", 12)
+# d.show()
+# d.speak()
+# f = Fish("Bubbles", 3)
+# f.show()
+# f.speak()
+
+"""
+=====================================================================
+class attributes + methods and instance attributes + methods
+=====================================================================
+"""
+# class Person:
+#     number_of_people = 0 # class attribute
+
+#     def __init__(self, name):
+#         self.name = name # instance attribute
+#         # Person.number_of_people += 1
+#         Person.add_person()
+#     def get_name(self): # instance method
+#         return self.name
+#     @classmethod # class method
+#     def number_of_people_(cls):
+#         return cls.number_of_people
+#     @classmethod # class method
+#     def add_person(cls):
+#         cls.number_of_people += 1
+
+# # p1 = Person("Tim")
+# # print(Person.number_of_people)
+# # p2 = Person("Jill")
+# # print(Person.number_of_people)
+
+# # print(p1.number_of_people)
+# # print(p2.number_of_people)
+# # print(Person.number_of_people)
+# # Person.number_of_people = 8
+# # print(Person.number_of_people)
+# # print(p1.number_of_people)
+# # Person.number_of_people = 9
+# # print(p2.number_of_people)
+
+# p1 = Person("Tim")
+# p2 = Person("Jill")
+# print(Person.number_of_people_())
+
+"""
+=====================================================================
+Static method
+=====================================================================
+"""
+# static method can do something but can't change anything
+class Math:
+    @staticmethod
+    def add1(x):
+        return x + 1
+    @staticmethod
+    def add5(x):
+        return x + 5
+    @staticmethod
+    def add10(x):
+        return x + 10
+    @staticmethod
+    def pr():
+        print("run...")
+
+print(Math.add1(5))
+print(Math.add5(5))
+print(Math.add10(5))
+Math.pr()
