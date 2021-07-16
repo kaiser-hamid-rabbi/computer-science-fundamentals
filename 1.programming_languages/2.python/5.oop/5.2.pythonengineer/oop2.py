@@ -35,14 +35,25 @@ class SoftwareEngineer:
     # def information(self):
     #     information = f"name = {self.name}, age = {self.age}, level = {self.level}, salary = {self.salary}"
     #     return information
-    # Dunder method
+    # dunder method
     def __str__(self): # string representation of the object
         information = f"name = {self.name}, age = {self.age}, level = {self.level}, salary = {self.salary}"
         return information
+    # dunder method
+    def __eq__(self, other):
+        return self.name == other.name and self.age == other.age
+    @staticmethod
+    def entry_salary(age):
+        if age < 25:
+            return 5000
+        if age < 30:
+            return 7000
+        return 9000
 
 # instance
 se1 = SoftwareEngineer("Max", 20, "Junior", 5000)
 se2 = SoftwareEngineer("Lisa", 25, "Senior", 7000)
+se3 = SoftwareEngineer("Lisa", 25, "Senior", 7000)
 
 # se1.code()
 # se2.code()
@@ -51,5 +62,18 @@ se2 = SoftwareEngineer("Lisa", 25, "Senior", 7000)
 # print(se1.information())
 # print(se2.information())
 
-print(se1)
-print(se2)
+# print(se1)
+# print(se2)
+# print(se2 == se3)
+
+# se1.entry_salary(24) # you will get an error. It tried - se1.entry_salary(self, 24)
+# print(SoftwareEngineer.entry_salary(26))
+
+print(se1.entry_salary(24))
+print(SoftwareEngineer.entry_salary(26)) # if you use self.age or something in the entry_salary(age) function's condition check, which is a instance attribues, then you will get an error
+
+# Recap:
+# instance method(self)
+# can take arguments and can return values
+# special "dunder" method (__str__ and __eq__)
+# @staticmethod
