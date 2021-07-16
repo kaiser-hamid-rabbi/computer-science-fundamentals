@@ -1,4 +1,13 @@
-4 Princiles of OOP:
+* Lecture topics:
+1. Create Classes:
+    - Why and How
+    - Class vs Instance
+2. Functions inside Classes
+3. Inheritance (Base + Child class)
+4. Encapsulation (private/protected/public)
+5. Properties (getter/setter)
+
+* 4 Princiles of OOP:
     1. Inheritance
     2. Polymorphism
     3. Encapsulation
