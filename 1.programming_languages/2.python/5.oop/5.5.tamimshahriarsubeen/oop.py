@@ -51,17 +51,57 @@ Object
 Constructor
 ======================
 """
+# # way - 1
+# class Car:
+#     # constructor
+#     def __init__(self, name, color):
+#         self.name = name # instance attribute
+#         self.color = color # instance attribute
+#     def start(self):
+#         print("name: ", self.name)
+#         print("color: ", self.color)
+#         print("starting the engine...")
+
+# my_car = Car("corolla", "white")
+# print(my_car. name)
+# print(my_car.color)
+# my_car.start()
+
+# # way - 2
+# class Car:
+#     # constructor
+#     def __init__(self, name, color):
+#         self.name = name # instance attribute
+#         self.color = color # instance attribute
+#     def start(self):
+#         print("name: ", self.name)
+#         print("color: ", self.color)
+#         print("starting the engine...")
+
+# my_car = Car("corolla", "white")
+# Car.start(my_car)
+
+"""
+=========================
+Multiple object creation
+=========================
+"""
 class Car:
-    # constructor
     def __init__(self, name, color):
-        self.name = name # instance attribute
-        self.color = color # instance attribute
+        self.name = name
+        self.color = color
     def start(self):
         print("name: ", self.name)
         print("color: ", self.color)
         print("starting the engine...")
 
-my_car = Car("corolla", "white")
-print(my_car. name)
-print(my_car.color)
-my_car.start()
+# my_car1 = Car("corolla", "white")
+# my_car1.start()
+# my_car2 = Car("premio", "black")
+# my_car2.start()
+# my_car3 = Car("allion", "blue")
+# my_car3.start()
+
+car = Car("axio", "red")
+car.year = 2017
+print(f"name: {car.name}, color: {car.color}, year: {car.year}")
