@@ -24,7 +24,7 @@ print("Here is a floor version (crop decimal):", 20 // 3) #6
 result = 5**2 #raising a number to a power (5^)
 print(result)
 
-#You can use round instead. 
+#You can use round instead.
 print(round(20/3), 0)
 
 print(result / age) #can use variables in place of literals. This will not change variable values
