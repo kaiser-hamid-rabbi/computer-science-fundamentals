@@ -26,3 +26,26 @@
 # 'Bucky McLovin'
 # >>> firstName * 5
 # 'Bucky Bucky Bucky Bucky Bucky '
+
+# >>> "kaiser" + 5
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+# TypeError: can only concatenate str (not "int") to str
+# >>> "kaiser" * 5
+# 'kaiserkaiserkaiserkaiserkaiser'
+# >>> "kaiser" / 5
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+# TypeError: unsupported operand type(s) for /: 'str' and 'int'
+# >>> "kaiser" // 5
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+# TypeError: unsupported operand type(s) for //: 'str' and 'int'
+# >>> "kaiser" - 5
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+# TypeError: unsupported operand type(s) for -: 'str' and 'int'
+# >>> "kaiser" % 5
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+# TypeError: not all arguments converted during string formatting
