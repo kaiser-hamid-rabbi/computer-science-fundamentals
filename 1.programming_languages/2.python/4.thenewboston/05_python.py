@@ -22,3 +22,16 @@
 # >>> players[:] = []
 # >>> players
 # []
+
+# >>> players = [3, 2, 5, 1, 4]
+# >>> players + [8, 9, 7]
+# [3, 2, 5, 1, 4, 8, 9, 7]
+# >>> players
+# [3, 2, 5, 1, 4]
+# >>> players.append(10)
+# >>> players
+# [3, 2, 5, 1, 4, 10]
+# >>> players.append(67, 73, 80)
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+# TypeError: append() takes exactly one argument (3 given)
