@@ -8,11 +8,11 @@ if age < 21:
 
 #name = "Lucy"
 name = "Tommy D"
-if name is "Bucky":
+if name == "Bucky":
     print("Hey there Bucky")
-elif name is "Lucy":
+elif name == "Lucy":
     print("What up Lucedawg")
-elif name is "Sammy":
+elif name == "Sammy":
     print("What up Slammy")
 else:
     print("Please sign up for the site!")
