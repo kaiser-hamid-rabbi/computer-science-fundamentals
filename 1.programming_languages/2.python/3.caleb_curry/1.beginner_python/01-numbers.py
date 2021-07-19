@@ -21,7 +21,7 @@ print(result)
 
 print("Here is a floor version (crop decimal):", 20 // 3) #6
 
-result = 5**2 #raising a number to a power (5^)
+result = 5**2 #raising a number to a power (5^2)
 print(result)
 
 #You can use round instead.
@@ -45,3 +45,8 @@ print(5**5)
 
 #The remainder of 78 / 11 is 1.
 print(78 % 11)
+
+# / --> float division
+# // --> integer division
+print(5/2)
+print(5//2)
