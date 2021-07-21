@@ -57,7 +57,3 @@ def get_single_item_data(item_url):
 
 
 trade_spider(1)
-
-
-
-
