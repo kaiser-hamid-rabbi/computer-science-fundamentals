@@ -4,7 +4,7 @@ while True:
         print(18/number)
         break
     except ValueError:
-        print("Make sure and enter a number")
+        print("Make sure you are entering a number!")
     except ZeroDivisionError:
         print("Don't pick zero")
     except:
