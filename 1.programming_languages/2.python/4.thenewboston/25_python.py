@@ -1,10 +1,13 @@
 import requests
-from b4 import BeautifulSoup
+from bs4 import BeautifulSoup
 
 
 def trade_spider(max_pages):
   page = 1
-  while page < max_page:
+  while page < max_pages:
     url = 'https://buckysroom.org/trade/search.php?page=' + str(page)
     source_code = requests.get(url)
-    plain_text = 
+    # plain_text = 
+    print("kaiser")
+  
+trade_spider(10)
