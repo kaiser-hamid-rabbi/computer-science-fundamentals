@@ -6,7 +6,7 @@ class Enemy:
         print(self.energy)
 
 jason = Enemy(5)
-sandy = Enemy(20)
+sandy = Enemy(18)
 
 jason.get_energy()
 sandy.get_energy()
