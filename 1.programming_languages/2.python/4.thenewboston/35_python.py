@@ -12,7 +12,7 @@ def start(url):
         words = content.lower().split()
         for each_word in words:
             print(each_word)
-            word.append(each_word)
+            word_list.append(each_word)
 
 
-start('https://buckysroom.org/tops.php?type=text&period=this-month')
+start('https://kaiser-hamid-rabbi.github.io/my-story.html')
