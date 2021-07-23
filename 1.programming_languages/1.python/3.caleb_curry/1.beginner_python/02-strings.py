@@ -1,3 +1,4 @@
+# strings are series of characters
 me = "Caleb"
 
 #escape character example
