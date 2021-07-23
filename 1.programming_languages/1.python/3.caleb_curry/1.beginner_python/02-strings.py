@@ -8,6 +8,10 @@ me = "C\ta\tl\te\tb\n"
 
 print(me)
 
+# hexadecimal to character
+msg = "\x41" 
+print(msg) # A
+
 #can also use single quotes
 you = 'Subscriber'
 
