@@ -11,6 +11,8 @@ print(me)
 # hexadecimal to character
 msg = "\x41" 
 print(msg) # A
+print("\"") # "
+print("\\t") # \t
 
 #can also use single quotes
 you = 'Subscriber'
