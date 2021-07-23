@@ -43,7 +43,7 @@ print(double_quotes)
 #https://docs.python.org/2.0/ref/strings.html
 
 #Notice that if you want to print \ you must put two
-print("\\")
+print("\\") # \
 
 #you can also prefix with r which will make a raw string (ignoring escapes except same quote)
 print(r'as raw as I\'ve ever seen. \/\/ () \/\/. \t' ) #only \' is escaped
