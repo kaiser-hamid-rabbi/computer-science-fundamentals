@@ -1,2 +1,2 @@
-answer = lambda x: x*7
+answer = lambda x: x ** 5
 print(answer(5))
