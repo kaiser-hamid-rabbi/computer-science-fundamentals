@@ -209,4 +209,9 @@ print("length is " + str(len(name)))
 #this string is then concatenated with the string on the left
 #this final string is then passed to print
 
+
+# to get memory location of an object use id()
+task = "Subscribe"
+print(id(task))
+
 #That's the end of your introduction to strings!
