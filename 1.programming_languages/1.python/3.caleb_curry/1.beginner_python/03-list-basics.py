@@ -154,4 +154,3 @@ print(just_right)
 #we can skip the variable altogether and use the expression
 
 print(good + bad)
-
