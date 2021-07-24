@@ -103,6 +103,7 @@ print(sum(range(1, 11)))
 #https://docs.python.org/3/library/stdtypes.html#list
 numbers = list(range(1, 11))
 print(numbers)
+print(type(numbers))
 
 #This is the besr way to easily print a list 
 #as print(range(1,11)) doesn't work as expected
