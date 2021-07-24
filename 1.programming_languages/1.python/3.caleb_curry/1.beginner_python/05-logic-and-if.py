@@ -8,6 +8,7 @@
 #
 happy = True
 print(happy)
+print(type(happy))
 
 #There are operators that will return true or false
 #These are known as comparison operators
