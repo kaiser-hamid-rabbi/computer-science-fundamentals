@@ -23,7 +23,8 @@ print(ages[2]) #grab 3rd element.
 #remember, these are zero based! The first element is index 0.
 
 #Indexing can also return a list (doesn't modify original list)
-print(my_favorite_things[2]) 
+print(my_favorite_things[2])
+print(my_favorite_things[2][1])
 
 ########## UPDATING AND SLICING ##########
 #lists are different than strings in that the data can be changed!
