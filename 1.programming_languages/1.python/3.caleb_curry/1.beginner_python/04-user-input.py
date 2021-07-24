@@ -49,3 +49,12 @@ print("all the numbers added:")
 result = num3 + new_num1 + new_num2 
 # print(type(result)) # <class 'float'>
 print(result)
+
+
+# it works! because Python is dynamic...
+variable = "Caleb"
+print(variable)
+print(type(variable))
+variable = 5
+print(variable)
+print(type(variable))
