@@ -136,5 +136,4 @@ if temp_outside < 60 and not pool_heated:
 
 #this can be confusing, so it might be best to read it as english
 #however, logically... pool_heated is false so not pool_heated is true.
-#therefore, both sides are true. 
-
+#therefore, both sides are true.
