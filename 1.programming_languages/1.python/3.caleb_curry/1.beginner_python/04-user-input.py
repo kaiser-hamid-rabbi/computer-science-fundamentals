@@ -46,4 +46,6 @@ print("Give me a 3rd number (with a decimal this time):")
 num3 = float(input())
 
 print("all the numbers added:")
-print(num3 + new_num1 + new_num2)
+result = num3 + new_num1 + new_num2 
+# print(type(result)) # <class 'float'>
+print(result)
