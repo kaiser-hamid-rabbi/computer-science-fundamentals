@@ -114,4 +114,20 @@ languages = ["Python", "C++", "Java"]
 for i in range(len(languages)):
     print(i, languages[i])
 
+
+# 3 different loops we need
+# way 1
+for i in range(10):
+    print(i, end=" ")
+print()
+# way 2
+foods = ["asparagus", "tacos", "strawberries", "yogurt", "bagels"]
+for food in foods:
+    print(food, end=" ")
+print()
+# way 3 - combination of way 1 & 2
+for i in range(len(foods)):
+    print(i, foods[i], end=" ")
+print()
+
 #len will return 3. Passing 3 to range gives us 0, 1, 2
