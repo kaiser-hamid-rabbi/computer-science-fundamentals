@@ -7,10 +7,10 @@
 
 
 healthy = ["pizza", "frozen custard"]
-
-healthy.append("apple crisp")
-
-print(healthy)
+healthy.append("apple crisp") # method
+print(healthy) # function
+length = len(healthy) # function
+print("Length:", length) # function with multiple arguments
 
 
 ########## CHECKING IF ELEMENT IN LIST #########
