@@ -90,14 +90,14 @@ j = 10
 while j > 0:
     sum += j
     j -= 1
-print(sum) #55 
+print(sum) #55
 
 #But now I want to get the sum of 9-0, 8-0, 7-0, 6-0, etc...
 #Here will be the structure:
 
 i = 10
 while (i > -1): #include zero. Could also do >= 0
-    #print sum from i to zero. 
+    #print sum from i to zero.
     i -= 1
 
 
@@ -105,20 +105,20 @@ while (i > -1): #include zero. Could also do >= 0
 #change to j = i (dynamic from 10 to 0)
 print("All the sums:")
 i = 10
-while (i > -1): 
+while (i > -1):
     sum = 0
     j = i
     while j > 0:
         sum += j
         j -= 1
-    print(sum) 
+    print(sum)
     i -= 1
 
 #We can now customize the output to be more readable:
 print("All the sums with output:")
 i = 10
 print("Getting sums up to", i)
-while (i > -1): 
+while (i > -1):
     sum = 0
     j = i
     while j > 0:
@@ -128,5 +128,5 @@ while (i > -1):
             print(j, "=", end=" ")
         sum += j
         j -= 1
-    print(sum) 
+    print(sum)
     i -= 1
