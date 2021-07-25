@@ -90,6 +90,3 @@ print("Deleted:", booksSDK.delete_book(book))
 print("After delete:", booksSDK.get_book_by_title("Are You My Mother?"))
 
 print("All books:", booksSDK.get_books())
-
-
-

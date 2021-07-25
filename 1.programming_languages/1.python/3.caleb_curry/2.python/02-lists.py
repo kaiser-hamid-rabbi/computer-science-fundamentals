@@ -1,6 +1,6 @@
 ########## INSERT INTO MIDDLE OF LIST ##########
 
-#Lists are ordered, and this order may matter to you. 
+#Lists are ordered, and this order may matter to you.
 
 work_days = ["Monday", "Tuesday", "Thursday", "Friday", "Saturday"]
 
