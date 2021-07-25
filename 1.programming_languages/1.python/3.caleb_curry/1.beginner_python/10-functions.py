@@ -75,7 +75,7 @@ def greet(name):
 #We can print outside of the function on the caller side 
 #caller side --> Where we invoke the function
 
-def greet(name): 
+def greet(name):
     if name == "Claire":
         return "Go away"
     return "Hello " + name + "! Welcome to my app."
@@ -91,7 +91,7 @@ print(greet("Claire"))
 
 
 #We may want to create a method that does not require an input
-def greet(name="User"): 
+def greet(name="User"):
     if name == "Claire":
         return "Go away"
     return "Hello " + name + "! Welcome to my app."
@@ -102,7 +102,7 @@ print(greet()) #No name? Default to User
 ########## MULTIPLE ARGUMENTS / PARAMETERS ##########
 
 
-def greet(name="User", be_nice=False): 
+def greet(name="User", be_nice=False):
     if be_nice:
         return "Hello " + name + "! Welcome to my app."
     return "Go away " + name
@@ -115,12 +115,12 @@ print(greet("Caleb"))
 
 #This will showcase how to skip any particular parameter
 
-def greet(name="User", be_nice=False):  
+def greet(name="User", be_nice=False):
     if be_nice:
         return "Hello " + name + "! Welcome to my app."
     return "Go away " + name
 
-print(greet(be_nice=True)) 
+print(greet(be_nice=True))
 
 #NOTE if a parameter does not have a default value, you must specify it
 #Either in order without a name, or assigning by name
@@ -131,7 +131,7 @@ print(greet(be_nice=True))
 
 #With the function we have defined, we can pass arguments by position or by keyword
 
-def greet(name, be_nice):  
+def greet(name, be_nice):
     if be_nice:
         return "Hello " + name + "! Welcome to my app."
     return "Go away " + name
@@ -163,19 +163,19 @@ print(greet("positional", False))
 #print(greet("Positional", be_nice=True))  
 
 #We can also put the / between arguments
-def greet(name, /, be_nice):  
+def greet(name, /, be_nice):
     if be_nice:
         return "Hello " + name + "! Welcome to my app."
     return "Go away " + name
 
 print(greet("Positional", be_nice=True)) #This works now. 
-print(greet("Positional", True)) #This works too. 
+print(greet("Positional", True)) #This works too.
 
 #We can invoke with be_nice being named or positional
 #Doesn't add a lot of value but nice when we have lots of arguments
 
 #ERROR because invoking name by keyword:
-#print(greet(name="Keyword", be_nice=True)) 
+#print(greet(name="Keyword", be_nice=True))
 
 
 ########## KEYWORD-ONLY ARGUMENTS ##########
