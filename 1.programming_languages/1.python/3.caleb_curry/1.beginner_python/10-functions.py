@@ -256,7 +256,7 @@ print_info(*info)
 ########## FUNCTIONS CALLING FUNCTIONS ##########
 
 #Let's say we have this method and no way to edit it
-def greet(name, be_nice=True):  
+def greet(name, be_nice=True):
     if be_nice:
         return "Hello " + name + "! Welcome to my app."
     return "Go away " + name
