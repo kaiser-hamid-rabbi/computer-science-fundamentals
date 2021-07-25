@@ -211,11 +211,11 @@ while response == "Y" or response == "y":
 
 
 #We can also write our code like so
-print("Do you want to continue AGAIN? Y/N: ") 
+print("Do you want to continue AGAIN? Y/N: ")
 response = input()
 while response.lower() == "y":
-    print("Do you want to continue? Y/N: ") 
-    response = input()  
+    print("Do you want to continue? Y/N: ")
+    response = input()
 
 #This is important to understand as "Y" and "y" are not the same thing
 #Overlooking this can introduce logical bugs in our software
