@@ -113,8 +113,8 @@ print("sword" in backpack2)
 
 
 backpack = ["sword", "rubber duck", "slice of pizza", "parachute",
-"sword", "rubber duck", "slice of pizza", "parachute", 
-"sword", "rubber duck", "slice of pizza", "parachute", 
+"sword", "rubber duck", "slice of pizza", "parachute",
+"sword", "rubber duck", "slice of pizza", "parachute",
 "sword", "rubber duck", "slice of pizza", "parachute",
 "cannon", "laser cannon", "Canon 90D", "can of soup"]
 
@@ -125,5 +125,5 @@ print(counts)
 
 ########## COUNTING ELEMENTS WITH COUNTER ##########
 
-from collections import Counter 
+from collections import Counter
 print(Counter(backpack))
