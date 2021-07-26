@@ -103,7 +103,7 @@ else:
 
 #Don't care about order
 #Just need to know yes or no? 
-#Sets...
+#Sets.....
 
 backpack2 = {"sword", "rubber duck", "sice a pizza", "parachute", "sword"}
 print("sword" in backpack2)
