@@ -5,14 +5,14 @@
 #You can easily sort a list:
 work_days = ["Monday", "Tuesday", "Thursday", "Friday", "Saturday"]
 
-work_days.sort() 
+work_days.sort()
 
 print(work_days)
 #Remember...no return. Modifies list
 
 numbers = [1, 11, 115, 13, 1305, 43]
 print(numbers)
-#This is not possible because no return. 
+#This is not possible because no return.
 # print(numbers.sort())
 
 
@@ -80,7 +80,7 @@ print(sorted(random, key=len))
 numbers = [1, 54, 76, 12, 111, 4343, 6, 8888, 3, 222, 1, 0, 222, -1, -122, 5, -30]
 print(sorted(numbers, key=str))
 
-#Basically, when we are working with strings, 
+#Basically, when we are working with strings,
 #"111" < "12"  because we compare by character left to right
 #So we can cast each to a str using the str constructor 
 
