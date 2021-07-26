@@ -72,7 +72,7 @@ print(".".join(data))
 print("-".join(data))
 
 data = [1, 0, 1, "2", "505"]
-print(" ".join(str(x) for x in data)) # generator
+print(" ".join(str(x) for x in data)) # generator expression - when you use list comprehension without square brackets [] is called generator expression
 #100% original idea stolen from this guy
 #https://stackoverflow.com/questions/3590165/join-a-list-of-items-with-different-types-as-string-in-python
 
