@@ -127,5 +127,3 @@ print(counts)
 
 from collections import Counter
 print(Counter(backpack))
-
-print("hello...")
