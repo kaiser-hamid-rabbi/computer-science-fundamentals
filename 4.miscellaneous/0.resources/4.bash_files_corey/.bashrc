@@ -14,4 +14,4 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
+[[ $PS1 =~ ^\(base\) ]] && conda config --set auto_activate_base false

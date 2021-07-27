@@ -1,500 +1,500 @@
-git pull origin master
-git status
-git push origin master
-git status
-git add -A
-git status
-git commit -m "updated!"
-git status
-git pull origin master
-git push origin master
-git status
-git add -A
-git commit -m "updated!"
-git pull origin master
-git push origin master
-git status
-git add -A
-git commit -m "updated!
-
-
-
-git commit -m "updated!"
-git status
-git pull origin master
-git push origin master
-git status
-git add -A
-git commit -m "updated!"
-git pull origin master
-git push origin master
-git status
-git status
-git status
-git add -A
-git commit -m "updated!"
-git pull origin master
-git push origin master
-git push --help
-git clone https://github.com/ZerOne288/learn_computer_science.git .
-git status
-git add -A
-git commit -m "updated!"
-git pull origin master
-git push origin master
-git status
-git status
-git add -A
-git commit -m "updated!"
-git pull origin master
-git push origin master
-git status
+u
+u
+u
+u
+sudo dpkg -i google-chrome-stable_current_amd64.deb 
+sudo dpkg -i google-chrome-stable_current_amd64.deb 
+u
+u
+tree
+sudo apt-get install tree
+sudo apt-get install tree
+tree
+u
+$
+sudo snap remove pycharm-professional
+sudo apt remove pycharm-professional
+sudo add-apt-repository ppa:ubuntuhandbook1/tilix
+sudo apt install tilix
+u
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/30_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/30_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/30_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/30_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/30_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/30_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/30_python.py"
+u
 nvidia-smi
-pwd
-pwd
-conda --version
-conda update conda
-python --version
-conda create -n behavioral-cloning python=3.7 anaconda
-conda activate behavioral-cloning
-ls
-conda env create -f environments-gpu.yml
-conda env create -f environment-gpu.yml 
-python drive.py model.h5
-pip install python-socketio
-python drive.py model.h5
-pip install eventlet
-python drive.py model.h5
-pip install keras
-python drive.py model
-pip install tensorflow
-python drive.py model.h5
-pip install opencv-python
-python drive.py model.h5
-python drive.py
-python drive.py
-python drive.py /home/kaiserhamid/Documents/2.tigerit/1.car-behavioral-cloning-master/data/IMG
-python drive.py
-python drive.py model.h5
-python drive.py model.h5
+nvcc --version
+sudo apt install nvidia-cuda-toolkit
 u
-u
-u
-u
-u
-beast
-sudo route add -host 103.7.249.66 gw 192.168.0.1
-beast
-beast
-u
-u
-sudo apt-get install codeblocks
-cb_share_config
-cb_share_config
-cb_share_config
-u
-git status
-git add -A
-git status
-git commit -m "bohubrihi updated!"
-git status
-git pull origin master
-git push origin master
-git status
-u
-cd Documents/
-ls
-cd 1.projects/
-ls
-cd learn_computer_science/
-git status
-git add -A
-git status
-git commit -m "updated!"
-git pull origin master
-git push origin master
-cd ..
-cd ../..
-ls
-cd Documents/
-ls
-cd 1.projects/
-ls
-ls
-cd learn_computer_science/
-git status
-cd Documents/
-cd 1.projects/
-cd learn_computer_science/
-git status
-git add -A
-git commit -m "updated"
-git pull origin master
-git push origin master
-git status
-git status
 nvidia-smi
-cd Documents/
-ls
-cd 1.projects/
-cd learn_computer_science/
-git status
-git add -A
-git commit -m "updated!"
-git pull origin master
-git push origin master
-ls
-git status
+nvcc --version
 nvidia-smi
 nvidia-smi
-cd Documents/
-ls
-cd 1.projects/
-ls
-cd learn_computer_science/
-git status
-init 0
-s
+sudo apt install nvidia-utils-470         # version 470.57.02-0ubuntu0.20.04.1
 u
-git status
+sudo apt install nvidia-utils-470
 nvidia-smi
-nvtop
-nvidia-smi
-git status
-git status
-cd Documents/
-ls
-cd 1.projects/
-ls
-cd learn_computer_science/
-git status
-git add -A
-git commit -m "updated!"
-git pull origin master
-git push origin master
-git status
-nvidia-smi
-nvidia-smi
-git status
-git add -A
-git status
-git commit -m "updated!"
-git pull origin master
-git push origin master
-git push origin master
-git push origin master
-beast
-sudo route add -host 103.7.249.66 gw 192.168.0.1
-beast
-nvidia-smi
-nvidia-smi
-u
-u
-s
-u
-cd Documents/
-ls
-cd 2.tigerit/
-ls
-ls
-cd 1.car-behavioral-cloning-master/`
-
-
-
-
-cd 1.car-behavioral-cloning-master/
-ls
-source activate behavioral-cloning
-ls
-python3 drive.py model.h5
-python drive.py model.h5
-conda --list
-conda -list
-conda list
-pip3 install tensorflow==2.1.0
-pip3 install tensorflow-gpu==2.1.0
-conda list
-python drive.py model.h5
-python drive.py model.h5
-pip3 install tensorflow-gpu==2.2.0
-python drive.py model.h5
-pip uninstall tf-nightly
-pip install tensorflow --upgrade --force-reinstall
-pip list | grep tf
-pip install tensorflow --upgrade --force-reinstall
-python drive.py model.h5
-source deacitvate
-conda env create -f environment-gpu.yml 
-conda env create -f environment.yml 
-conda env create -f environment_v1.yml 
-u
-u
-sudo protonvpn connect
-sudo protonvpn connect
-sudo protonvpn disconnect
-git status
-git add -A
-git commit -m "updated!
-
-
-
-git commit -m "updated!"
-git pull origin master
-git push origin master
-git status
-u
-u
-s
-u
-python3.5 -m myenv
-conda env create -f environment-gpu.yml 
-conda update condda
-conda update conda
-conda env create -f environment-gpu.yml 
-python --version
-conda --version
-conda env create -f environment-gpu.yml 
-ls
-conda env create -f environment-gpu-v1.yml 
-ls
-python3 -m venv bc
-pip3 list
-source bc/bin/activate
-pip list
-pip install --upgrade pip
-pip list
-which python
-pip3 install --upgrade setuptools
-pip3 install numpy
-pip3 install opencv-python
-python --version
-pip3 install pillow
-pip3 install scikit-image
-pip3 install scikit-learn
-pip3 install scipy
-pip3 install h5py
-pip3 install eventlet
-pip3 install flask-socketio
-pip3 install seaborn
-pip3 install pandas
-pip3 install ffmpeg
-pip3 install pyqt
-pip3 install pyqt==4.11.4
-pip3 install pyqt=4.11.4
-pip3 install python-qt4
-pip install pyqt5
-pip install moviepy
-pip3 install keras
-pip list
-ls
-python drive.py model.h5 
-pip install tensorflow
-pip install tensorflow
-python drive.py model.h5 
-pip uninstall tensorflow
-pip install tensorflow==2.1.0
-python drive.py model.h5 
-pip list
-pip install keras=
-pip list
-python drive.py model.h5 
-pip install python==3.5.0
-pip3 install python=3.5.0
-pip3 install python==3.5.0
-python --version
-pip list
-conda install python=3.5
-python --version
-python drive.py model.h5 
-pip freeze > req.txt
-rm -rf bc
-conda create -n sdc-bc python=3.5
-conda activate sdc-bc
-ls
-cd Documents/q
-cd Documents/
-ls
-cd 2.tigerit/
-ls
-cd 2.car-behavioral-cloning-master/
-ls
-ls
-conda env create -f environment-gpu-v1.yml
-python --version
-python --version
-conda env create -f environment-gpu-v1.yml
-conda list
-conda deactivate
-conda activate sdc
-conda list
-python --version
-conda install python=3.5.0
-conda install python=3.5.6
-python --version
-conda list
-ls
-python --version
-ls]
-ls
-python drive.py model.h5 
-pip install numpy
-python drive.py model.h5 
-pip install socketio
-conda list
-python drive.py model.h5 
-pip install eventlet
-python drive.py model.h5 
-pip install PIL
-pip install pillow
-python drive.py model.h5 
-pip install flask
-python drive.py model.h5 
-pip install keras==2.3.1
-python --version
-pip install keras==2.0.6
-pip install tensorflow==1.1.0
-python --version
-conda list
-python drive.py model.h5 
-pip install opencv-python
-python drive.py model.h5 
-pip install matplotlib
-python drive.py model.h5 
-conda list
-pip install python-socketio
-conda list
-python drive.py model.h5 
-pip install h5py
-python drive.py model.h5 
-u
-s
-u
-u
-sudo apt-get update
-sudo apt-get upgrade
-ls
-ls
-cd ..
-ls
-ls
-ls
-ls -la
-ls
-ls
-ls
-pwd
-ls
-git status
-git add -A
-git commit -m "updated"
-git pull origin master
-git push origin master
-git push origin master
-git status
-pwd
-ls
-cd Documents/
-ls
-cd 1.projects/
-ls
- cd learn_computer_science/
-git status
-git status
-git add -A
-git status
-git commit -m "Uthso name added!"
-git status
-git pull origin master
-git push origin master
-beast
-sudo route add -host 103.7.249.66 gw 192.168.0.1
-beast
-sudo service bluetooth start
-sudo apt-get install blueman bluez-utils bluez bluetooth
-sudo apt-get install blueman  bluez bluetooth
-sudo apt-get install bluez-utils
-sudo apt-get install bluez
-sudo service bluetooth restart
-sudo apt-get install pulseaudio-module-bluetooth
-pactl load-module module-bluetooth-discover
-sudo apt-get install pulseaudio-module-bluetooth
-pactl load-module module-bluetooth-discover
-sudo pactl load-module module-bluetooth-discover
-echo autospawn = no >> ~/.config/pulse/client.conf  #use ~/.pulse/client.conf
-killall pulseaudio
-sudo killall pulseaudio
-LANG=C pulseaudio -vvvv --log-time=1 > ~/pulseverbose.log 2>&1
-sudo protonvpn connect
-sudo protonvpn connect
-sudo protonvpn disconnect
-u
-u
-u
-sudo dpkg -i teamviewer_15.9.5_amd64.deb 
-sudo apt-get uninstall teamviewer
-sudo apt uninstall teamviewer
-dpkg -l | grep team
-sudo apt-get purge teamviewer
+lsmod | grep nvidia
+sudo rmmod nvidia_drm
+sudo rmmod nvidia_modeset
 sudo apt update
-sudo apt install gdebi-core wget
-cd Documents/
-wget -O ~/teamviewer.deb "https://download.teamviewer.com/download/linux/teamviewer_amd64.deb"
-cd ..
-ls
-sudo gdebi teamviewer.deb 
-sudo gdebi teamviewer.deb 
-FutureWarning: Possible nested set at position 1
-  c = findall("[[(](\S+)/\S+[])]", msg)[0].lower()
-  c = findall("[[(](\S+)/\S+[])]", msg)[0].lower()
-sudo gdebi teamviewer.deb 
-sudo gdebi teamviewer.deb 
-cd Documents/
-cd ..
-cd Downloads/
-ls
-sudo dpkg -i teamviewer_15.9.5_amd64.deb 
-sudo apt --fix-broker install
-sudo apt --fix-broken install
-sudo dpkg -i teamviewer_15.9.5_amd64.deb 
-u
-u
-beast
-sudo route add -host 103.7.249.66 gw 192.168.0.1
-beast
+sudo apt install nvidia-cuda-toolkit
+nvcc --version
+nvidia-smi
+sudo apt remove nvidia-utils-470
+nvidia-smi
+sudo apt install nvidia-utils-460
+nvidia-smi
+nvidia-smi
+nvcc --version
 nvidia-smi
 u
+nvidia-smi
+nvcc --version
+nvidia-smi
+sudo apt update && sudo apt upgrade -y
+sudo ubuntu-drivers autoinstall
+sudo apt update && sudo apt upgrade -y
+nvidia-smi
+nvidia-smi
+sudo apt remove nvidia-utils-460
+sudo apt install nvidia-utils-470
+nvidia-smi
+nvcc --version
+sudo apt install nvidia-utils-470
+nvcc --version
+nvidia-smi
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/30_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/30_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/30_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/30_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/30_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/30_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/30_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/30_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/30_python.py"
 u
 u
-pip install -r requirements.txt
-pip3 install newspaper3k
-pip install -r requirements.txt
-python prothomalo-scrubber.py 
-python prothomalo-scrubber.py 
-python prothomalo-scrubber.py 
-python prothomalo-scrubber.py 
-python prothomalo-scrubber.py 
-python prothomalo-scrubber.py 
-python prothomalo-scrubber.py 
-python prothomalo-scrubber.py 
-python prothomalo-scrubber.py 
-python prothomalo-scrubber.py 
-python prothomalo-scrubber.py 
-git status
-git add -A
-git commit -m "resume updated!"
-git pull origin master
-git push origin master
+u
+u
+u
+u
+code .
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/30_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/30_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/30_python.py"
 git --version
-git config --global --list
-git config --global user.name "kaiser-hamid-rabbi"
-git config --global user.email "kaiser.hamid.rabbi@gmail.com"
-git config --global --list
-git config --global --list
-git status
-git add -A
-git commit -m "resume updated!"
-git status
-git pull origin master
-git push origin master
-git clone https://github.com/kaiser-hamid-rabbi/computer-science-fundamentals.git .
-git clone https://github.com/kaiser-hamid-rabbi/computer-science-fundamentals.git
+sudo apt install git
+git --version
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/31_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/31_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/31_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/32_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/32_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/32_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/33_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/33_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/32_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/32_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/32_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/32_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/33_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/33_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/33_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/33_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/34_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/34_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/34_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/34_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/34_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/34_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/35_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/33_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/32_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/31_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/35_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/35_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/35_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/35_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/35_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/35_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/35_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/36_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/36_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/36_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/36_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/36_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/36_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/37_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/37_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/37_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/2.python/4.thenewboston/38_python.py"
+u
+code .
+u
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/37_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/37_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/38_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/38_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/38_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/38_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/38_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/38_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/38_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/38_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/38_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/38_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/38_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/38_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/38_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/38_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/38_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/38_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/39_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/39_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/40_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/40_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/40_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/40_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/40_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/40_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/40_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/40_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/40_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/40_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/40_python.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/41_min-max-soring-dictionaries.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/40_lambda.py"
+code .
+u
+u
+nvidia-smi
+nvcc --version
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/40_lambda.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/40_lambda.py"
+code .
+u
+u
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/41_min-max-soring-dictionaries.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/41_min-max-soring-dictionaries.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/40_lambda.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/41_min-max-soring-dictionaries.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/41_min-max-soring-dictionaries.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/41_min-max-soring-dictionaries.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/41_min-max-soring-dictionaries.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/41_min-max-soring-dictionaries.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/41_min-max-soring-dictionaries.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/41_min-max-soring-dictionaries.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/41_min-max-soring-dictionaries.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/41_min-max-soring-dictionaries.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/41_min-max-soring-dictionaries.py"
+pip3 install pillow
+sudo apt install python3-pip
+pip3 install pillow
+pip3 install pillow
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/42_pillow.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/42_pillow.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/42_pillow.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/42_pillow.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/42_pillow.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/42_pillow.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/43_cropping-images.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/43_cropping-images.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/43_cropping-images.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/43_cropping-images.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/43_cropping-images.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/43_cropping-images.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/43_cropping-images.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/43_cropping-images.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/44_combine-images-together.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/44_combine-images-together.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/44_combine-images-together.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/44_combine-images-together.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/44_combine-images-together.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/44_combine-images-together.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/44_combine-images-together.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/44_combine-images-together.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/44_combine-images-together.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/44_combine-images-together.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/45_getting-individual-channels.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/45_getting-individual-channels.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/45_getting-individual-channels.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/45_getting-individual-channels.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/45_getting-individual-channels.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/46_awesome-merge-effect.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/46_awesome-merge-effect.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/46_awesome-merge-effect.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/46_awesome-merge-effect.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/46_awesome-merge-effect.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/46_awesome-merge-effect.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/46_awesome-merge-effect.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/46_awesome-merge-effect.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/46_awesome-merge-effect.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/46_awesome-merge-effect.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/46_awesome-merge-effect.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/46_awesome-merge-effect.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/47_basic-tranformations.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/47_basic-tranformations.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/47_basic-tranformations.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/47_basic-tranformations.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/47_basic-tranformations.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/47_basic-tranformations.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/47_basic-tranformations.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/47_basic-tranformations.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/47_basic-tranformations.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/47_basic-tranformations.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/47_basic-tranformations.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/48_modes-and-fileters.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/48_modes-and-fileters.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/48_modes-and-fileters.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/48_modes-and-fileters.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/48_modes-and-fileters.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/48_modes-and-fileters.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/48_modes-and-fileters.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/48_modes-and-fileters.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/48_modes-and-fileters.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/49_struct.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/49_struct.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/49_struct.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/49_struct.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/49_struct.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/49_struct.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/49_struct.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/50_map.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/50_map.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/50_map.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/50_map.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/50_map.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/50_map.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/50_map.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/51_bitwise-operators.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/51_bitwise-operators.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/51_bitwise-operators.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/52_finding-largest-or-smallest-items.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/52_finding-largest-or-smallest-items.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/53_dictionary-calculations.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/53_dictionary-calculations.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/53_dictionary-calculations.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/53_dictionary-calculations.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/53_dictionary-calculations.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/54_finding_most_frequent_items.py"
+mpython -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/54_finding_most_frequent_items.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/54_finding_most_frequent_items.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/54_finding_most_frequent_items.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/54_finding_most_frequent_items.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/54_finding_most_frequent_items.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/54_finding_most_frequent_items.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/54_finding_most_frequent_items.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/55_dictionary-multiple-key-sort.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/55_dictionary-multiple-key-sort.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/56_sorting-custom-objects.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/56_sorting-custom-objects.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/4.thenewboston/56_sorting-custom-objects.py"
+u
+code .
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/01-numbers.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/01-numbers.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/02-strings.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/02-strings.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/02-strings.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/02-strings.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/02-strings.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/02-strings.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/02-strings.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/02-strings.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/02-strings.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/02-strings.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/02-strings.py"
+u
+u
+u
+u
+sudo openvpn --config kaiser.hamid__ssl_vpn_config.ovpn
+gpu231
+code .
+u
+ /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 44303 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 46745 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 42813 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 40005 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py 
+ /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 40461 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/02-strings.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 33627 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 38741 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 34643 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 44193 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py 
+clear
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 37633 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 32931 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 35579 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 41159 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 44629 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 44125 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 33753 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 38701 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 38075 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py 
+ /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 37697 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 44451 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py 
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/02-strings.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/02-strings.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/02-strings.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/02-strings.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/02-strings.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/02-strings.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/02-strings.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/02-strings.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/02-strings.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/02-strings.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py"
+ /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 35689 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/04-user-input.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 46621 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/04-user-input.py 
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/03-list-basics.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/04-user-input.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/04-user-input.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/04-user-input.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/04-user-input.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/04-user-input.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/05-logic-and-if.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/05-logic-and-if.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/06-loop-basics.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/06-loop-basics.py"
+code .
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/06-loop-basics.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/06-loop-basics.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/06-loop-basics.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/06-loop-basics.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/06-loop-basics.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/07-more-looping.py"
+code .
+sudo openvpn --config kaiser.hamid__ssl_vpn_config.ovpn
+gpu231
+gpu231
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/07-more-looping.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/07-more-looping.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/08-nested-if-for.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/08-nested-if-for.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/09-nested-loops.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/09-nested-loops.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/09-nested-loops.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/10-functions.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/1.beginner_python/10-functions.py"
+code .
+ /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 36217 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 40429 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 36153 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 46309 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 40875 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 41569 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py 
+ cd /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python ; /usr/bin/env /bin/python3 /home/kaiserhamid/.vscode/extensions/ms-python.python-2021.7.1060902895/pythonFiles/lib/python/debugpy/launcher 33629 -- /home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py 
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py"
+u
+u
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/01-intro.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/02-lists.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/02-lists.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/11-tk-guessing.py"
+pip3 install tkinter
+pip install tkinter
+sudo apt-get install python3-tk
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/11-tk-guessing.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/02-lists.py"
+u
+u
+u
+gpu231
+gpu231
+gpu231
+gpu231
+gpu233
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/02-lists.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/02-lists.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/02-lists.py"
+sudo openvpn --config kaiser.hamid__ssl_vpn_config.ovpn
+gpu231
+gpu231
+beauty
+gpu231
+beauty
+sudo openvpn --config kaiser.hamid__ssl_vpn_config.ovpn
+gpu231
+u
+ls
+cd Documents/
+ls
+mkdir tmp
+cd tmp/
+ls
+mkdir python
+cd python/
+ls
+youtube-dl -i -f mp4 --yes-playlist 'https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt'
+youtube-dl -i -f mp4 --yes-playlist 'https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt'
+youtube-dl -i -f mp4 --yes-playlist 'https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt'
+sudo youtube-dl -i -f mp4 --yes-playlist 'https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt'
+youtube-dl
+youtube
+sudo snap install youtube-dl
+youtube-dl
+sudo youtube-dl -i -f mp4 --yes-playlist 'https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt'
+ls
+youtube-dl --version
+youtube-dl -i -f mp4 --yes-playlist 'https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt'
+ls
+python
+ls
+melt 1.mp4 2.mp4 3.mp4 4.mp4 5.mp4 6.mp4 7.mp4 8.mp4 9.mp4 10.mp4 11.mp4 12.mp4 13.mp4 14.mp4 15.mp4 16.mp4 17.mp4 18.mp4 19.mp4 20.mp4 21.mp4 22.mp4 23.mp4 24.mp4 25.mp4 26.mp4 27.mp4 28.mp4 29.mp4 30.mp4 31.mp4 32.mp4 33.mp4 34.mp4 35.mp4 36.mp4 -consumer avformat:output.mp4 acodec=libmp3lame vcodec=libx264
+sudo apt install melt
+melt 1.mp4 2.mp4 3.mp4 4.mp4 5.mp4 6.mp4 7.mp4 8.mp4 9.mp4 10.mp4 11.mp4 12.mp4 13.mp4 14.mp4 15.mp4 16.mp4 17.mp4 18.mp4 19.mp4 20.mp4 21.mp4 22.mp4 23.mp4 24.mp4 25.mp4 26.mp4 27.mp4 28.mp4 29.mp4 30.mp4 31.mp4 32.mp4 33.mp4 34.mp4 35.mp4 36.mp4 -consumer avformat:output.mp4 acodec=libmp3lame vcodec=libx264
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/02-lists.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/03-sorting.py"
+u
+code .
+u
+nvidia-smi -a
+code .
+code .
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/2.python-engineer/PythonEngineer/tuples.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/2.python-engineer/PythonEngineer/tuples.py"
+python -u "/home/kaiserhamid/Documents/1.projects/computer-science-fundamentals/1.programming_languages/1.python/3.caleb_curry/2.python/06-modules.py"
+u
+sudo openvpn --config kaiser.hamid__ssl_vpn_config.ovpn
+gpu231
+gpu231
+code .
+u
+ls
+youtube-dl -i -f mp4 --yes-playlist 'https://www.youtube.com/playlist?list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0'
+ls
+ls
+melt 1.mp4 2.mp4 3.mp4 4.mp4 5.mp4 6.mp4 7.mp4 8.mp4 9.mp4 10.mp4 11.mp4 12.mp4 13.mp4 14.mp4 15.mp4 16.mp4 17.mp4 18.mp4 19.mp4 20.mp4 21.mp4 22.mp4 23.mp4 24.mp4 25.mp4 26.mp4 27.mp4 28.mp4 29.mp4 30.mp4 31.mp4 32.mp4 33.mp4 34.mp4 35.mp4 36.mp4 37.mp4 38.mp4 39.mp4 40.mp4 41.mp4 42.mp4 -consumer avformat:output.mp4 acodec=libmp3lame vcodec=libx264
+cd ..
+ls
+mkdir dsalgo-codebasics
+cd dsalgo-codebasics/
+ls
+youtube-dl -i -f mp4 --yes-playlist 'https://www.youtube.com/playlist?list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12'
+ls
+ls
+melt 1.mp4 2.mp4 3.mp4 4.mp4 5.mp4 6.mp4 7.mp4 8.mp4 9.mp4 10.mp4 11.mp4 12.mp4 13.mp4 14.mp4 15.mp4 16.mp4 17.mp4 18.mp4 19.mp4 20.mp4 -consumer avformat:output.mp4 acodec=libmp3lame vcodec=libx264
