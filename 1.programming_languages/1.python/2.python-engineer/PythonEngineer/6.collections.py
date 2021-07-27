@@ -7,8 +7,8 @@ The following tools exist:
 
 In Python 3 some more modules exist (ChainMap, UserDict, UserList, UserString). See https://docs.python.org/3/library/collections.html for further references.
 
-Counter
-A counter is a container that stores elements as dictionary keys, and their counts are stored as dictionary values.
+# Counter
+# A counter is a container that stores elements as dictionary keys, and their counts are stored as dictionary values.
 
 from collections import Counter
 a = "aaaaabbbbcccdde"
@@ -36,8 +36,8 @@ print(list(my_counter.elements()))
     Counter({1: 4, 2: 3, 0: 2, 3: 2, 4: 1})
     [(1, 4)]
     [0, 0, 1, 1, 1, 1, 2, 2, 2, 3, 3, 4]
-namedtuple
-namedtuples are easy to create, lightweight object types. They assign meaning to each position in a tuple and allow for more readable, self-documenting code. They can be used wherever regular tuples are used, and they add the ability to access fields by name instead of position index.
+# namedtuple
+# namedtuples are easy to create, lightweight object types. They assign meaning to each position in a tuple and allow for more readable, self-documenting code. They can be used wherever regular tuples are used, and they add the ability to access fields by name instead of position index.
 
 from collections import namedtuple
 # create a namedtuple with its class name as string and its fields as string
@@ -57,8 +57,8 @@ print(friend.name, friend.age)
     <class '__main__.Point'>
     1 -4
     Tom 25
-OrderedDict
-OrderedDicts are just like regular dictionaries but they remember the order that items were inserted. When iterating over an ordered dictionary, the items are returned in the order their keys were first added. If a new entry overwrites an existing entry, the original insertion position is left unchanged. They have become less important now that the built-in dict class gained the ability to remember insertion order (guaranteed since Python 3.7). But some differences still remain, e.g. the OrderedDict is designed to be good at reordering operations.
+# OrderedDict
+# OrderedDicts are just like regular dictionaries but they remember the order that items were inserted. When iterating over an ordered dictionary, the items are returned in the order their keys were first added. If a new entry overwrites an existing entry, the original insertion position is left unchanged. They have become less important now that the built-in dict class gained the ability to remember insertion order (guaranteed since Python 3.7). But some differences still remain, e.g. the OrderedDict is designed to be good at reordering operations.
 
 from collections import OrderedDict
 ordinary_dict = {}
@@ -87,8 +87,8 @@ for k, v in ordinary_dict.items():
     c 3
     d 4
     e 5
-defaultdict
-The defaultdict is a container that's similar to the usual dict container, but the only difference is that a defaultdict will have a default value if that key has not been set yet. If you didn't use a defaultdict you'd have to check to see if that key exists, and if it doesn't, set it to what you want.
+# defaultdict
+# The defaultdict is a container that's similar to the usual dict container, but the only difference is that a defaultdict will have a default value if that key has not been set yet. If you didn't use a defaultdict you'd have to check to see if that key exists, and if it doesn't, set it to what you want.
 
 from collections import defaultdict
 
@@ -111,8 +111,8 @@ print(d['green'])
     0
     dict_items([('yellow', [1, 3]), ('blue', [2, 4]), ('red', [5])])
     []
-deque
-A deque is a double-ended queue. It can be used to add or remove elements from both ends. Deques support thread safe, memory efficient appends and pops from either side of the deque with approximately the same O(1) performance in either direction. The more commonly used stacks and queues are degenerate forms of deques, where the inputs and outputs are restricted to a single end.
+# deque
+# A deque is a double-ended queue. It can be used to add or remove elements from both ends. Deques support thread safe, memory efficient appends and pops from either side of the deque with approximately the same O(1) performance in either direction. The more commonly used stacks and queues are degenerate forms of deques, where the inputs and outputs are restricted to a single end.
 
 from collections import deque
 d = deque()
