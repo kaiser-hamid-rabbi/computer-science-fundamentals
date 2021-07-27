@@ -189,6 +189,7 @@ print(a)
     Hello, Eric. You are 25.
     Pi is 3.142
     The value is 120
+
 # More on immutability and concatenation
 # since a string is immutable, adding strings with +,  or += always 
 # creates a new string, and therefore is expensive for multiple operations
@@ -212,4 +213,10 @@ print("concatenate string with join(): %.5f" % (end - start))
     concat string with + : 0.34527
     concat string with join(): 0.01191
 
+var = 3.1234567
+var2 = 6
+my_string = f"the variable is {var:.4f} and {var2}"
+print(my_string)
+
 """
+
