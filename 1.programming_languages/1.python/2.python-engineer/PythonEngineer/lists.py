@@ -10,6 +10,7 @@ Comparison of basic built-in collection data types in Python:
     - Set is a collection which is unordered and unindexed. No duplicate members.
     - Dictionary is a collection which is unordered, mutable and indexed. No duplicate members.
     - Strings are immutable sequences of Unicode code points.
+
 Creating a list
 Lists are created with square brackets or the built-in list function.
 
@@ -141,7 +142,7 @@ print(list_org)
     ['banana', 'cherry', 'apple', True]
     ['banana', 'cherry', 'apple', True]
     ['banana', 'cherry', 'apple']
-Iterating
+# Iterating
 # Iterating over a list by using a for in loop
 for i in list_1:
     print(i)
@@ -154,8 +155,9 @@ if "banana" in list_1:
 else:
     print("no")
     yes
-Slicing
-Access sub parts of the list wih the use of colon (:), just as with strings.
+
+# Slicing
+# Access sub parts of the list wih the use of colon (:), just as with strings.
 
 # a[start:stop:step], default step is 1
 a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -180,17 +182,18 @@ print(b)
     [0, 5, 7, 9]
     [10, 9, 8, 7, 6, 5, 4, 0]
     [10, 9, 8, 7, 6, 5, 4, 0]
-List comprehension
-A elegant and fast way to create a new list from an existing list.
 
-List comprehension consists of an expression followed by a for statement inside square brackets.
+# List comprehension
+# A elegant and fast way to create a new list from an existing list.
+# List comprehension consists of an expression followed by a for statement inside square brackets.
 
 a = [1, 2, 3, 4, 5, 6, 7, 8]
 b = [i * i for i in a] # squares each element
 print(b)
     [1, 4, 9, 16, 25, 36, 49, 64]
-Nested lists
-Lists can contain other lists (or other container types).
+
+# Nested lists
+# Lists can contain other lists (or other container types).
 
 a = [[1, 2], [3, 4]]
 print(a)
