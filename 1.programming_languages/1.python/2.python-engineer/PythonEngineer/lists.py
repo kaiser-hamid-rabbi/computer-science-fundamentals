@@ -1,5 +1,6 @@
 """
 
+# Lists: ordered, mutable, allows duplicate elements
 List is a collection data type which is ordered and mutable. Unlike Sets, Lists allow duplicate elements. They are useful for preserving a sequence of data and further iterating over it. Lists are created with square brackets.
 
 my_list = ["banana", "cherry", "apple"]

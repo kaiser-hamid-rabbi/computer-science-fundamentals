@@ -1,5 +1,6 @@
 """
 
+# Tuple: ordered, immutable, allows duplicate elements
 # A tuple is a collection of objects which is ordered and immutable. Tuples are similar to lists, the main difference ist the immutability. In Python tuples are written with round brackets and comma separated values.
 
 my_tuple = ("Max", 28, "New York")
