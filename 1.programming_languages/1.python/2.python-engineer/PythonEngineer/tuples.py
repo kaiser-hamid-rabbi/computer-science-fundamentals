@@ -37,12 +37,14 @@ print(tuple_4)
 
 item = tuple_1[0]
 print(item)
+
 # You can also use negative indexing, e.g -1 refers to the last item,
 # -2 to the second last item, and so on
 item = tuple_1[-1]
 print(item)
     Max
     New York
+
 # Add or change items
 # Not possible and will raise a TypeError.
 
@@ -53,8 +55,10 @@ tuple_1[2] = "Boston"
     ----> 1 tuple_1[2] = "Boston"
 
     TypeError: 'tuple' object does not support item assignment
+
 # Delete a tuple
 del tuple_2
+
 # Iterating
 # Iterating over a tuple by using a for in loop
 for i in tuple_1:
@@ -62,12 +66,14 @@ for i in tuple_1:
     Max
     28
     New York
+
 # Check if an item exists
 if "New York" in tuple_1:
     print("yes")
 else:
     print("no")
     yes
+
 # Usefule methods
 my_tuple = ('a','p','p','l','e',)
 
@@ -107,6 +113,7 @@ print(string_to_tuple)
     ('a', 'b', 'c', 'd')
     ['a', 'b', 'c', 'd']
     ('H', 'e', 'l', 'l', 'o')
+
 # Slicing
 # Access sub parts of the tuple wih the use of colon (:), just as with strings.
 
@@ -147,6 +154,7 @@ print(item_last)
     0
     [1, 2, 3, 4]
     5
+
 # Nested tuples
 # Tuples can contain other tuples (or other container types).
 
@@ -155,6 +163,7 @@ print(a)
 print(a[0])
     ((0, 1), ('age', 'height'))
     (0, 1)
+
 # Compare tuple and list
 # The immutability of tuples enables Python to make internal optimizations. Thus, tuples can be more efficient when working with large data.
 
