@@ -1,1 +1,3 @@
-# Learn Data Structures and Algorithms from MIT course named DATA STRUCTURES AND ALGORITHMS in 2015!
+# Learn the hard way:
+
+Study plan to learn the rules of Software Engineering like a pro, so that I can break them like an artist!

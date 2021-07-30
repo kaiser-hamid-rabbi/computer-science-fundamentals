@@ -1,1 +1,3 @@
-# Learn Algorithms from MIT course named DESIGN AND ANALYSIS OF ALGORITHMS in 2015!
+# Learn the hard way:
+
+Study plan to learn the rules of Software Engineering like a pro, so that I can break them like an artist!
