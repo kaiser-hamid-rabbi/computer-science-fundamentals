@@ -1,2 +1,0 @@
-docker images is like class in terms of OOP
-docker container is like instance or object in terms of OOP
