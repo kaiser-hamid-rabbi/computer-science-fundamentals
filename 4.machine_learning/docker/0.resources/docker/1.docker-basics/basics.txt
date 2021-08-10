@@ -1,0 +1,36 @@
+# 1. pytorch in docker
+ $ docker ps -a
+ $ docker images
+ $ docker pull pytorch/pytorch # create pytorch image
+
+# 1.1. for cpu
+$ docker run -it --mount type=bind,src=/home/tigerit/projects/kaiser/docker-pytorch,dst=/workspace/pytorch-demo --name pytorch-demo pytorch/pytorch bash
+
+# 1.2. for gpu 
+$ docker run -it --gpus all --mount type=bind,src=/home/tigerit/projects/kaiser/docker-pytorch,dst=/workspace/pytorch-demo --name pytorch-demo pytorch/pytorch bash
+
+# Shortcuts
+# Ctrl + D = exit
+# Ctrl + P, Ctrl + q = exit without closing
+
+$ docker start -i pytorch-demo
+
+
+
+# 2. tensorflow in docker -- TransformerTTS
+$ docker run --mount type=bind,src=/home/tigerit/tts/TransformerTTS,dst=/home/tigerit/tts/TransformerTTS --gpus all --name tensorflow-demo -it tensorflow/tensorflow:latest-gpu bash
+
+$ pip3 install -r requirements.txt 
+$ python3 train_tts.py --config config/training_config.yaml
+$ pip3 install --upgrade pip
+$ apt-get update
+$ apt-get install libsndfile1
+$ python3 train_tts.py --config config/training_config.yaml
+
+
+
+# 3. Flask
+$ python3 -m flask run
+$ pip3 install -r requirements.txt 
+$ docker build --tag flask-docker .
+$ docker run flask-docker
