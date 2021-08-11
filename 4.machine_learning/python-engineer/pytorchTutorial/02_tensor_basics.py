@@ -1,9 +1,9 @@
 import torch
 
 x = torch.rand(5, 3)
-print(x)
+print("torch.rand(5, 3) =", x)
 
-print("CUDA available:", torch.cuda.is_available())
+print("torch.cuda.is_available() =", torch.cuda.is_available())
 # import numpy as np
 
 # Everything in pytorch is based on Tensor operations.
@@ -14,14 +14,14 @@ print("CUDA available:", torch.cuda.is_available())
 
 # torch.empty(size): uninitiallized
 x = torch.empty(1) # scalar
-print(x)
+print("torch.empty(1) =", x)
 x = torch.empty(3) # vector, 1D
-print(x)
+print("torch.empty(3) =", x)
 x = torch.empty(2,3) # matrix, 2D
-print(x)
+print("torch.empty(2,3) =", x)
 x = torch.empty(2,2,3) # tensor, 3 dimensions
 # x = torch.empty(2,2,2,3) # tensor, 4 dimensions
-print(x)
+print("torch.empty(2,2,3) =", x)
 
 # torch.rand(size): random numbers [0, 1]
 x = torch.rand(5, 3)
