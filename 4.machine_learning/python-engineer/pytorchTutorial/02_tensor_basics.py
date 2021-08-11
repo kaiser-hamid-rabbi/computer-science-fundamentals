@@ -25,37 +25,37 @@ print("torch.empty(2,2,3) =", x)
 
 # torch.rand(size): random numbers [0, 1]
 x = torch.rand(5, 3)
-print(x)
+print("torch.rand(5, 3) =", x)
 
 # torch.zeros(size), fill with 0
 # torch.ones(size), fill with 1
 x = torch.zeros(5, 3)
-print(x)
+print("torch.zeros(5, 3) =", x)
 
 # check size
-print(x.size())
+print("x.size() =", x.size())
 
 # check data type
-print(x.dtype)
+print("x.dtype =", x.dtype)
 
 # specify types, float32 default
 x = torch.zeros(5, 3, dtype=torch.float16)
-print(x)
+print("torch.zeros(5, 3, dtype=torch.float16) =", x)
 
 # check type
-print(x.dtype)
+print("x.dtype =s", x.dtype)
 
 # construct from data
 x = torch.tensor([5.5, 3])
-print(x)
-print(x.size())
+print("torch.tensor([5.5, 3]) =", x)
+print("x.size() =", x.size())
 
 # requires_grad argument
 # This will tell pytorch that it will need to calculate the gradients for this tensor
 # later in your optimization steps
 # i.e. this is a variable in your model that you want to optimize
 x = torch.tensor([5.5, 3], requires_grad=True)
-print(x)
+print("torch.tensor([5.5, 3], requires_grad=True) =", x)
 
 # Operations
 y = torch.rand(2, 2)
@@ -83,49 +83,49 @@ z = torch.div(x,y)
 
 # Slicing
 x = torch.rand(5,3)
-print(x)
-print(x[:, 0]) # all rows, column 0
-print(x[1, :]) # row 1, all columns
-print(x[1,1]) # element at 1, 1
+print("torch.rand(5,3) =", x)
+print("x[:, 0] =", x[:, 0]) # all rows, column 0
+print("x[1, :] =", x[1, :]) # row 1, all columns
+print("x[1,1] =", x[1,1]) # element at 1, 1
 
 # Get the actual value if only 1 element in your tensor
-print(x[1,1].item())
+print("x[1,1].item() =", x[1,1].item())
 
 # Reshape with torch.view()
 x = torch.randn(4, 4)
 y = x.view(16)
 z = x.view(-1, 8)  # the size -1 is inferred from other dimensions
 # if -1 it pytorch will automatically determine the necessary size
-print(x.size(), y.size(), z.size())
+print("x.size(), y.size(), z.size() =", x.size(), y.size(), z.size())
 
 # Numpy
 # Converting a Torch Tensor to a NumPy array and vice versa is very easy
 a = torch.ones(5)
-print(a)
+print("torch.ones(5) =", a)
 
 # torch to numpy with .numpy()
 b = a.numpy()
-print(b)
-print(type(b))
+print("a.numpy() =", b)
+print("type(b) =", type(b))
 
 # Carful: If the Tensor is on the CPU (not the GPU),
 # both objects will share the same memory location, so changing one
 # will also change the other
 a.add_(1)
-print(a)
-print(b)
+print("a =", a)
+print("b =", b)
 
 # numpy to torch with .from_numpy(x)
 import numpy as np
 a = np.ones(5)
 b = torch.from_numpy(a)
-print(a)
-print(b)
+print("a =", a)
+print("b =", b)
 
 # again be careful when modifying
 a += 1
-print(a)
-print(b)
+print("a =", a)
+print("b =", b)
 
 # by default all tensors are created on the CPU,
 # but you can also move them to the GPU (only if it's available )
