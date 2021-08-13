@@ -1,4 +1,3 @@
-
 import torch
 # The autograd package provides automatic differentiation 
 # for all operations on Tensors
