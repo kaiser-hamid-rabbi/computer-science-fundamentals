@@ -134,4 +134,5 @@ if torch.cuda.is_available():
     # z = z.numpy() # not possible because numpy cannot handle GPU tenors
     # move to CPU again
     z.to("cpu")       # ``.to`` can also change dtype together!
+    print(z.is_cuda)
     # z = z.numpy()
