@@ -12,8 +12,6 @@ print(x) # created by the user -> grad_fn is None
 print(y)
 print(y.grad_fn)
 
-print("Hello everyone...")
-
 # Do more operations on y
 z = y * y * 3
 print(z)
