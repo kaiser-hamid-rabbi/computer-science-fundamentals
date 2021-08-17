@@ -3,8 +3,6 @@ import torch
 x = torch.rand(5, 3)
 print(x)
 
-print("hello everyone...")
-
 print(torch.cuda.is_available())
 
 # Everything in pytorch is based on Tensor operations.
