@@ -1,0 +1,19 @@
+
+git clone https://kaiser_hamid:gGUwh533ahensfaT5TXy@bitbucket.org/tigerit/np-detector.git
+
+conda info --envs
+conda create -n npdetector python=3.6.9
+conda update -n base -c defaults conda
+conda activate npdetector
+conda install cudatoolkit=10.0.130
+conda install cudnn=7.3.1
+conda install -c conda-forge tensorflow-gpu=1.14.0
+conda install opencv
+conda install keras
+
+
+python create-model.py eccv models/eccv-model-scracth
+export TF_FORCE_GPU_ALLOW_GROWTH=true && python train-detector.py --model models/eccv-model-scracth --name my-trained-model --train-dir samples/train-detector --output-dir models/my-trained-model/ -op Adam -lr .001 -its 300000 -bs 64
+
+
+ls *.txt | wc -l
