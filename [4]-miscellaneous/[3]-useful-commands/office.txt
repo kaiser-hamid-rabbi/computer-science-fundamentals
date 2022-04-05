@@ -1,19 +1,26 @@
 
+# np-detector tigerit bitbucket clone command
 git clone https://kaiser_hamid:gGUwh533ahensfaT5TXy@bitbucket.org/tigerit/np-detector.git
 
-conda info --envs
-conda create -n npdetector python=3.6.9
-conda update -n base -c defaults conda
-conda activate npdetector
-conda install cudatoolkit=10.0.130
-conda install cudnn=7.3.1
-conda install -c conda-forge tensorflow-gpu=1.14.0
-conda install opencv
-conda install keras
 
 
+# initial command from monirul bhai
 python create-model.py eccv models/eccv-model-scracth
 export TF_FORCE_GPU_ALLOW_GROWTH=true && python train-detector.py --model models/eccv-model-scracth --name my-trained-model --train-dir samples/train-detector --output-dir models/my-trained-model/ -op Adam -lr .001 -its 300000 -bs 64
 
 
+
+# local machine
+export TF_FORCE_GPU_ALLOW_GROWTH=true && python train-detector.py --model models/fine-tuned-model/fine-tuned-model_backup --name fine-tuned-model-2 --train-dir samples/train-detector --output-dir models/fine-tuned-model-2/ -op Adam -lr .001 -its 300000 -bs 64
+
+
+
+# office machine
+export TF_FORCE_GPU_ALLOW_GROWTH=true && python train-detector.py --model models/fine-tuned-model-2/fine-tuned-model-2_backup --name fine-tuned-model-3 --train-dir samples/train-detector --output-dir models/fine-tuned-model-3/ -op Adam -lr .001 -its 300000 -bs 64
+
+
+# number of files and space information in a folder
 ls *.txt | wc -l
+du -sh folder_name
+du -sh *
+df -h
