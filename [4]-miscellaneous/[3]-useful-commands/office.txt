@@ -16,7 +16,7 @@ export TF_FORCE_GPU_ALLOW_GROWTH=true && python train-detector.py --model models
 
 
 # office machine
-export TF_FORCE_GPU_ALLOW_GROWTH=true && python train-detector.py --model models/fine-tuned-model-3/fine-tuned-model-3_final --name fine-tuned-model-4 --train-dir samples/train-detector --output-dir models/fine-tuned-model-4/ -op Adam -lr .001 -its 200000 -bs 64
+export CUDA_VISIBLE_DEVICES=0,1 && export TF_FORCE_GPU_ALLOW_GROWTH=true && python train-detector.py --model models/fine-tuned-model-4/fine-tuned-model-4_final --name fine-tuned-model-5 --train-dir samples/train-detector --output-dir models/fine-tuned-model-5/ -op Adam -lr .001 -its 200000 -bs 64
 
 # number of files and space information in a folder
 ls *.txt | wc -l
