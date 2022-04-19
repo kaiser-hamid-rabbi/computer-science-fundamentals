@@ -16,7 +16,11 @@ export TF_FORCE_GPU_ALLOW_GROWTH=true && python train-detector.py --model models
 
 
 # office machine
-export CUDA_VISIBLE_DEVICES=0,1 && export TF_FORCE_GPU_ALLOW_GROWTH=true && python train-detector.py --model models/fine-tuned-model-6/fine-tuned-model-6_final --name fine-tuned-model-7 --train-dir samples/train-detector --output-dir models/fine-tuned-model-7/ -op Adam -lr .001 -its 200000 -bs 64
+export CUDA_VISIBLE_DEVICES=0,1 && export TF_FORCE_GPU_ALLOW_GROWTH=true && python train-detector.py --model models/fine-tuned-model-7/fine-tuned-model-7_final --name gulshan-cam-cng-center --train-dir samples/train-detector --output-dir models/gulshan-cam-cng-center/ -op Adam -lr .001 -its 300000 -bs 64
+
+
+export TF_FORCE_GPU_ALLOW_GROWTH=true && python train-detector.py --model models/wpod-net_update1/wpod-net_update1_final --name fine-tuned-model-8 --train-dir samples/train-detector --output-dir models/fine-tuned-model-8/ -op Adam -lr .001 -its 300000 -bs 64
+
 
 # number of files and space information in a folder
 ls *.txt | wc -l
