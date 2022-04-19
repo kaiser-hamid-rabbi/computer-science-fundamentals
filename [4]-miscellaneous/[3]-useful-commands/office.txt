@@ -1,29 +1,29 @@
 
 # np-detector tigerit bitbucket clone command
-git clone https://kaiser_hamid:gGUwh533ahensfaT5TXy@bitbucket.org/tigerit/np-detector.git
+$ git clone https://kaiser_hamid:gGUwh533ahensfaT5TXy@bitbucket.org/tigerit/np-detector.git
 
 
 
 # initial command from monirul bhai
-python create-model.py eccv models/eccv-model-scracth
-export TF_FORCE_GPU_ALLOW_GROWTH=true && python train-detector.py --model models/eccv-model-scracth --name my-trained-model --train-dir samples/train-detector --output-dir models/my-trained-model/ -op Adam -lr .001 -its 300000 -bs 64
+$ python create-model.py eccv models/eccv-model-scracth
+$ export TF_FORCE_GPU_ALLOW_GROWTH=true && python train-detector.py --model models/eccv-model-scracth --name my-trained-model --train-dir samples/train-detector --output-dir models/my-trained-model/ -op Adam -lr .001 -its 300000 -bs 64
 
 
 
 # local machine
-export TF_FORCE_GPU_ALLOW_GROWTH=true && python train-detector.py --model models/fine-tuned-model/fine-tuned-model_backup --name fine-tuned-model-2 --train-dir samples/train-detector --output-dir models/fine-tuned-model-2/ -op Adam -lr .001 -its 300000 -bs 64
+$ export TF_FORCE_GPU_ALLOW_GROWTH=true && python train-detector.py --model models/fine-tuned-model/fine-tuned-model_backup --name fine-tuned-model-2 --train-dir samples/train-detector --output-dir models/fine-tuned-model-2/ -op Adam -lr .001 -its 300000 -bs 64
 
 
 
 # office machine
-export CUDA_VISIBLE_DEVICES=0,1 && export TF_FORCE_GPU_ALLOW_GROWTH=true && python train-detector.py --model models/fine-tuned-model-7/fine-tuned-model-7_final --name gulshan-cam-cng-center --train-dir samples/train-detector --output-dir models/gulshan-cam-cng-center/ -op Adam -lr .001 -its 300000 -bs 64
+$ export CUDA_VISIBLE_DEVICES=0,1 && export TF_FORCE_GPU_ALLOW_GROWTH=true && python train-detector.py --model models/fine-tuned-model-7/fine-tuned-model-7_final --name fine-tuned-model-8 --train-dir samples/train-detector --output-dir models/fine-tuned-model-8/ -op Adam -lr .001 -its 300000 -bs 64
 
 
-export TF_FORCE_GPU_ALLOW_GROWTH=true && python train-detector.py --model models/wpod-net_update1/wpod-net_update1_final --name fine-tuned-model-8 --train-dir samples/train-detector --output-dir models/fine-tuned-model-8/ -op Adam -lr .001 -its 300000 -bs 64
+$ export TF_FORCE_GPU_ALLOW_GROWTH=true && python train-detector.py --model models/wpod-net_update1/wpod-net_update1_final --name gulshan-cam-cng-center --train-dir samples/train-detector --output-dir models/gulshan-cam-cng-center/ -op Adam -lr .0001 -its 300000 -bs 64
 
 
 # number of files and space information in a folder
-ls *.txt | wc -l
-du -sh folder_name
-du -sh *
-df -h
+$ ls *.txt | wc -l
+$ du -sh folder_name
+$ du -sh *
+$ df -h
