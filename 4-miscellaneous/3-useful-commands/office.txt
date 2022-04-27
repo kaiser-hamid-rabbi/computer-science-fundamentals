@@ -1,6 +1,8 @@
 
 # np-detector tigerit bitbucket clone command
 $ git clone https://kaiser_hamid:gGUwh533ahensfaT5TXy@bitbucket.org/tigerit/np-detector.git
+$ git clone https://kaiser_hamid:gGUwh533ahensfaT5TXy@bitbucket.org/tigerit/np-text-recognition.git
+$ git clone https://kaiser_hamid:gGUwh533ahensfaT5TXy@bitbucket.org/tigerit/anpr.git
 
 
 
@@ -27,3 +29,9 @@ $ ls *.txt | wc -l
 $ du -sh folder_name
 $ du -sh *
 $ df -h
+$ nvidia-smi -q
+$ htop
+$ cat /proc/cpuinfo
+$ nvidia-smi
+$ nvcc --version
+$ lsb_release -a
