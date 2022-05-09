@@ -30,6 +30,7 @@ $ du -sh folder_name
 $ du -sh *
 $ df -h
 $ nvidia-smi -q
+$ watch -n 1 nvidia-smi
 $ htop
 $ cat /proc/cpuinfo
 $ nvidia-smi
