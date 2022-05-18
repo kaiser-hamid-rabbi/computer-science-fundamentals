@@ -1,3 +1,5 @@
+# Solution 1:
+# -------------------------------------------------------------------
 # from typing import List
 
 # class Solution:
@@ -18,18 +20,23 @@
 # print(results)
 
 
+
+
+
+# Solution 2:
+# -------------------------------------------------------------------
 class Solution:
 	def twoSum(self, nums, target):
-        Hashmap = {}
-        for index, value in enumerate(nums):
-            key = target - value
-            if key in Hashmap:
-                return [Hashmap[key], index]
-            else:
-                Hashmap[value] = index
+            Hashmap = {}
+            for index, value in enumerate(nums):
+                key = target - value
+                if key in Hashmap:
+                    return [Hashmap[key], index]
+                else:
+                    Hashmap[value] = index
 				
 
-nums = [2,7,11,15] 
+nums = [2,11,7,15] 
 target = 9
 sol = Solution()
 results = sol.twoSum(nums=nums, target=target)
