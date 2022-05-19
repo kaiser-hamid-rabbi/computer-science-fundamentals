@@ -1,8 +1,9 @@
 
 # np-detector tigerit bitbucket clone command
-$ git clone https://kaiser_hamid:gGUwh533ahensfaT5TXy@bitbucket.org/tigerit/np-detector.git
-$ git clone https://kaiser_hamid:gGUwh533ahensfaT5TXy@bitbucket.org/tigerit/np-text-recognition.git
-$ git clone https://kaiser_hamid:gGUwh533ahensfaT5TXy@bitbucket.org/tigerit/anpr.git
+git clone https://kaiser_hamid:gGUwh533ahensfaT5TXy@bitbucket.org/tigerit/np-detector.git
+git clone https://kaiser_hamid:gGUwh533ahensfaT5TXy@bitbucket.org/tigerit/np-text-recognition.git
+git clone https://kaiser_hamid:gGUwh533ahensfaT5TXy@bitbucket.org/tigerit/anpr.git
+git clone https://kaiser_hamid:gGUwh533ahensfaT5TXy@bitbucket.org/tigerit/py-vision.git
 
 
 
@@ -36,3 +37,24 @@ $ cat /proc/cpuinfo
 $ nvidia-smi
 $ nvcc --version
 $ lsb_release -a
+
+nvidia-smi -q
+htop
+cat /proc/cpuinfo
+df -H
+df -H --output=source,size,used,avail .
+
+
+
+nvidia-smi
+nvcc --version
+lsb_release -a
+grep -i --color memory /var/log/Xorg.0.log
+sudo apt install neofetch
+neofetch
+
+
+rtsp://nazmul:tigerit123@192.168.107.241:554/cam/realmonitor?channel=5&subtype=0
+
+
+sudo update-alternatives --config python3
