@@ -46,15 +46,18 @@ df -H --output=source,size,used,avail .
 
 
 
-nvidia-smi
-nvcc --version
-lsb_release -a
-grep -i --color memory /var/log/Xorg.0.log
-sudo apt install neofetch
-neofetch
+$ nvidia-smi
+$ nvcc --version
+$ lsb_release -a
+$ grep -i --color memory /var/log/Xorg.0.log
+$ sudo apt install neofetch
+$ neofetch
 
 
 rtsp://nazmul:tigerit123@192.168.107.241:554/cam/realmonitor?channel=5&subtype=0
 
 
-sudo update-alternatives --config python3
+$ sudo update-alternatives --config python3
+
+# To know the latest file update
+$ ls -lt
