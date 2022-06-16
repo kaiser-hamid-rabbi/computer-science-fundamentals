@@ -63,4 +63,4 @@ target = 9
 # target = 4
 sol = Solution()
 results = sol.twoSum(nums=nums, target=target)
-print(results)    
+print(results)
