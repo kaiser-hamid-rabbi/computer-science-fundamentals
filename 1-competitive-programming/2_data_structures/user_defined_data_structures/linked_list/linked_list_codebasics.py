@@ -10,7 +10,7 @@ class LinkedList:
 
     def print(self):
         if self.head is None:
-            print("Linked list is empty")
+            print("Linked list is empty!")
             return
         itr = self.head
         llstr = ''
@@ -42,7 +42,7 @@ class LinkedList:
 
     def insert_at(self, index, data):
         if index<0 or index>self.get_length():
-            raise Exception("Invalid Index")
+            raise Exception("Invalid Index!")
         if index==0:
             self.insert_at_begining(data)
             return
@@ -58,7 +58,7 @@ class LinkedList:
 
     def remove_at(self, index):
         if index<0 or index>=self.get_length():
-            raise Exception("Invalid Index")
+            raise Exception("Invalid Index!")
         if index==0:
             self.head = self.head.next
             return
