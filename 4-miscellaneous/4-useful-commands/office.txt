@@ -61,3 +61,8 @@ $ sudo update-alternatives --config python3
 
 # To know the latest file update
 $ ls -lt
+
+# if nvidia-smi don't work
+$ modinfo nvidia
+# check specific things installed or not
+$ apt list --installed | grep 'cuda'
