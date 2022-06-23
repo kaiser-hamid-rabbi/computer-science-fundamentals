@@ -57,6 +57,7 @@ $ neofetch
 rtsp://nazmul:tigerit123@192.168.107.241:554/cam/realmonitor?channel=5&subtype=0
 
 
+# to know the python version available in the machine
 $ sudo update-alternatives --config python3
 
 # To know the latest file update
