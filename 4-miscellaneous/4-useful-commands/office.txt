@@ -67,3 +67,7 @@ $ ls -lt
 $ modinfo nvidia
 # check specific things installed or not
 $ apt list --installed | grep 'cuda'
+
+# Find out running process and kill that
+$ ps aux | grep python
+$ kill -9 PID
