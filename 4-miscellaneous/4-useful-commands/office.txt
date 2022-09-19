@@ -1,11 +1,16 @@
 
 # np-detector tigerit bitbucket clone command
-git clone https://kaiser_hamid:gGUwh533ahensfaT5TXy@bitbucket.org/tigerit/np-detector.git
-git clone https://kaiser_hamid:gGUwh533ahensfaT5TXy@bitbucket.org/tigerit/np-text-recognition.git
-git clone https://kaiser_hamid:gGUwh533ahensfaT5TXy@bitbucket.org/tigerit/anpr.git
-git clone https://kaiser_hamid:gGUwh533ahensfaT5TXy@bitbucket.org/tigerit/py-vision.git
+$ git clone https://kaiser_hamid:gGUwh533ahensfaT5TXy@bitbucket.org/tigerit/np-detector.git
+$ git clone https://kaiser_hamid:gGUwh533ahensfaT5TXy@bitbucket.org/tigerit/np-text-recognition.git
+$ git clone https://kaiser_hamid:gGUwh533ahensfaT5TXy@bitbucket.org/tigerit/anpr.git
+$ git clone https://kaiser_hamid:gGUwh533ahensfaT5TXy@bitbucket.org/tigerit/py-vision.git
 
 
+$ git clone https://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@github.com/kaiser-hamid-rabbi/data_analysis_test.git
+
+
+# github access token(old): gGUwh533ahensfaT5TXy
+# github access token: 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 (expire date: 19.09.2023)
 
 # initial command from monirul bhai
 $ python create-model.py eccv models/eccv-model-scracth
@@ -27,6 +32,7 @@ $ export TF_FORCE_GPU_ALLOW_GROWTH=true && python train-detector.py --model mode
 
 # number of files and space information in a folder
 $ ls *.txt | wc -l
+$ cat detections/*.txt | wc -l
 $ du -sh folder_name
 $ du -sh *
 $ df -h
